@@ -16,7 +16,7 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
-    "normal": {"HP": 3.0, "ATK": 1.0, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
+    "normal": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
     # "alpha":  {"HP": 2.0, "ATK": 1.2, "Speed": 1.4, "Chroma": 1.5, "XP": 1.25},
     "boss":   {"HP": 1.5, "ATK": 1.0, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
 }
