@@ -20,13 +20,18 @@ MULTIPLIERS = {
     "boss":   {"HP": 1.5, "ATK": 1.0, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
 }
 
-# Optional per-enemy overrides by EnemyHardcodedName
+# Optional per-enemy overrides by EnemyHardcodedName (values replace multipliers)
 # Example:
 # ENEMY_OVERRIDES = {
-#     "Test_PlaceHolderBattleDude": {"HP": 2.5, "Speed": 1.2, "XP": 0.9},
+#     "Test_PlaceHolderBattleDude": {"HP": 2.5, "ATK": 1.2, "Speed": 1.2, "XP": 0.9},
 #     "SM_FirstLancelier": {"HP": 4.0},
 # }
 ENEMY_OVERRIDES = {}
+
+# EnemyHardcodedName patterns that should be treated as bosses (case-insensitive substring match)
+BOSS_NAME_PATTERNS = [
+    "MIME",
+]
 
 # ---- Constants ----
 
@@ -91,6 +96,12 @@ def find_scaling_struct(enemy_struct: dict):
 def round1(x: float) -> float:
     return round(x, 1)
 
+def matches_boss_pattern(enemy_name: str) -> bool:
+    if not enemy_name:
+        return False
+    name_upper = enemy_name.upper()
+    return any(pattern.upper() in name_upper for pattern in BOSS_NAME_PATTERNS if pattern)
+
 # Build a reverse map: property Name -> label ("HP"/"Speed"/"XP")
 NAME_TO_LABEL = {v: k for k, v in NAMES.items()}
 
@@ -137,14 +148,14 @@ for entry in enemy_data:
     enemy_name = extract_enemy_hardcoded_name(entry)
     is_boss = extract_is_boss(entry)
 
-    is_mime = "MIME" in (enemy_name or "").upper()
+    matches_pattern = matches_boss_pattern(enemy_name)
 
-    kind = "boss" if (is_boss or is_mime) else "normal"
+    kind = "boss" if (is_boss or matches_pattern) else "normal"
 
     reason = (
     "boss"
     if is_boss
-    else ("mime->boss" if is_mime else "normal")
+    else ("pattern->boss" if matches_pattern else "normal")
     )
 
     scaling = find_scaling_struct(entry)
