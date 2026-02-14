@@ -6,7 +6,7 @@ OUTFILE = Path("output/Modded-ST_Enemies_Skills.uasset.json")
 
 REPLACEMENT_TEXT = "..."
 
-TRIGGER_SUBSTRINGS = ["{name}"]  # replace only if any of these is present
+TRIGGER_SUBSTRINGS = ["{name}", "at the Expedition"]  # replace only if any of these is present
 EXEMPT_SUBSTRINGS = ["turn"]  # but skip if any of these is present
 
 with open(INFILE, "r", encoding="utf-8") as f:
