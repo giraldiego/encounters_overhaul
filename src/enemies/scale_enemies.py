@@ -8,6 +8,7 @@ OUTFILE = Path("output/Modded-DT_jRPG_Enemies.uasset.json")
 
 NAMES = {
     "HP": "HP_2_9B8F0EF14EBC6DBDE30E86A7FFE48646",
+    "ATK": "PhysicalAttack_4_82A69E334B7A1E723084829AFCCEAA25",
     "Speed": "Speed_16_FC80E04941CF184AEFA369950419F557",
     "Chroma": "Chroma_21_6C260F8F48BCE6E6C43C568C38941012",
     "XP": "Experience_23_BEE8A0DD4ED59C6C6782B88443AB9AE8",
@@ -15,8 +16,8 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
-    "normal": {"HP": 3.0, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
-    "boss":   {"HP": 1.5, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
+    "normal": {"HP": 3.0, "ATK": 1.0, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
+    "boss":   {"HP": 1.5, "ATK": 1.0, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
 }
 
 # Optional per-enemy overrides by EnemyHardcodedName
@@ -100,12 +101,12 @@ with INFILE.open("r", encoding="utf-8") as f:
 
 stats = {
     "changed": {
-        "normal": {"HP": 0, "Speed": 0, "Chroma": 0, "XP": 0},
-        "boss": {"HP": 0, "Speed": 0, "Chroma": 0, "XP": 0},
+        "normal": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
+        "boss": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
     },
     "skipped_non_numeric": {
-        "normal": {"HP": 0, "Speed": 0, "Chroma": 0, "XP": 0},
-        "boss": {"HP": 0, "Speed": 0, "Chroma": 0, "XP": 0},
+        "normal": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
+        "boss": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
     },
     "missing_scaling": 0,
     "overrides_applied": 0,
@@ -189,7 +190,7 @@ print("Missing scaling struct:", stats["missing_scaling"])
 print("Overrides applied:", stats["overrides_applied"])
 for kind in ("normal", "boss"):
     print(f"\n{kind.upper()}")
-    for label in ("HP", "Speed", "Chroma", "XP"):
+    for label in ("HP", "ATK", "Speed", "Chroma", "XP"):
         print(f"  {label} changed: {stats['changed'][kind][label]}")
         print(f"  {label} skipped (non-numeric): {stats['skipped_non_numeric'][kind][label]}")
 
