@@ -8,17 +8,33 @@ REPLACEMENT_TEXT = "..."
 
 # Verbs indicating attack actions - mute these
 ATTACK_VERBS = [
-    "attacks", "perform", "combo", "jumps", 
+    "attacks", "attack", "perform", "combo", "jumps", "jump",
     "casts a spell", "cast", "summons", "unleashes", 
-    "smashes", "smash", "spits", "spit", "eats", "chains"
+    "smashes", "smash", "spits", "spit", "eats", "chains",
+    "dashes", "slams", "slam", "crashes", "crash", "fires", "fire",
+    "spins", "spin", "crushes", "crush", "sweeps", "sweep",
+    "launches", "launch", "throws", "throw", "strikes", "strike",
+    "uses", "use", "shoot", "swings", "swing", 
+    "catapults", "lands", "tears", "wreaks", "freezes", "freeze",
+    "triggers", "explodes", "explode"
 ]
 
 # Patterns for non-attacks - keep these (don't mute)
 NON_ATTACK_PATTERNS = [
-    "charges", "prepares", "is about to", 
+    "charges", "prepares", "is about to", "preparing",
     "enraged", "threatened", "shields", "heals", 
     "revives", "applies", "gains", "feels", 
-    "skips", "turn", "turns", "weak point", "shot at"
+    "skips", "turn", "turns", "weak point", "shot at",
+    "shakes", "calls for help", "becomes", "grows", "absorbs",
+    "regenerates", "consumes", "sends a wave", "strengthened", "weakened",
+    "ends", "spawns", "buffs", "interrupted", "exhausts", "marks",
+    "creates", "pounds", "darkens", "binds",
+    "damaged", "destroyed", "broken", "weakens", "rebuilds",
+    "raises", "takes the fight", "covers", "powers up", "power up",
+    "draws strength", "emanates", "disrupt",
+    "flies off", "switches", "heating up", "yells",
+    "arrives", "thaws", "lights up", "grabs", "makes a sacrifice", "plunges",
+    "is about to explode"
 ]
 
 with INFILE.open("r", encoding="utf-8") as f:

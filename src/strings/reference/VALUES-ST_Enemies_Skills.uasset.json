@@ -1,0 +1,3184 @@
+{
+        "Value": [
+          [
+            "ST_SM_FirstLancelier_AttackFast",
+            "{name} attacks quickly."
+          ],
+          [
+            "ST_SM_FirstLancelier_AttackSlow",
+            "{name} attacks slowly."
+          ],
+          [
+            "ST_SM_FirstLancelier_LancelierWeakSpot",
+            "You shot at {name}'s Weak Point!"
+          ],
+          [
+            "ST_SM_First_Portier_AttackAoE",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SM_First_Portier_JumpHit",
+            "{name} jumps."
+          ],
+          [
+            "ST_SM_Portier_ALPHA_Alpha2HitCombo",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SM_Portier_ALPHA_AlphaMeleeCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_SM_Portier_ALPHA_DelayedAoe",
+            "{name} shakes the ground."
+          ],
+          [
+            "ST_SM_DoorSoulPortier_MeleeCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_SM_DoorSoulPortier_AttackAoe",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SM_DoorSoulPortier_Jumphit",
+            "{name} jumps."
+          ],
+          [
+            "ST_SM_Volester_SpeedShot",
+            "{name} quickly attacks {Target}."
+          ],
+          [
+            "ST_SM_Volester_SlowShot",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Abbest_MeleeAttack",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Abbest_ElementalAttack",
+            "{name} casts a spell at {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_SimpleSpear",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_AoEGround",
+            "{name} casts a spell."
+          ],
+          [
+            "ST_SM_Boss_Eveque_DoubleSpear",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Summon",
+            "{name} summons minions."
+          ],
+          [
+            "ST_SM_Boss_Eveque_ChargeUltimate",
+            "{name} charges up."
+          ],
+          [
+            "ST_SM_Boss_Eveque_WarnUltimate",
+            "{name} is about to unleash its power."
+          ],
+          [
+            "ST_SM_Boss_Eveque_CastUltimate",
+            "{name} unleashes its full power."
+          ],
+          [
+            "ST_SM_Boss_Eveque_EnterPhase2",
+            "{name} feels threatened."
+          ],
+          [
+            "ST_SM_Boss_Eveque_EnterPhase3",
+            "{name} is Enraged. Be careful!"
+          ],
+          [
+            "ST_SM_Lancelier_Alpha_Combined_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Abbest_Alpha_MeleeCombo",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_Spear_Explosion",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_Spell_combo",
+            "{name} casts a spell."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_Enraged_Combo",
+            "{name} unleashes its full power."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_IsEnraged",
+            "{name} is Enraged!"
+          ],
+          [
+            "ST_GO_Luster_3HitCombo",
+            "{name} performs a fast combo."
+          ],
+          [
+            "ST_GO_Luster_UnleashFury",
+            "{name} unleashes its fury."
+          ],
+          [
+            "ST_GO_Bruler_Estoc",
+            "{name} attacks."
+          ],
+          [
+            "ST_GO_Bruler_Boost",
+            "{name} Enrages its allies!"
+          ],
+          [
+            "ST_GO_Cruler_HammerSmashAoE",
+            "{name} smashes the ground."
+          ],
+          [
+            "ST_GO_Cruler_Hammer2xCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_GO_Cruler_ShieldTeam",
+            "{name} Shields its allies."
+          ],
+          [
+            "ST_GO_Cruler_JumpCombo",
+            "{name} jumps."
+          ],
+          [
+            "ST_GO_Demineur_CloseRange",
+            "{name} attacks."
+          ],
+          [
+            "ST_GO_Demineur_LongRange",
+            "{name} summons thunder."
+          ],
+          [
+            "ST_GO_Bourgeon_SuckupHero",
+            "{name} eats {Target}."
+          ],
+          [
+            "ST_GO_Bourgeon_SpitHero",
+            "{name} spits out {Target}."
+          ],
+          [
+            "ST_GO_Bourgeon_Spit2Heroes",
+            "{name} spits out {Target1} and {Target2}."
+          ],
+          [
+            "ST_GO_Bourgeon_MiasmaSpit",
+            "{name} spits miasma."
+          ],
+          [
+            "ST_GO_Bourgeon_ComboCrush",
+            "{name} performs a crushing combo."
+          ],
+          [
+            "ST_GO_Bourgeon_3hitCombo",
+            "{name} performs a 3-hit combo."
+          ],
+          [
+            "ST_GO_Bourgeon_4hitHeadCombo",
+            "{name} performs a 4-hit combo."
+          ],
+          [
+            "ST_GO_Bourgeon_5hitCombo",
+            "{name} performs a 5-hit combo."
+          ],
+          [
+            "ST_GO_Goblu_3AoECombo",
+            "{name} jumps."
+          ],
+          [
+            "ST_GO_Goblu_2hitCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_GO_Goblu_Bighit",
+            "{name} is about to crush {Target}."
+          ],
+          [
+            "ST_GO_Goblu_GobluCall",
+            "{name} calls for help."
+          ],
+          [
+            "ST_GO_Goblu_GobluRage",
+            "{name} is Enraged!"
+          ],
+          [
+            "ST_GO_Goblu_WeakPointHit",
+            "{name} becomes weak to Lightning."
+          ],
+          [
+            "ST_GO_Goblu_FlowerSummon1",
+            "{name} grows flowers."
+          ],
+          [
+            "ST_GO_Goblu_FlowerSummon2",
+            "{name} grows many flowers."
+          ],
+          [
+            "ST_GO_Goblu_FlowerEffect",
+            "{name} absorbs the flowers' power."
+          ],
+          [
+            "ST_GO_Goblu_ReActivateFlower",
+            "{name} regenerates its flowers."
+          ],
+          [
+            "ST_GO_Luster_Alpha_Combustion_Damage",
+            "{name} consumes Burns to regain Health."
+          ],
+          [
+            "ST_GO_Luster_Alpha_FireCharge",
+            "{name} charges a Fire explosion."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_MeleeFire",
+            "{name} smashes its target."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_AoEFire",
+            "{name} sends a wave of fire."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_SelfBurn",
+            "{name}'s inner fire is strengthened."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_UnleashFire",
+            "{name} unleashes its inner fire."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_FireBreak",
+            "{name}'s inner fire is weakened."
+          ],
+          [
+            "ST_GO_Curator_JumpTutorial_JumpTutorial",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_GO_Curator_JumpTutorial_Melee3Hits",
+            "{name} dashes forward to attack."
+          ],
+          [
+            "ST_GO_Curator_JumpTutorial_BattleEnd",
+            "{name} ends the training session."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Combo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Combo2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultA_MonoAtk1",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultA_MonoATtk2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_MeleeCombo1",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_MeleeCombo2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_SpawnTurrets",
+            "{name} spawns pots."
+          ],
+          [
+            "ST_YF_Potier_TurretShot",
+            "{name}'s pots shoot at the Expedition."
+          ],
+          [
+            "ST_YF_Potier_BuffTeam",
+            "{Character} buffs its allies."
+          ],
+          [
+            "ST_YF_Jar_SkillAoE",
+            "{name} smashes the ground."
+          ],
+          [
+            "ST_YF_Jar_SkillCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_YF_Jar_FreeAimWeakSpotHit",
+            "{name} is interrupted."
+          ],
+          [
+            "ST_YF_Sapling_RangeAttackExhaust",
+            "{name} Exhausts the Expedition."
+          ],
+          [
+            "ST_YF_Sapling_RangeAttackMarked",
+            "{name} Marks the Expedition."
+          ],
+          [
+            "ST_YF_Glaise_MultiAoE",
+            "{name} creates earthquakes."
+          ],
+          [
+            "ST_YF_Glaise_SimpleAoE",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Glaise_3xSingle",
+            "{name} pounds the ground."
+          ],
+          [
+            "ST_YF_Glaise_BigBlowWarning",
+            "{name} is preparing a powerful blow."
+          ],
+          [
+            "ST_YF_Chevaliere_B_AoECombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_B_MonoTargetAttack",
+            "{name} chains attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_C_AoECombo",
+            "{name} prepares a Fire attack."
+          ],
+          [
+            "ST_YF_Chevaliere_C_AoECombo2",
+            "{name} prepares a Frozen attack."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_RangeSpecificCombo",
+            "{name} casts Dark magic on the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_MeleeMonoCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_FloatingHeads",
+            "{name} summons strange Masks."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_FacesShoot",
+            "The Masks fire at the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Masks_Fire",
+            "The Masks fire at the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_UnhideAttack",
+            "{name} attacks from the fog."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_ClosingDarkness",
+            "{name} darkens the sky."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_HideAttack",
+            "{name} attacks and hides in the fog."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building1",
+            "{name} launches nearby buildings."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building2",
+            "{name} launches more nearby buildings."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building3",
+            "{name} throws trees at the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building4",
+            "{name} casts a dark spell on the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_FacesBoost",
+            "The Masks increase the Scavenger's power."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Alpha_ComboAlpha",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Alpha_Combo2Alpha",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Single1",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Atk2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Buff",
+            "{name} gains Rush"
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Powerful",
+            "{name} gains Powerful."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Shell",
+            "{name} gains Shell."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Rage",
+            "{name} gains Rage."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Bound",
+            "{name} Binds the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_FreeAimWeakSpot",
+            "The {name}'s right arm is damaged."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_FreeAimExplosion",
+            "The {name}'s right arm is destroyed."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_RightSlam",
+            "{name} strikes with its dead partner."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_ShieldHit",
+            "{name} slams its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_3HitCombo",
+            "{name} performs a clunky combo."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_EnterShieldMode",
+            "{name} raises its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_ShieldCounter",
+            "{name} counterattacks."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_LastStand",
+            "{name} crashes into the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_FreeAimWeakSpot",
+            "{name}'s catapult is damaged."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_FreeAimExplosion",
+            "{name}'s catapult is broken."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_ThunderLaunch",
+            "{name} catapults thunder thingies."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_HiddenSwordAttack",
+            "{name} attacks with its hidden blade."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_LastStand",
+            "{name} crashes into the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_FireWave",
+            "{name} fires its canon."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_Estoc",
+            "{name} attacks with its mighty electric sword."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_CutterCombo",
+            "{name} performs an impressive combo."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_LastStand",
+            "{name} crashes into the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_FreeAimWeakSpot",
+            "{name}'s shoulder weakens."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_FreeAimExplosion",
+            "{name}'s arm is broken."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_EstocBerserker",
+            "{name} attacks with its mighty electric sword."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_ThunderCrush",
+            "Lightning strikes are falling."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_Tornado",
+            "{name} spins."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_GrandImpact",
+            "{name} crushes the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_Sweep",
+            "{name} sweeps the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_ArmRebuild",
+            "{name} rebuilds its arm."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_FreeAimWeakSpot",
+            "{name}'s shoulder weakens."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_RightSlamCombo",
+            "{name} attacks with its dead partner."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_RightSlam",
+            "{name} slams the ground."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_StunningGrenade",
+            "{name} launches some weird electric things."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_ShieldPunch",
+            "{name} slams its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterShieldMode",
+            "{name} takes the fight seriously and raises its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_CounterFire",
+            "{name} fires its canon."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterPhase1",
+            "{name} takes the fight seriously."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterPhase1Shield",
+            "{name}'s shield is up again."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterPhase2",
+            "{name} unleashes its full power."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_FreeAimExplosion",
+            "{name}'s arm is broken."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_Break",
+            "{name}'s shoulder weakspot is exposed."
+          ],
+          [
+            "ST_GV_LiloTheUseless_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_BertrandBigHands_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_MatthieuTheColossus_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_JulienTinyHead_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_DominiqueGiantFeet_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_Sciel_TwilightSlash",
+            "{name} uses Twilight Slash."
+          ],
+          [
+            "ST_GV_Sciel_SealedFate",
+            "{name} uses Sealed Fate."
+          ],
+          [
+            "ST_GV_Sciel_MarkingCard",
+            "{name} uses Marking Card."
+          ],
+          [
+            "ST_GV_Sciel_Rush",
+            "{name} uses Rush."
+          ],
+          [
+            "ST_SC_CultistDualSword_6HitCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_SC_CultistDualSword_4HitCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SC_CultistHeavy_BloodingSword",
+            "{name} covers her sword in blood."
+          ],
+          [
+            "ST_SC_CultistHeavy_BloodyJump",
+            "{name} is about to jump."
+          ],
+          [
+            "ST_SC_CultistMage_Shield",
+            "{name} applies Shields to its allies."
+          ],
+          [
+            "ST_SC_CultistMage_ExplosionAoE",
+            "{name} casts an exploding spell."
+          ],
+          [
+            "ST_SC_CultistMage_CounterAttack",
+            "{name} attacks."
+          ],
+          [
+            "ST_SC_CultistFlying_Combo_&_AoE",
+            "{name} casts dark projectiles."
+          ],
+          [
+            "ST_SC_CultistFlying_MeleeCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SC_Hexga_Skill1",
+            "{name} performs a 3-hit combo."
+          ],
+          [
+            "ST_SC_Hexga_Skill2",
+            "{name} performs a 2-hit combo."
+          ],
+          [
+            "ST_SC_Hexga_Skill4",
+            "{name} performs a group attack."
+          ],
+          [
+            "ST_SC_Hexga_WeaponBroken",
+            "{name}'s weapon is broken."
+          ],
+          [
+            "ST_SC_Hexga_ApplyShield",
+            "{name} Shields its allies."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalBroken",
+            "{name}'s crystal is broken."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalCrack",
+            "{name}'s crystal is starting to crack."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalVulnerable",
+            "{name}'s crystal is vulnerable."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalPower",
+            "A strange power emanates from {name}'s crystal."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_Boost",
+            "{name} draws strength from its crystal."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_AoEAttack",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_Combo",
+            "{name} performs a Shield-powered Combo."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalPowerUp",
+            "{name} powers up."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill1",
+            "{name} tries to disrupt the aim of {target}."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill2",
+            "{name} uses the power of its lamps to attack."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill3",
+            "{name} performs a strange ritual with its lamps."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill4",
+            "{name} triggers a Dark explosion."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill5",
+            "{name} performs a jump attack."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill6",
+            "{name} performs a flying combo."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill7",
+            "{name} attacks with each arm."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill8",
+            "{name} throws a vast ball of light at the Expedition."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill9",
+            "{name} attacks with a massive sword of light."
+          ],
+          [
+            "ST_SC_Lampmaster_PhaseSwitch",
+            "{name} flies off menacingly."
+          ],
+          [
+            "ST_SC_Lampmaster_SkipTurn",
+            "{name} skips its turn after its lamp incantation fails."
+          ],
+          [
+            "ST_SC_Lampmaster_TurnOffLevelLamps",
+            "{name} switches off all the lights in the cave and attacks."
+          ],
+          [
+            "ST_SC_Lampmaster_LampRitualIdle2",
+            "{name} performs a strange ritual with its lamps."
+          ],
+          [
+            "ST_SC_Lampmaster_LampRitualIdle2_2",
+            "{name} prepares to attack the Expedition."
+          ],
+          [
+            "ST_SC_Lampmaster_LampNoEffect",
+            "…"
+          ],
+          [
+            "ST_SC_Lampmaster_LampNoEffect2",
+            "Shooting the Lamp has no effect."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleGood",
+            "The Lamp emits a green glow."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleComplete",
+            "You have completed the Lamp Trial."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleComplete2",
+            "{name}'s attack is cancelled."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleFailed1",
+            "You have failed the Lamp Trial."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleFailed2",
+            "{name} is about to launch a dangerous attack."
+          ],
+          [
+            "ST_SC_Lampmaster_TurnOffLevelLamps2",
+            "{name} lights the lamps for its next attack."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_SwordLampHit",
+            "{name}'s Sword Lamp begins to fade."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_Darkness",
+            "{name} plunges the battlefield into darkness."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_Ritual",
+            "{name} performs a strange ritual with its lamps."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_LightEplosion",
+            "{name} triggers a massive explosion of light."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_LightUp",
+            "The battlefield lights up again."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_APSteal",
+            "{name} absorbs the Expedition's energy."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_Revive",
+            "{name} makes a sacrifice to heal itself."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_TurnOnLamps",
+            "{name} turns its lamps on."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_HyperLightSlash",
+            "{name}'s fury exhausts the Expedition."
+          ],
+          [
+            "ST_SC_Rocher_Melee2Hits",
+            "{name} swings to attack."
+          ],
+          [
+            "ST_SC_Rocher_MeleeAoE1Hit",
+            "{name} jumps."
+          ],
+          [
+            "ST_SC_Rocher_Melee4Hits",
+            "{name} spins to attack."
+          ],
+          [
+            "ST_EN_Francois_Ultralaser",
+            "{name} uses the strongest Ice attack ever."
+          ],
+          [
+            "ST_FB_Ramasseur_Combo1",
+            "{name} performs a combo with a Nevron arm."
+          ],
+          [
+            "ST_FB_Ramasseur_Bonk",
+            "{name} attacks."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_MortalBlowFeedBack",
+            "Oh no! The attack seems to kill the target instantly. Careful, now."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_MortalBlow",
+            "{name} performs a mortal hit."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_LongComboAlpha",
+            "{name} performs a long combo with a Nevron arm."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_ComboWeakenHim",
+            "The Counterattack seems to weaken it. Carry on."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_AttackAgainButCounterWeakenHim",
+            "{name} attacks again. But the counterattack seems to weaken him!"
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_AttackAgain",
+            "{name} attacks again."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_ParryToWeakenHim",
+            "Parrying seems to be the only way to weaken it."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_Turn1Tooltip",
+            "What? The {name} is attacking you again."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_Turn2Tooltip",
+            "The {name} attacks you without giving you time to attack."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_Turn3Tooltip",
+            "Looks like you're going to have to find a way to stop it."
+          ],
+          [
+            "ST_FB_Troubadour_BuffTeam",
+            "{name} applies {Buff} to its allies."
+          ],
+          [
+            "ST_FB_Troubadour_TrickyShot",
+            "{name} performs a Tricky Shot with its trumpet."
+          ],
+          [
+            "ST_FB_Troubadour_TrumpetConcerto",
+            "{name} performs a Trumpet Concerto."
+          ],
+          [
+            "ST_FB_Troubadour_CursedSong",
+            "{name} plays its final Cursed Song."
+          ],
+          [
+            "ST_FB_Benisseur_BubbleAttack",
+            "{name} summons protective bubbles."
+          ],
+          [
+            "ST_FB_Benisseur_BubbleExplosion",
+            "Enemies are Marked."
+          ],
+          [
+            "ST_FB_Benisseur_BubbleShields",
+            "{name}'s bubbles are Shielding enemies."
+          ],
+          [
+            "ST_FB_Benisseur_SpearSummon",
+            "{name} grabs a spear from its hat."
+          ],
+          [
+            "ST_FB_Benisseur_SpearAtack",
+            "{name} performs a spear combo."
+          ],
+          [
+            "ST_FB_Benisseur_Mortar",
+            "{name} launches projectiles from its hat."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Combo1",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Combo2",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Combo3",
+            "{name} performs a swiping combo."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Telluriforce",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_FB_DuallisteLR_Telluriforce",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_FB_DuallisteLR_StormBlood",
+            "{name} uses Stormblood."
+          ],
+          [
+            "ST_FB_DuallisteLR_Requiem",
+            "{name} applies Inverted to the Expedition."
+          ],
+          [
+            "ST_FB_DuallisteLR_Combo1",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_FB_DuallisteLR_Combo2",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_FB_ChalierSword_SwordCombo",
+            "{name} performs a relentless combo."
+          ],
+          [
+            "ST_FB_ChalierSword_AnyWeaponCombo",
+            "{name} performs a swiping combo."
+          ],
+          [
+            "ST_FB_ChalierSword_HeadSmash",
+            "{name} performs a punching combo."
+          ],
+          [
+            "ST_FB_ChalierHammer_HammerCombo",
+            "{name} performs a smashing combo."
+          ],
+          [
+            "ST_FB_ChalierSpear_SpearCombo",
+            "{name} performs an impaling combo."
+          ],
+          [
+            "ST_FB_ChalierSword_Alpha_AlphaSwordcombo",
+            "{name} performs a relentless combo."
+          ],
+          [
+            "ST_FB_Chalier_GradientCounterTutorial_GradientCounterTutorial",
+            "{name} performs a smashing jump."
+          ],
+          [
+            "ST_MM_Pelerin_Fire_ColdSteelCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_MM_Pelerin_FreshAir",
+            "{name} heals his allies."
+          ],
+          [
+            "ST_MM_Pelerin_Counterattack",
+            "{name} counterattacks."
+          ],
+          [
+            "ST_MM_Pelerin_SwitchStanceAndCounter",
+            "{name} switches stance and counterattacks."
+          ],
+          [
+            "ST_MM_Pelerin_SwitchStance",
+            "{name} switches stance."
+          ],
+          [
+            "ST_MM_Danseuse_Fire_GradientFall",
+            "{name} performs a Gradient Fall."
+          ],
+          [
+            "ST_MM_Danseuse_Fire_DanceCombo",
+            "{name} performs a Dance Combo."
+          ],
+          [
+            "ST_MM_Danseuse_SwitchStanceAndSummon",
+            "{name} summons a clone and switches stance."
+          ],
+          [
+            "ST_MM_Danseuse_SummonClone",
+            "{name} summons a clone."
+          ],
+          [
+            "ST_MM_Stalact_Fire_SmashCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_MM_Stalact_Fire_Earthquakes",
+            "{name} creates earthquakes."
+          ],
+          [
+            "ST_MM_Stalact_StanceSwitch",
+            "{name} switches stance to {Element}."
+          ],
+          [
+            "ST_MM_Stalact_AnnounceExplosion",
+            "{name} is heating up."
+          ],
+          [
+            "ST_MM_Stalact_Explosion",
+            "{name} is about to explode."
+          ],
+          [
+            "ST_MM_Stalact_ExplosionOnHeroes",
+            "{name} explodes."
+          ],
+          [
+            "ST_MM_Stalact_ExplosionOnEnemies",
+            "{name} explodes near its allies."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_SummonDrones",
+            "{name} summons 2 fire orbs."
+          ],
+          [
+            "ST_MM_Braseleur_Ice_SummonDrones",
+            "{name} summons 2 ice orbs."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_DroneFire",
+            "{name}'s orbs are about to shoot."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_HammerCombo",
+            "{name} performs a Hammer Combo."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_HammerSmash",
+            "{name} performs a Hammer Smash."
+          ],
+          [
+            "ST_MM_Gargant_SnowStormSpawn",
+            "A Snow Storm arrives."
+          ],
+          [
+            "ST_MM_Gargant_CastYell",
+            "{name} yells."
+          ],
+          [
+            "ST_MM_Gargant_IcePunchA",
+            "{name} lands a series of punches."
+          ],
+          [
+            "ST_MM_Gargant_IcePunchB",
+            "{name} throws even more punches."
+          ],
+          [
+            "ST_MM_Gargant_IceSmash",
+            "{name} performs a smash combo."
+          ],
+          [
+            "ST_MM_Gargant_IcyRavageA",
+            "{name} tears up the field with his arms."
+          ],
+          [
+            "ST_MM_Gargant_IcyRavageB",
+            "{name} wreaks havoc."
+          ],
+          [
+            "ST_MM_Gargant_ApplyFrozen",
+            "{name} Freezes {target}."
+          ],
+          [
+            "ST_MM_Gargant_HeatWaveRemoveFrozen",
+            "The explosion of heat thaws the Frozen characters."
+          ],
+          [
+            "ST_MM_Gargant_Summon",
+            "{name} summons other Nevrons."
+          ],
+          [
+            "ST_MS_Monoco_Skill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_MS_Monoco_Skill2",
+            "{name} performs a dual attack."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill_AOE",
+            "{name} tears apart reality."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill_Combo",
+            "{name} shatters the void."
+          ],
+          [
+            "ST_CZ_ChromaMaelle_ChromaFury",
+            "{name} uses Chroma Fury."
+          ],
+          [
+            "ST_CZ_ChromaMaelle_ChromaFencing",
+            "{name} uses Chroma Fencing."
+          ],
+          [
+            "ST_CZ_ChromaMaelle_CounterStrike",
+            "{name} uses Counter Strike."
+          ],
+          [
+            "ST_CZ_ChromaVerso_ChromaCombo",
+            "{name} uses Chroma Combo."
+          ],
+          [
+            "ST_CZ_ChromaVerso_ChromaBlitz",
+            "{name} uses Chroma Blitz."
+          ],
+          [
+            "ST_CZ_ChromaLune_ChromaThunderFall",
+            "{name} uses Chroma Thunderfall."
+          ],
+          [
+            "ST_CZ_ChromaLune_ChromaMayhem",
+            "{name} uses Chroma Mayhem."
+          ],
+          [
+            "ST_CZ_ChromaSciel_ChromaSlash",
+            "{name} uses Chroma Slash."
+          ],
+          [
+            "ST_CZ_ChromaSciel_ChromaCombo",
+            "{name} uses Chroma Combo."
+          ],
+          [
+            "ST_MF_Moissonneuse_Moisson",
+            "{name} performs a short combo."
+          ],
+          [
+            "ST_MF_Moissonneuse_Vendage",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_MF_Moissonneuse_Buff",
+            "{name} applies Rush to her allies."
+          ],
+          [
+            "ST_MF_Moissonneuse_ALPHA_AlphaBuff",
+            "{name} is stronger."
+          ],
+          [
+            "ST_MF_Boucheclier_SwordCombo",
+            "{name} performs a sword combo."
+          ],
+          [
+            "ST_MF_Boucheclier_ShieldSmash",
+            "{name} slams his shield."
+          ],
+          [
+            "ST_MF_Boucheclier_DefenseMode",
+            "{name} gets ready to counterattack."
+          ],
+          [
+            "ST_MF_Boucheclier_DefenseModeInterupted",
+            "{name}'s counter mode is interrupted."
+          ],
+          [
+            "ST_MF_Boucheclier_CounterAttack",
+            "{name} counterattacks."
+          ],
+          [
+            "ST_MF_Chapelier_ThrowMask",
+            "{name} launches Masks."
+          ],
+          [
+            "ST_MF_Chapelier_AxeBash",
+            "{name} strikes."
+          ],
+          [
+            "ST_MF_Chapelier_AxeSlash",
+            "{name} slashes with its axe."
+          ],
+          [
+            "ST_MF_Chapelier_LastStand",
+            "{name} applies Exhaust to the Expedition."
+          ],
+          [
+            "ST_MF_Contorsionniste_SadCombo",
+            "{name} attacks slowly."
+          ],
+          [
+            "ST_MF_Contorsionniste_JoyfulImpale",
+            "{name} impales its target."
+          ],
+          [
+            "ST_MF_Contorsionniste_AngryBlast",
+            "{name} absorbs Health."
+          ],
+          [
+            "ST_MF_Contorsionniste_6hitCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskAnger_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskSadness_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskJoy_AttackRemoveAP",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskJoy_AttackDebuff",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_Axon_Visages_AllMasksAttack",
+            "{name} sacrifices its crumbling Masks for an ultimate attack."
+          ],
+          [
+            "ST_MF_Axon_Visages_InvertedMaskCombo",
+            "{name} attacks with the Anxiety Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_BurnMaskCombo",
+            "{name} attacks with the Doubt Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_PowerMaskCombo",
+            "{name} attacks with the Determination Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_ShieldMaskCombo",
+            "{name} tries to build Shields with the Peace Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_HealMaskCombo",
+            "{name} tries to heal with the Confidence Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_HealMaskHeal",
+            "{name} tries to build Shields with the Peace Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_ShieldMaskShield",
+            "{name} tries to heal with the Confidence Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_TurnStart",
+            "{name} selects new active Masks."
+          ],
+          [
+            "ST_MF_Axon_Visages_MaskVanish",
+            "The Mask vanishes in the Mirror."
+          ],
+          [
+            "ST_MF_Axon_Visages_MaskDestroyed",
+            "Unable to re-enter the Mirror, the Mask explodes."
+          ],
+          [
+            "ST_MF_Axon_Visages_NoMoreMask",
+            "There are no more Masks in the Mirror."
+          ],
+          [
+            "ST_MF_Axon_Visages_MaskAppear",
+            "A Mask emerges from the Mirror."
+          ],
+          [
+            "ST_MF_Axon_Visages_DeathNoMask",
+            "Having no masks left, Visages falls."
+          ],
+          [
+            "ST_MF_MoissonneuseMaskJoy_MaskSkill",
+            "The Mask heals the Moissonneuse."
+          ],
+          [
+            "ST_MF_Boucheclier_MaskAnger_MaskSkill",
+            "The Mask makes the Boucheclier take another turn."
+          ],
+          [
+            "ST_MF_Chapelier_MaskSadness_MaskSkill",
+            "The Mask applies Exhaust to {target}."
+          ],
+          [
+            "ST_MF_Grosstete_Skill1_HeavyBounce",
+            "{name} attacks by bouncing."
+          ],
+          [
+            "ST_MF_Grosstete_Skill2_Wrecking",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_MF_Grosstete_Skill3_EarthquakeJump",
+            "{name} creates an earthquake."
+          ],
+          [
+            "ST_MF_Grosstete_Skill4_FireSpits",
+            "{name} spits fireballs."
+          ],
+          [
+            "ST_MF_Grosstete_OnDamageReceivedCalm",
+            "{name}'s placid stance makes it more resistant to damage."
+          ],
+          [
+            "ST_MF_Grosstete_OnStunRemoved",
+            "{name} is off-balance and more vulnerable."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill1A_Swing",
+            "{name} performs a swing combo."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill1B_LongSwing",
+            "{name} performs a long swing combo."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill2_FireCombo",
+            "{name} sets Fire to his sword."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill3_IcyRage",
+            "{name} turns his sword into ice."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill4A_StormBringer",
+            "{name} attacks like a storm."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill4B_ChaosBringer",
+            "{name} performs a chaotic combo."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill5_FullBuff",
+            "{name} gains Powerful, Shell and Speed."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill6A_FleuretAttack",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill6B_FleuretDanse",
+            "{name} vehemently attacks the Expedition."
+          ],
+          [
+            "ST_MF_MaskKeeper_ShieldBuff",
+            "{name} is surrounded by a defensive aura."
+          ],
+          [
+            "ST_MF_MaskKeeper_ShieldBuff2",
+            "{name} now gains Shield for each blow dealt to an expeditioner."
+          ],
+          [
+            "ST_MF_MaskKeeper_AngerMaskSkill",
+            "The Anger Mask makes {name} play a second time."
+          ],
+          [
+            "ST_MF_MaskKeeper_JoyMaskSkill",
+            "The Joy Mask heals {name}."
+          ],
+          [
+            "ST_MF_MaskKeeper_SadMaskSkill",
+            "The Sadness Mask applies Exhaust to the Expedition."
+          ],
+          [
+            "ST_MF_MaskKeeper_SummonMasks",
+            "{Name} calls the Masks of emotions."
+          ],
+          [
+            "ST_RE_OrphelinHammer_CommonCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_RE_OrphelinHammer_HammerCombo",
+            "{name} attacks with his hammer."
+          ],
+          [
+            "ST_RE_OrphelinHammer_Buff",
+            "{name} applies Powerful to his allies."
+          ],
+          [
+            "ST_RE_OrphelinHammer_Debuff",
+            "{name} applies Powerless to the Expedition."
+          ],
+          [
+            "ST_RE_OrphelinSpoon_SpoonCombo",
+            "{name} attacks with his spoon."
+          ],
+          [
+            "ST_RE_OrphelinNail_NailCombo",
+            "{name} attacks with his nail."
+          ],
+          [
+            "ST_RE_Echassier_Skill1",
+            "{name} performs a powerful 5-hit combo."
+          ],
+          [
+            "ST_RE_Echassier_Skill2",
+            "{name} performs a jump attack."
+          ],
+          [
+            "ST_RE_Echassier_Skill3",
+            "{name} doubles the Blight and heals its allies."
+          ],
+          [
+            "ST_RE_Echassier_Skill4",
+            "{name} performs a 2-hit combo."
+          ],
+          [
+            "ST_RE_Veilleur_BlightSmash",
+            "{name} performs a Blighted strike."
+          ],
+          [
+            "ST_RE_Veilleur_BlightWave",
+            "{name} summons a Blighted wave."
+          ],
+          [
+            "ST_RE_Veilleur_CarrionDevourer",
+            "{name} absorbs {Target}."
+          ],
+          [
+            "ST_RE_Veilleur_CarrionDevourer2",
+            "{name} heals itself and becomes dangerously stronger."
+          ],
+          [
+            "ST_RE_Veilleur_LampHit",
+            "The lamp removes Blight from {target}."
+          ],
+          [
+            "ST_SI_Ballet_Charm",
+            "{name} enchants its target."
+          ],
+          [
+            "ST_SI_Ballet_Ranged1Hit",
+            "{name} casts a spell."
+          ],
+          [
+            "ST_SI_Ballet_Range1Hit_NOAP",
+            "{name} casts a stronger spell."
+          ],
+          [
+            "ST_SI_Ballet_Ranged3Hit",
+            "{name} launches multiple attacks."
+          ],
+          [
+            "ST_SI_Ballet_SwordSlash",
+            "{name} attacks."
+          ],
+          [
+            "ST_SI_Ballet_SwordSwipe",
+            "{name} swipes with her sword."
+          ],
+          [
+            "ST_SI_Glissando_BalletsSummon",
+            "{name} summons Ballets to attack the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_HeadSlam",
+            "{name} smashes its head into the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_TailAttack",
+            "{name} uses its tail to slam its target."
+          ],
+          [
+            "ST_SI_Glissando_GobbleUp",
+            "{name} gobbles up its target."
+          ],
+          [
+            "ST_SI_Glissando_BalletsRelease",
+            "{name} releases the Bouquet Final."
+          ],
+          [
+            "ST_SI_Tisseur_Clap",
+            "{name} smashes its target."
+          ],
+          [
+            "ST_SI_Tisseur_JumpCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_SI_Tisseur_Weaving",
+            "{name} weaves some Glissandos."
+          ],
+          [
+            "ST_SI_Tisseur_SwipeCombo",
+            "{name} performs a swiping combo."
+          ],
+          [
+            "ST_SI_Tisseur_TisseurCurse",
+            "{name} curses the Expedition."
+          ],
+          [
+            "ST_SI_Axon_Sirene_Valse",
+            "{name} attacks with her dress."
+          ],
+          [
+            "ST_SI_Axon_Sirene_AoEJump",
+            "{name}'s Glissandos cause the ground to shake."
+          ],
+          [
+            "ST_SI_Axon_Sirene_Charm",
+            "A widow Ballet Charms {target} and flies away."
+          ],
+          [
+            "ST_SI_Axon_Sirene_DeathStare",
+            "{name} seduces {target}."
+          ],
+          [
+            "ST_SI_Axon_Sirene_DoubleGlissando",
+            "{name} dances with the Glissandos."
+          ],
+          [
+            "ST_SI_Axon_Sirene_GrandBallet",
+            "The Grand Ballet begins."
+          ],
+          [
+            "ST_SI_Axon_Sirene_BouquetFinal",
+            "The Final Act begins."
+          ],
+          [
+            "ST_SI_Axon_Sirene_CloseCombo",
+            "{name} is enraged and smashes the ground."
+          ],
+          [
+            "ST_SI_Axon_Sirene_TisseurShield",
+            "The Tisseur sends fabric to {name}'s dress."
+          ],
+          [
+            "ST_SI_Axon_Sirene_DeathCharm",
+            "{name} Charmed the whole Expedition. It's over."
+          ],
+          [
+            "ST_SI_Axon_Sirene_SirenePhase2",
+            "{name}'s dance becomes frantic."
+          ],
+          [
+            "ST_SI_Axon_Sirene_SirenePhase3",
+            "{name} performs her last dance."
+          ],
+          [
+            "ST_SI_Chorale_ChoraleShields",
+            "{name} applies Shields to its allies."
+          ],
+          [
+            "ST_SI_Chorale_ChoralePowerBuff",
+            "{name} increases its allies' Power."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_TailRegen",
+            "{name} regenerates its tail."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_Turn_End_Phase3Enraged",
+            "{name} is enraged."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_GobbleUp",
+            "{name} gobbles up a dead expeditioner."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_ShootBack",
+            "{name} spits out an expeditioner."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_BigHeadsmash",
+            "{name} smashes its head into the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_HyperRibbonAttack",
+            "{name} uses its tail to slam the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_SandAttack",
+            "{name} blinds the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_WeakRibbonAttack",
+            "{name} slams the Expedition with its weakened tail."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_TailHit",
+            "{name}'s tail weakens."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_TailBreak",
+            "{name}'s tail is incapacitated."
+          ],
+          [
+            "ST_SI_DarkBallet_RangeHits",
+            "{name} launches multiple attacks."
+          ],
+          [
+            "ST_SI_DarkBallet_BlightAttack",
+            "{name} applies Blight."
+          ],
+          [
+            "ST_ML_PaintressIntro_PaintressTurn",
+            "{name} doesn't seem to react."
+          ],
+          [
+            "ST_ML_Obscur_Melee5Hits",
+            "{name} performs an Exhausting combo."
+          ],
+          [
+            "ST_ML_Obscur_AoERange3hits",
+            "{name} performs a Silencing combo."
+          ],
+          [
+            "ST_ML_Obscur_Buff",
+            "{name} applies Enrage to its allies."
+          ],
+          [
+            "ST_ML_Obscur_Melee4Hits",
+            "{name} attacks."
+          ],
+          [
+            "ST_ML_Obscur_AoEMelee1Hit",
+            "{name} performs a weakening strike."
+          ],
+          [
+            "ST_ML_Obscur_Melee2Hits",
+            "{name} attacks."
+          ],
+          [
+            "ST_ML_Clair_Buff_Shield",
+            "{name} protects its allies."
+          ],
+          [
+            "ST_ML_Clair_AoEMelee1Hit",
+            "{name} performs a weakening strike."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoE4Hits",
+            "{name} throws Chroma waves."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoe5Hits",
+            "{name} scatters Chroma."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoE3Hits",
+            "{name} manipulates Rocks from the Monolith."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoE7Hits",
+            "{name} summons Void meteors."
+          ],
+          [
+            "ST_MO_Boss_Paintress_Melee1HitGradient",
+            "{name} performs a Gradient Attack."
+          ],
+          [
+            "ST_MO_Boss_Paintress_PaintressBuff",
+            "{name} summons her weapon from her palette."
+          ],
+          [
+            "ST_MO_Boss_Paintress_Melee5Hits",
+            "{name} flies into the air."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_4HitsRange1Jump",
+            "{name} attacks from afar."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_8HitMeleeCombo",
+            "{name} unleashes."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_3HitsCombo",
+            "{name} summons a giant brush of light."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_5HitsCombo",
+            "{name} rips reality apart."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_Curse",
+            "Corrupted Chroma cascades from the hands of the {name}."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P3_HealAlly",
+            "{name} heals an Expeditioner."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P3_ApplyShieldOnHero",
+            "{name} protects an Expeditioner."
+          ],
+          [
+            "ST_L_LumiereCitizen_Attack_1",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Combo1",
+            "{name} performs a Fire combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Combo2",
+            "{name} performs a Light combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Combo3",
+            "{name} performs a Lightning combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Powerful",
+            "{name} uses Powerful."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo1",
+            "{name} performs a Fire combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo2",
+            "{name} performs an Ice combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo3",
+            "{name} performs a Lightning combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo4",
+            "{name} performs an Earth combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_Combo1",
+            "{name} casts a Fire spell."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_Combo2",
+            "{name} casts an Ice spell."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_BuffShield",
+            "{name} Shields her allies."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_Combo4",
+            "{name} casts a Lightning spell."
+          ],
+          [
+            "ST_L_Boss_Curator_BlackHole",
+            "{name} summons a black hole."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill2",
+            "{name} attacks frenetically."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill4",
+            "{name} summons Void meteors."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill5",
+            "{name} summons a Void cross."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill8",
+            "{name} increases his power."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill10",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill11",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_L_Boss_Curator_BlackLake",
+            "{name} summons a pool of darkness."
+          ],
+          [
+            "ST_L_Boss_Curator_Flying",
+            "{name} flies away and gathers power."
+          ],
+          [
+            "ST_L_Boss_Curator_Finisher",
+            "{name} unleashes his power."
+          ],
+          [
+            "ST_L_Boss_Curator_ConvasTransition",
+            "{name} summons the Dessendre Canvas."
+          ],
+          [
+            "ST_L_Boss_Curator_SummonAxons",
+            "{name} summons the Axons."
+          ],
+          [
+            "ST_L_Boss_Curator_Sirene",
+            "Sirène rescues {name}."
+          ],
+          [
+            "ST_L_Boss_Curator_Visages",
+            "Visages Shields {name}."
+          ],
+          [
+            "ST_L_Boss_Curator_Reacher",
+            "Reacher supports {name}."
+          ],
+          [
+            "ST_L_Boss_Curator_Hauler",
+            "The Hauler defends {name}."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill1_FleuretFury",
+            "{name} performs Sword Ballet."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill2_EveryoneInspiration",
+            "{name} performs Virtuose Strike."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill3_VariantSwords",
+            "{name} performs Phantom Strike."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill4_DancingFury",
+            "{name} performs Fleuret Fury."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill5_VoidSlash",
+            "{name} performs a Void slash."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Transition1_Phase2",
+            "{name} enters Phase 2."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Transition2_Phase3",
+            "{name} enters Phase 3."
+          ],
+          [
+            "ST_FinalBoss_Maelle_SwitchStance",
+            "{name} switches stance."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill1_Combo1",
+            "{name} attacks."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill2_Combo2",
+            "{name} attacks."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill3_Combo3",
+            "{name} attacks."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill4_Powerful",
+            "{name} gains Powerful."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill1_CaneMeleeCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill2_RangeCombo",
+            "{name} attacks from a distance."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill3_SummonSirene",
+            "{name} summons the shadow of a Sirène."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill4_MirrorExplosion",
+            "{name} summons a pool of Chroma."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill5_KillingHand",
+            "{name} attempts to vanish {target}."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill5_KillingHand_Feedback",
+            "{name} vanished."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill6_Masks",
+            "{name} summons strange masks."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill7_HealPreparation",
+            "Petals start to gather around {name}."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill7B_Heal",
+            "The Petals heal {name}."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill8_ChromaWaves",
+            "{name} sends waves of Chroma."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill9_Tornado",
+            "{name} gathers an incredible amount of Chroma."
+          ],
+          [
+            "ST_MM_MirrorRenoir_EnterPhase2",
+            "{name} is furious."
+          ],
+          [
+            "ST_MM_MirrorRenoir_EnterPhase3",
+            "{name} is furious."
+          ],
+          [
+            "ST_MM_MirrorRenoir_SummonBernast",
+            "Something is coming..."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Bernastclaw",
+            "The Dark Creature claws the Expedition."
+          ],
+          [
+            "ST_MM_MirrorRenoir_BernastTailAttack",
+            "The Dark Creature performs a Tail Attack."
+          ],
+          [
+            "ST_MM_MirrorRenoir_BernastRoar",
+            "The Dark Creature roars."
+          ],
+          [
+            "ST_MM_MirrorRenoir_BernastJump",
+            "The Dark Creature launches itself at the Expedition."
+          ],
+          [
+            "ST_L_MaelleTutorial_TutoDodge",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_MaelleTutorial_TutoParry",
+            "{name} attacks again."
+          ],
+          [
+            "ST_L_MaelleTutorial_TutoFreeAim",
+            "{name} spawns a target."
+          ],
+          [
+            "ST_L_MaelleTutorial_OrbHit",
+            "{name} releases her attack."
+          ],
+          [
+            "ST_L_MaelleTutorial_1hitSlash",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_MaelleTutorial_3hitsCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_L_MaelleTutorial_EndBattle",
+            "{name} ends the training session."
+          ],
+          [
+            "ST_L_Aberration_Melee6Hits",
+            "{name} performs a Dark combo."
+          ],
+          [
+            "ST_L_Aberration_Melee7Hits",
+            "{name} performs a Light combo."
+          ],
+          [
+            "ST_L_Aberration_MeleeAoE1Hit",
+            "{name} slashes forward."
+          ],
+          [
+            "ST_L_Aberration_RangeAoE3Hits",
+            "{name} performs Dark strikes."
+          ],
+          [
+            "ST_L_Aberration_RangeAoE2Hits",
+            "{name} performs Light strikes."
+          ],
+          [
+            "ST_L_Aberration_RangeAoE2Hits_Earthquakes",
+            "{name} creates earthquakes."
+          ],
+          [
+            "ST_L_Aberration_Buff",
+            "{name} gains Powerful."
+          ],
+          [
+            "ST_L_Creation_Melee5Hits",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_L_Creation_AoEMelee3hits",
+            "{name} swipes with its tail."
+          ],
+          [
+            "ST_L_Creation_Buff",
+            "{name} applies Inverted to the Expedition."
+          ],
+          [
+            "ST_L_Creation_Melee1Hit",
+            "{name} kicks."
+          ],
+          [
+            "ST_L_Creation_Range3Hits",
+            "{name} projects blasts of energy."
+          ],
+          [
+            "ST_L_Creation_Melee6Hits",
+            "{name} performs a flying combo."
+          ],
+          [
+            "ST_L_Creation_SwitchPhase2",
+            "{name} rises into the air."
+          ],
+          [
+            "ST_L_Creation_SwitchBackPhase1",
+            "{name} comes back down."
+          ],
+          [
+            "ST_L_Creation_BlackOrbAboutToExplode",
+            "The Void Orbs are about to explode."
+          ],
+          [
+            "ST_L_Creation_BlackOrbExplode",
+            "A Void Orb explodes."
+          ],
+          [
+            "ST_WM_Serpenphare_HeadCrush1",
+            "{name} smashes its head 2 times."
+          ],
+          [
+            "ST_WM_Serpenphare_HeadCrush2",
+            "{name} smashes its head 4 times."
+          ],
+          [
+            "ST_WM_Serpenphare_HeadCrush3",
+            "{name} smashes its head 6 times."
+          ],
+          [
+            "ST_WM_Serpenphare_Dive",
+            "{name} launches a silencing attack."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserCombo1",
+            "{name} attacks 2 times."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserCombo2",
+            "{name} attacks 4 times."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserCombo3",
+            "{name} attacks 7 times."
+          ],
+          [
+            "ST_WM_Serpenphare_Absorption",
+            "{name} gains Shields and increases its Speed."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserSwipe1",
+            "{name} casts a freezing beam."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserSwipe2",
+            "{name} casts a freezing beam."
+          ],
+          [
+            "ST_WM_Serpenphare_TailSwipe1",
+            "{name} swipes with its tail 2 times."
+          ],
+          [
+            "ST_WM_Serpenphare_TailSwipe2",
+            "{name} swipes with its tail 3 times."
+          ],
+          [
+            "ST_WM_Serpenphare_TailSwipe3",
+            "{name} swipes with its tail 4 times."
+          ],
+          [
+            "ST_WM_Serpenphare_AbsorbAP",
+            "{name} absorbs all APs."
+          ],
+          [
+            "ST_WM_Serpenphare_Collapse",
+            "{name} absorbed too many APs and explodes."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill1A",
+            "Stage 1: {name} strikes the Expedition."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill1B",
+            "Stage 1: {name} strikes the Expedition twice."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill1C",
+            "Stage 1: {name} strikes the Expedition 3 times."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill2A",
+            "Stage 2: {name} sabotages the Expedition."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill2B",
+            "Stage 2: {name} sabotages the Expedition."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill3A",
+            "Stage 3: {name} performs a 4-hit combo."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill3B",
+            "Stage 3: {name} performs a 5-hit combo."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill3C",
+            "Stage 3: {name} performs a 7-hit combo."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill4",
+            "Stage 4: {name} charges its Extermination Boom."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill5A",
+            "Stage 5: {name} uses its Extermination Boom."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill5B",
+            "{name} is not able to use its Extermination Boom."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill5BToolTip2",
+            "{name} performs a defensive manoeuvre."
+          ],
+          [
+            "ST_WM_Boss_Sprong_BattleStep1",
+            "Stage {stage} interrupted."
+          ],
+          [
+            "ST_WM_Boss_Sprong_BattleStartTooltip",
+            "{name} begins its combat process."
+          ],
+          [
+            "ST_GA_GestralSumo_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralSkinny_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralChad_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralBuff_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralTall_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralBaby_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifA_HollowEstoc",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifA_HollowEstoc_2",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifB_JumpSpearCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifB_FeintSpearEstoc",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifD_LongSpearCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifD_SpearCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativA_TrickyCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativB_LongCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativC_SamuraiStance",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativD_DarkCloneCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativE_Combo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativA_EarthQuakeCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativB_RootCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativC_MeleeCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativD_Meteor",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativE_BoundCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeA_MiseMort",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeA_DeathPotFromSkyCast",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeA_DeathPotFromSkyProc",
+            "...?"
+          ],
+          [
+            "ST_YF_Potier_AlternativeC_ShotSerie",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeD_CursingCry",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeE_CallForHelp",
+            "{Character} calls for help."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeA_Relentlessness",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeA_ApSteal",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeB_Absorption",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeB_DisturbingWave",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeC_Harassment",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeC_Assassination",
+            "{name} attacks."
+          ],
+          [
+            "ST_RC_Alicia_Inspiration",
+            "{name} uses Virtuose Strike."
+          ],
+          [
+            "ST_RC_Alicia_FleuretFury",
+            "{name} uses Sword Ballet."
+          ],
+          [
+            "ST_RC_Alicia_VariantSwords",
+            "{name} uses Phantom Strike."
+          ],
+          [
+            "ST_RC_Alicia_DancingFury",
+            "{name} uses Fleuret Fury."
+          ],
+          [
+            "ST_RC_Alicia_VoidSlash",
+            "{name} performs a Void slash."
+          ],
+          [
+            "ST_RC_Alicia_TransitionPhase2",
+            "{name} gets stronger."
+          ],
+          [
+            "ST_RC_Alicia_TransitionPhase3",
+            "{name} gets faster."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove1",
+            "The walls are moving."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove2",
+            "The walls are closing."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove3",
+            "The walls are closing even more."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove4",
+            "The walls are about to crush you, hurry!"
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove5",
+            "Incoming!"
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMoveFinal",
+            "The walls crush the Expedition."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_Shield",
+            "The Sapling Shields itself."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill1",
+            "{name} grows bigger."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill9",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill10",
+            "{name} jumps."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_QUEST_Danseuse_DanceClass_Instructions",
+            "Parry all incoming attacks to Counter."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial1",
+            "The trial begins."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial2",
+            "The trial enters its second phase."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial3",
+            "The trial enters its third phase."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_FailedTrial",
+            "Failure. The trial will restart."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial1Win",
+            "Congratulations, the first trial is complete."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial2Win",
+            "Congratulations, the second trial is complete."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial3Win",
+            "All of the trials are complete."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt1",
+            "Come on! Hit me as hard as you can."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt2",
+            "Ok, ok, take your time…"
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt3",
+            "I'm waiting... I'm waiting…"
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt4",
+            "You can do it. At least... I think so."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt5",
+            "ATTACK ME! HIT ME HARD!"
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_TrialFailed",
+            "You failed, you weakling."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_TrialWin",
+            "Congratulations, nobody's ever hit me like that before."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldAoe",
+            "{Name} uses Shields to unleash an unblockable attack."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldMode",
+            "{name} protects itself."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldModeTurnEnd",
+            "{Name} appears to be charging an attack with its Shields."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldBreak",
+            "{Name}'s Shields are broken! It receives Break damage."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_1",
+            "{Name} throws bubbles at the Expedition."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_2",
+            "{Name} continues to throw bubbles at the Expedition."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_3",
+            "{Name} continues to throw bubbles at the Expedition."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_4",
+            "{Name} seems to be blowing fewer bubbles."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_5",
+            "{Name} gets tired and throws fewer and fewer bubbles."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_6",
+            "{Name} looks weak."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_7",
+            "{Name} makes one last attempt to attack."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BenisseurDefeated",
+            "{Name} dies of exhaustion."
+          ],
+          [
+            "ST_Quest_Bourgeon_Quest_SpittingAllHeroes",
+            "{name} spits out all of the swallowed Expeditioners."
+          ],
+          [
+            "ST_Quest_Bourgeon_Quest_RemainingTurnBeforeEating",
+            "{Count} turn(s) remaining before an Expeditioner is eaten."
+          ],
+          [
+            "ST_Quest_Bourgeon_Quest_EatNextTurn",
+            "An Expeditioner will be eaten on the {name}'s next turn."
+          ],
+          [
+            "ST_Petank_Skill_Melee",
+            "{Name} performs a melee attack."
+          ],
+          [
+            "ST_Petank_Skill_Range",
+            "{Name} performs a ranged combo."
+          ],
+          [
+            "ST_Petank_Skill_Flee",
+            "{Name} flees."
+          ],
+          [
+            "ST_Petank_Blue_ShieldTurn1",
+            "{Name} gains {Shieldcount} Shields."
+          ],
+          [
+            "ST_Petank_Green_WeakSpotSelfDamages",
+            "{Name} takes heavy damage."
+          ],
+          [
+            "ST_Petank_Blue_Buff",
+            "{Name} gains Shields."
+          ],
+          [
+            "ST_Petank_Green_Buff",
+            "{Name} applies Dizzy."
+          ],
+          [
+            "ST_Petank_Violet_Buff",
+            "{Name} applies Exhaust."
+          ],
+          [
+            "ST_Petank_Yellow_Buff",
+            "{Name} heals its Break bar."
+          ],
+          [
+            "ST_Petank_Orange_Buff",
+            "{Name} summons another Nevron to protect it."
+          ],
+          [
+            "ST_Petank_Red_CounterEffect",
+            "The counterattack shocked {Name} and delayed its flight."
+          ],
+          [
+            "ST_Petank_FleeInXTurns",
+            "{Name} will flee in {X} turn(s)."
+          ],
+          [
+            "ST_Petank_FleeNextTurn",
+            "{Name} will flee next turn."
+          ],
+          [
+            "ST_Petank_AlphaSummon",
+            "{name} calls for help."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo3Hits",
+            "{name} performs a fast combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_GradientAttack",
+            "{name} is dancing around."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo3Hits_2",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo4",
+            "{name} performs an impressive combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Buff",
+            "{name} gets angry."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo1ExtendP26Hits",
+            "{name} performs a crazy combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_GradientComboExtended",
+            "{name} shakes the earth."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo3ExtendP24Hits",
+            "{name} performs a fast combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo4Extended6Hits",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_Boss_Simon_Combo1",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_Boss_Simon_Combo2",
+            "{name} performs a short combo."
+          ],
+          [
+            "ST_Boss_Simon_SwordOfLumiere",
+            "The Sword of Lumière is attacking."
+          ],
+          [
+            "ST_Boss_Simon_PowerfulCombo",
+            "{name} performs a powerful combo."
+          ],
+          [
+            "ST_Boss_Simon_Buff",
+            "{name} becomes more powerful."
+          ],
+          [
+            "ST_Boss_Simon_SwordPlant",
+            "{name} plants his sword in the ground."
+          ],
+          [
+            "ST_Boss_Simon_LightSpeedattack",
+            "{name} attacks at light speed."
+          ],
+          [
+            "ST_Boss_Simon_ChromaGathering",
+            "{name} gathers Chroma around {target}."
+          ],
+          [
+            "ST_Boss_Simon_ShieldSteal",
+            "{name} steals all Shields."
+          ],
+          [
+            "ST_Boss_Simon_ExpeditionRemoved",
+            "The Expedition is removed from the Canvas."
+          ],
+          [
+            "ST_Boss_Simon_DeadRemoved",
+            "The dead are removed from the Canvas."
+          ],
+          [
+            "ST_Mime_Skill1_Shield",
+            "{name} protects itself."
+          ],
+          [
+            "ST_Mime_Skill2_Silence",
+            "{name} applies Silence to the Expedition."
+          ],
+          [
+            "ST_Mime_Skill3_ChaoticCombo",
+            "{name} performs a strange combo."
+          ],
+          [
+            "ST_Mime_Skill4_PunchCombo",
+            "{name} performs a hand-to-hand combo."
+          ],
+          [
+            "ST_Noire_Skill_1_BestialCombo",
+            "{name} performs a bestial combo."
+          ],
+          [
+            "ST_Noire_Skill_2_NoireBeam",
+            "{name} gathers Dark chroma."
+          ],
+          [
+            "ST_Noire_Skill_3_BerserkYell",
+            "{name} gets increasingly stronger."
+          ],
+          [
+            "ST_Noire_BerserkRemoved",
+            "Enemies calm down."
+          ],
+          [
+            "ST_Noire_Skill_4_DarkSpear",
+            "{name} summons a Dark spear."
+          ],
+          [
+            "ST_Noire_Skill_5_SlapCombo",
+            "{name} performs a strange combo."
+          ],
+          [
+            "ST_Noire_TurnEnd_ApplyInverted",
+            "{name} applies Inverted to the Expedition."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint1",
+            "Destroy the Punching Ball in one hit to impress the girl."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint2",
+            "Destroy the Punching Ball in one hit."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint3",
+            "Come on, don't lose face in front of Sophie."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint4",
+            "Use Overcharge at maximum output to impress the girl (and Sophie)."
+          ],
+          [
+            "ST_LU_Act1_Sophie_Dodge1",
+            "Dodge {name}'s playful attacks perfectly!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Dodge2",
+            "The Painter starts to be inspired. Dodge again!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Dodge3",
+            "The Painter is almost inspired! One last time!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Fail",
+            "You got hit, the Painter is not inspired. Try again!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Counter",
+            "Come on, don't counter Sophie, this is not a duel to the death!"
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_1",
+            "The White-haired Man ignores Gustave."
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_2",
+            "The White-haired Man stares at Maelle."
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_3",
+            "The White-haired Man turns his attention to Gustave. He is about to attack."
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_4",
+            "Gustave overcharges his arm."
+          ],
+          [
+            "ST_CFH_Boss_Clea_PowerfulNevrons",
+            "{name} summons powerful Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_AgileNevrons",
+            "{name} summons agile Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_CreepyNevrons",
+            "{name} summons creepy Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_MusicalNevrons",
+            "{name} summons musical Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_ViolentNevrons",
+            "{name} summons violent Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_WaterNevrons",
+            "{name} summons Nevrons from the deep."
+          ],
+          [
+            "ST_CFH_Boss_Clea_TrickyNevrons",
+            "{name} summons tricky Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_ChromaDisturbed",
+            "The Chroma has been disturbed."
+          ],
+          [
+            "ST_CFH_Boss_Clea_Heal",
+            "The Chroma heals {name}."
+          ],
+          [
+            "ST_CFH_Boss_Clea_ChromaProjection",
+            "{name} projects disturbing Chroma."
+          ],
+          [
+            "ST_CFH_Boss_Clea_GiganticNevrons",
+            "{name} summons gigantic Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_EarthShatteringNevrons",
+            "{name} summons earth-shattering Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_NimbleNevrons",
+            "{name} summons nimble Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_SpellSlingingNevrons",
+            "{name} summons spell-slinging Nevrons."
+          ],
+          [
+            "ST_Licorne_Skill1_Rainbow",
+            "{name} launches rainbows."
+          ],
+          [
+            "ST_Licorne_Skill2_FluffingStacks",
+            "{name} applies Barbapapa."
+          ],
+          [
+            "ST_Licorne_Skill3_JumpAttack",
+            "{name} performs a bouncing attack."
+          ],
+          [
+            "ST_Licorne_Skill4_Charge",
+            "{name} charges."
+          ],
+          [
+            "ST_LicorneAlpha_Skill3_Rainboom",
+            "{name} uses the strongest rainbow attack ever."
+          ],
+          [
+            "ST_Barbasucette_Skill1_LolipopCombo",
+            "{name} attacks with its lollipops."
+          ],
+          [
+            "ST_Barbasucette_Skill2_SummonCandy",
+            "{name} summons flying candy."
+          ],
+          [
+            "ST_Barbasucette_Skill3_KungFu",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_Barbasucette_Skill4_ThrowBubbles",
+            "{name} throws projectiles at the Expedition."
+          ],
+          [
+            "ST_Barbasucette_enrage",
+            "{name} is not happy."
+          ],
+          [
+            "ST_Barbasucette_CandyShield",
+            "{name}'s candy apply Shields."
+          ],
+          [
+            "ST_GestralBalloon_AngryGestral",
+            "{name} is angry."
+          ],
+          [
+            "ST_Franctale_FrancoisShoot",
+            "{name} kicks its head."
+          ],
+          [
+            "ST_Franctale_Lasers",
+            "{name} shoots lasers with style."
+          ],
+          [
+            "ST_Franctale_FrancoisCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_FranctaleAlpha_Lasers",
+            "The Franctales shoot lasers with style."
+          ],
+          [
+            "ST_FranctaleAlpha_SynchronizedAttack",
+            "The Franctales synchronise to attack."
+          ],
+          [
+            "ST_FranctaleAlpha_Combo",
+            "The Franctales perform a synchronised combo."
+          ],
+          [
+            "ST_Machinapieds_Skill1_punch",
+            "{name} performs a punching attack."
+          ],
+          [
+            "ST_Machinapieds_Skill2_Skydive",
+            "{name} flies to attack."
+          ],
+          [
+            "ST_Machinapieds_Skill3_PunchCombo",
+            "{name} performs a punching combo."
+          ],
+          [
+            "ST_Machinapieds_Skill4_Buff",
+            "{name} buffs its team and applies Barbapapa."
+          ],
+          [
+            "ST_Licornapieds_Skill1",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_Licornapieds_Skill2",
+            "{name} performs a raging combo."
+          ],
+          [
+            "ST_Licornapieds_Skill3",
+            "{name} performs a wonderful combo."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoA_MeleeAndGhost",
+            "The {name} perform a sneaky combo."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoB_Telluriforce",
+            "The {name} perfom an impressive combo."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoC_DuoMelee",
+            "The {name} attack together."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoD_StormBloodDuo",
+            "The {name} perform Stormblood in duo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkA_LongCombo",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkB_SwiftCombo",
+            "{name} performs a swift combo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkC_RelentlessCombo",
+            "{name} performs a relentless combo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkD_UltimateStormBlood",
+            "{name} unleashes the Ultimate Stormblood."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart1",
+            "Try to counter this, worm."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart2",
+            "How about this."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart3",
+            "You'll never see it coming."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart4",
+            "Let me show you something new."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart5",
+            "A test of your reflexes."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail1",
+            "Is that the extent of your strength?"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail2",
+            "Surely you can do better."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail3",
+            "I'm really feeling it."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail4",
+            "Isn't this fun?"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail5",
+            "I'm having a great time."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterSuccessful1",
+            "Great. GREAT!"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterSuccessful2",
+            "How brushtastic. Show it to me once more!"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterSuccessful3",
+            "What strength!!"
+          ],
+          [
+            "ST_Osquio_Skill1",
+            "{name} is flying gracefully."
+          ],
+          [
+            "ST_Osquio_Skill2",
+            "{name} summons his little friends."
+          ],
+          [
+            "ST_Osquio_Skill3",
+            "Time for a spin spin."
+          ],
+          [
+            "ST_Osquio_Skill4",
+            "{name} thinks he is the fastest ball."
+          ],
+          [
+            "ST_Osquio_Skill5",
+            "{name} has very very strong fists."
+          ],
+          [
+            "ST_Osquio_Skill6",
+            "{name} goes Pew Pew Pew."
+          ],
+          [
+            "ST_Osquio_Skill7",
+            "{name} decides to destroy the world. Bye bye."
+          ],
+          [
+            "ST_Osquio_Skill8",
+            "{name} prepares a drop kick."
+          ]
+        ]
+}

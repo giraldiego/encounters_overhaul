@@ -1,0 +1,3433 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (ec758cf)",
+  "NameMap": [
+    "Context",
+    "Gender",
+    "ST_Enemies_Skills",
+    "/Game/StringTables/ST_Enemies_Skills",
+    "/Script/CoreUObject",
+    "Package",
+    "/Script/Engine",
+    "Class",
+    "StringTable",
+    "Default__StringTable"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "PROPERTY_TAG_COMPLETE_TYPE_NAME",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 134,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 44,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 15,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 51,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 86,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": [],
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.StringTableExport, UAssetAPI",
+      "Table": {
+        "TableNamespace": "ST_Enemies_Skills",
+        "Value": [
+          [
+            "ST_SM_FirstLancelier_AttackFast",
+            "{name} attacks quickly."
+          ],
+          [
+            "ST_SM_FirstLancelier_AttackSlow",
+            "{name} attacks slowly."
+          ],
+          [
+            "ST_SM_FirstLancelier_LancelierWeakSpot",
+            "You shot at {name}'s Weak Point!"
+          ],
+          [
+            "ST_SM_First_Portier_AttackAoE",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SM_First_Portier_JumpHit",
+            "{name} jumps."
+          ],
+          [
+            "ST_SM_Portier_ALPHA_Alpha2HitCombo",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SM_Portier_ALPHA_AlphaMeleeCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_SM_Portier_ALPHA_DelayedAoe",
+            "{name} shakes the ground."
+          ],
+          [
+            "ST_SM_DoorSoulPortier_MeleeCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_SM_DoorSoulPortier_AttackAoe",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SM_DoorSoulPortier_Jumphit",
+            "{name} jumps."
+          ],
+          [
+            "ST_SM_Volester_SpeedShot",
+            "{name} quickly attacks {Target}."
+          ],
+          [
+            "ST_SM_Volester_SlowShot",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Abbest_MeleeAttack",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Abbest_ElementalAttack",
+            "{name} casts a spell at {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_SimpleSpear",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_AoEGround",
+            "{name} casts a spell."
+          ],
+          [
+            "ST_SM_Boss_Eveque_DoubleSpear",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Summon",
+            "{name} summons minions."
+          ],
+          [
+            "ST_SM_Boss_Eveque_ChargeUltimate",
+            "{name} charges up."
+          ],
+          [
+            "ST_SM_Boss_Eveque_WarnUltimate",
+            "{name} is about to unleash its power."
+          ],
+          [
+            "ST_SM_Boss_Eveque_CastUltimate",
+            "{name} unleashes its full power."
+          ],
+          [
+            "ST_SM_Boss_Eveque_EnterPhase2",
+            "{name} feels threatened."
+          ],
+          [
+            "ST_SM_Boss_Eveque_EnterPhase3",
+            "{name} is Enraged. Be careful!"
+          ],
+          [
+            "ST_SM_Lancelier_Alpha_Combined_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Abbest_Alpha_MeleeCombo",
+            "{name} attacks {Target}."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_Spear_Explosion",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_Spell_combo",
+            "{name} casts a spell."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_Enraged_Combo",
+            "{name} unleashes its full power."
+          ],
+          [
+            "ST_SM_Boss_Eveque_Earth_ALPHA_IsEnraged",
+            "{name} is Enraged!"
+          ],
+          [
+            "ST_GO_Luster_3HitCombo",
+            "{name} performs a fast combo."
+          ],
+          [
+            "ST_GO_Luster_UnleashFury",
+            "{name} unleashes its fury."
+          ],
+          [
+            "ST_GO_Bruler_Estoc",
+            "{name} attacks."
+          ],
+          [
+            "ST_GO_Bruler_Boost",
+            "{name} Enrages its allies!"
+          ],
+          [
+            "ST_GO_Cruler_HammerSmashAoE",
+            "{name} smashes the ground."
+          ],
+          [
+            "ST_GO_Cruler_Hammer2xCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_GO_Cruler_ShieldTeam",
+            "{name} Shields its allies."
+          ],
+          [
+            "ST_GO_Cruler_JumpCombo",
+            "{name} jumps."
+          ],
+          [
+            "ST_GO_Demineur_CloseRange",
+            "{name} attacks."
+          ],
+          [
+            "ST_GO_Demineur_LongRange",
+            "{name} summons thunder."
+          ],
+          [
+            "ST_GO_Bourgeon_SuckupHero",
+            "{name} eats {Target}."
+          ],
+          [
+            "ST_GO_Bourgeon_SpitHero",
+            "{name} spits out {Target}."
+          ],
+          [
+            "ST_GO_Bourgeon_Spit2Heroes",
+            "{name} spits out {Target1} and {Target2}."
+          ],
+          [
+            "ST_GO_Bourgeon_MiasmaSpit",
+            "{name} spits miasma."
+          ],
+          [
+            "ST_GO_Bourgeon_ComboCrush",
+            "{name} performs a crushing combo."
+          ],
+          [
+            "ST_GO_Bourgeon_3hitCombo",
+            "{name} performs a 3-hit combo."
+          ],
+          [
+            "ST_GO_Bourgeon_4hitHeadCombo",
+            "{name} performs a 4-hit combo."
+          ],
+          [
+            "ST_GO_Bourgeon_5hitCombo",
+            "{name} performs a 5-hit combo."
+          ],
+          [
+            "ST_GO_Goblu_3AoECombo",
+            "{name} jumps."
+          ],
+          [
+            "ST_GO_Goblu_2hitCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_GO_Goblu_Bighit",
+            "{name} is about to crush {Target}."
+          ],
+          [
+            "ST_GO_Goblu_GobluCall",
+            "{name} calls for help."
+          ],
+          [
+            "ST_GO_Goblu_GobluRage",
+            "{name} is Enraged!"
+          ],
+          [
+            "ST_GO_Goblu_WeakPointHit",
+            "{name} becomes weak to Lightning."
+          ],
+          [
+            "ST_GO_Goblu_FlowerSummon1",
+            "{name} grows flowers."
+          ],
+          [
+            "ST_GO_Goblu_FlowerSummon2",
+            "{name} grows many flowers."
+          ],
+          [
+            "ST_GO_Goblu_FlowerEffect",
+            "{name} absorbs the flowers' power."
+          ],
+          [
+            "ST_GO_Goblu_ReActivateFlower",
+            "{name} regenerates its flowers."
+          ],
+          [
+            "ST_GO_Luster_Alpha_Combustion_Damage",
+            "{name} consumes Burns to regain Health."
+          ],
+          [
+            "ST_GO_Luster_Alpha_FireCharge",
+            "{name} charges a Fire explosion."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_MeleeFire",
+            "{name} smashes its target."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_AoEFire",
+            "{name} sends a wave of fire."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_SelfBurn",
+            "{name}'s inner fire is strengthened."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_UnleashFire",
+            "{name} unleashes its inner fire."
+          ],
+          [
+            "ST_GO_Demineur_ALPHA_FireBreak",
+            "{name}'s inner fire is weakened."
+          ],
+          [
+            "ST_GO_Curator_JumpTutorial_JumpTutorial",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_GO_Curator_JumpTutorial_Melee3Hits",
+            "{name} dashes forward to attack."
+          ],
+          [
+            "ST_GO_Curator_JumpTutorial_BattleEnd",
+            "{name} ends the training session."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Combo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Combo2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultA_MonoAtk1",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultA_MonoATtk2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_MeleeCombo1",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_MeleeCombo2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_SpawnTurrets",
+            "{name} spawns pots."
+          ],
+          [
+            "ST_YF_Potier_TurretShot",
+            "{name}'s pots shoot at the Expedition."
+          ],
+          [
+            "ST_YF_Potier_BuffTeam",
+            "{Character} buffs its allies."
+          ],
+          [
+            "ST_YF_Jar_SkillAoE",
+            "{name} smashes the ground."
+          ],
+          [
+            "ST_YF_Jar_SkillCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_YF_Jar_FreeAimWeakSpotHit",
+            "{name} is interrupted."
+          ],
+          [
+            "ST_YF_Sapling_RangeAttackExhaust",
+            "{name} Exhausts the Expedition."
+          ],
+          [
+            "ST_YF_Sapling_RangeAttackMarked",
+            "{name} Marks the Expedition."
+          ],
+          [
+            "ST_YF_Glaise_MultiAoE",
+            "{name} creates earthquakes."
+          ],
+          [
+            "ST_YF_Glaise_SimpleAoE",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Glaise_3xSingle",
+            "{name} pounds the ground."
+          ],
+          [
+            "ST_YF_Glaise_BigBlowWarning",
+            "{name} is preparing a powerful blow."
+          ],
+          [
+            "ST_YF_Chevaliere_B_AoECombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_B_MonoTargetAttack",
+            "{name} chains attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_C_AoECombo",
+            "{name} prepares a Fire attack."
+          ],
+          [
+            "ST_YF_Chevaliere_C_AoECombo2",
+            "{name} prepares a Frozen attack."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_RangeSpecificCombo",
+            "{name} casts Dark magic on the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_MeleeMonoCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_FloatingHeads",
+            "{name} summons strange Masks."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_FacesShoot",
+            "The Masks fire at the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Masks_Fire",
+            "The Masks fire at the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_UnhideAttack",
+            "{name} attacks from the fog."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_ClosingDarkness",
+            "{name} darkens the sky."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_HideAttack",
+            "{name} attacks and hides in the fog."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building1",
+            "{name} launches nearby buildings."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building2",
+            "{name} launches more nearby buildings."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building3",
+            "{name} throws trees at the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_Building4",
+            "{name} casts a dark spell on the Expedition."
+          ],
+          [
+            "ST_YF_Boss_Scavenger_FacesBoost",
+            "The Masks increase the Scavenger's power."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Alpha_ComboAlpha",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Chevaliere_A_Alpha_Combo2Alpha",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Single1",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Atk2",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Buff",
+            "{name} gains Rush"
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Powerful",
+            "{name} gains Powerful."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Shell",
+            "{name} gains Shell."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Rage",
+            "{name} gains Rage."
+          ],
+          [
+            "ST_YF_GaultB_Alpha_Bound",
+            "{name} Binds the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_FreeAimWeakSpot",
+            "The {name}'s right arm is damaged."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_FreeAimExplosion",
+            "The {name}'s right arm is destroyed."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_RightSlam",
+            "{name} strikes with its dead partner."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_ShieldHit",
+            "{name} slams its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_3HitCombo",
+            "{name} performs a clunky combo."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_EnterShieldMode",
+            "{name} raises its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_ShieldCounter",
+            "{name} counterattacks."
+          ],
+          [
+            "ST_AS_PotatoBag_Tank_LastStand",
+            "{name} crashes into the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_FreeAimWeakSpot",
+            "{name}'s catapult is damaged."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_FreeAimExplosion",
+            "{name}'s catapult is broken."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_ThunderLaunch",
+            "{name} catapults thunder thingies."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_HiddenSwordAttack",
+            "{name} attacks with its hidden blade."
+          ],
+          [
+            "ST_AS_PotatoBag_Mage_LastStand",
+            "{name} crashes into the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_FireWave",
+            "{name} fires its canon."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_Estoc",
+            "{name} attacks with its mighty electric sword."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_CutterCombo",
+            "{name} performs an impressive combo."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_LastStand",
+            "{name} crashes into the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_FreeAimWeakSpot",
+            "{name}'s shoulder weakens."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_FreeAimExplosion",
+            "{name}'s arm is broken."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_EstocBerserker",
+            "{name} attacks with its mighty electric sword."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_ThunderCrush",
+            "Lightning strikes are falling."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_Tornado",
+            "{name} spins."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_GrandImpact",
+            "{name} crushes the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_Sweep",
+            "{name} sweeps the Expedition."
+          ],
+          [
+            "ST_AS_PotatoBag_Ranger_ALPHA_ArmRebuild",
+            "{name} rebuilds its arm."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_FreeAimWeakSpot",
+            "{name}'s shoulder weakens."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_RightSlamCombo",
+            "{name} attacks with its dead partner."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_RightSlam",
+            "{name} slams the ground."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_StunningGrenade",
+            "{name} launches some weird electric things."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_ShieldPunch",
+            "{name} slams its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterShieldMode",
+            "{name} takes the fight seriously and raises its shield."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_CounterFire",
+            "{name} fires its canon."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterPhase1",
+            "{name} takes the fight seriously."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterPhase1Shield",
+            "{name}'s shield is up again."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_EnterPhase2",
+            "{name} unleashes its full power."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_FreeAimExplosion",
+            "{name}'s arm is broken."
+          ],
+          [
+            "ST_AS_PotatoBag_Boss_Break",
+            "{name}'s shoulder weakspot is exposed."
+          ],
+          [
+            "ST_GV_LiloTheUseless_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_BertrandBigHands_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_MatthieuTheColossus_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_JulienTinyHead_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_DominiqueGiantFeet_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GV_Sciel_TwilightSlash",
+            "{name} uses Twilight Slash."
+          ],
+          [
+            "ST_GV_Sciel_SealedFate",
+            "{name} uses Sealed Fate."
+          ],
+          [
+            "ST_GV_Sciel_MarkingCard",
+            "{name} uses Marking Card."
+          ],
+          [
+            "ST_GV_Sciel_Rush",
+            "{name} uses Rush."
+          ],
+          [
+            "ST_SC_CultistDualSword_6HitCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_SC_CultistDualSword_4HitCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SC_CultistHeavy_BloodingSword",
+            "{name} covers her sword in blood."
+          ],
+          [
+            "ST_SC_CultistHeavy_BloodyJump",
+            "{name} is about to jump."
+          ],
+          [
+            "ST_SC_CultistMage_Shield",
+            "{name} applies Shields to its allies."
+          ],
+          [
+            "ST_SC_CultistMage_ExplosionAoE",
+            "{name} casts an exploding spell."
+          ],
+          [
+            "ST_SC_CultistMage_CounterAttack",
+            "{name} attacks."
+          ],
+          [
+            "ST_SC_CultistFlying_Combo_&_AoE",
+            "{name} casts dark projectiles."
+          ],
+          [
+            "ST_SC_CultistFlying_MeleeCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SC_Hexga_Skill1",
+            "{name} performs a 3-hit combo."
+          ],
+          [
+            "ST_SC_Hexga_Skill2",
+            "{name} performs a 2-hit combo."
+          ],
+          [
+            "ST_SC_Hexga_Skill4",
+            "{name} performs a group attack."
+          ],
+          [
+            "ST_SC_Hexga_WeaponBroken",
+            "{name}'s weapon is broken."
+          ],
+          [
+            "ST_SC_Hexga_ApplyShield",
+            "{name} Shields its allies."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalBroken",
+            "{name}'s crystal is broken."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalCrack",
+            "{name}'s crystal is starting to crack."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalVulnerable",
+            "{name}'s crystal is vulnerable."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalPower",
+            "A strange power emanates from {name}'s crystal."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_Boost",
+            "{name} draws strength from its crystal."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_AoEAttack",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_Combo",
+            "{name} performs a Shield-powered Combo."
+          ],
+          [
+            "ST_SC_Hexga_Alpha_CrystalPowerUp",
+            "{name} powers up."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill1",
+            "{name} tries to disrupt the aim of {target}."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill2",
+            "{name} uses the power of its lamps to attack."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill3",
+            "{name} performs a strange ritual with its lamps."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill4",
+            "{name} triggers a Dark explosion."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill5",
+            "{name} performs a jump attack."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill6",
+            "{name} performs a flying combo."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill7",
+            "{name} attacks with each arm."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill8",
+            "{name} throws a vast ball of light at the Expedition."
+          ],
+          [
+            "ST_SC_Lampmaster_Skill9",
+            "{name} attacks with a massive sword of light."
+          ],
+          [
+            "ST_SC_Lampmaster_PhaseSwitch",
+            "{name} flies off menacingly."
+          ],
+          [
+            "ST_SC_Lampmaster_SkipTurn",
+            "{name} skips its turn after its lamp incantation fails."
+          ],
+          [
+            "ST_SC_Lampmaster_TurnOffLevelLamps",
+            "{name} switches off all the lights in the cave and attacks."
+          ],
+          [
+            "ST_SC_Lampmaster_LampRitualIdle2",
+            "{name} performs a strange ritual with its lamps."
+          ],
+          [
+            "ST_SC_Lampmaster_LampRitualIdle2_2",
+            "{name} prepares to attack the Expedition."
+          ],
+          [
+            "ST_SC_Lampmaster_LampNoEffect",
+            "…"
+          ],
+          [
+            "ST_SC_Lampmaster_LampNoEffect2",
+            "Shooting the Lamp has no effect."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleGood",
+            "The Lamp emits a green glow."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleComplete",
+            "You have completed the Lamp Trial."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleComplete2",
+            "{name}'s attack is cancelled."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleFailed1",
+            "You have failed the Lamp Trial."
+          ],
+          [
+            "ST_SC_Lampmaster_PuzzleFailed2",
+            "{name} is about to launch a dangerous attack."
+          ],
+          [
+            "ST_SC_Lampmaster_TurnOffLevelLamps2",
+            "{name} lights the lamps for its next attack."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_SwordLampHit",
+            "{name}'s Sword Lamp begins to fade."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_Darkness",
+            "{name} plunges the battlefield into darkness."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_Ritual",
+            "{name} performs a strange ritual with its lamps."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_LightEplosion",
+            "{name} triggers a massive explosion of light."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_LightUp",
+            "The battlefield lights up again."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_APSteal",
+            "{name} absorbs the Expedition's energy."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_Revive",
+            "{name} makes a sacrifice to heal itself."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_TurnOnLamps",
+            "{name} turns its lamps on."
+          ],
+          [
+            "ST_CW_LampMasterAlpha_HyperLightSlash",
+            "{name}'s fury exhausts the Expedition."
+          ],
+          [
+            "ST_SC_Rocher_Melee2Hits",
+            "{name} swings to attack."
+          ],
+          [
+            "ST_SC_Rocher_MeleeAoE1Hit",
+            "{name} jumps."
+          ],
+          [
+            "ST_SC_Rocher_Melee4Hits",
+            "{name} spins to attack."
+          ],
+          [
+            "ST_EN_Francois_Ultralaser",
+            "{name} uses the strongest Ice attack ever."
+          ],
+          [
+            "ST_FB_Ramasseur_Combo1",
+            "{name} performs a combo with a Nevron arm."
+          ],
+          [
+            "ST_FB_Ramasseur_Bonk",
+            "{name} attacks."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_MortalBlowFeedBack",
+            "Oh no! The attack seems to kill the target instantly. Careful, now."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_MortalBlow",
+            "{name} performs a mortal hit."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_LongComboAlpha",
+            "{name} performs a long combo with a Nevron arm."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_ComboWeakenHim",
+            "The Counterattack seems to weaken it. Carry on."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_AttackAgainButCounterWeakenHim",
+            "{name} attacks again. But the counterattack seems to weaken him!"
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_AttackAgain",
+            "{name} attacks again."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_ParryToWeakenHim",
+            "Parrying seems to be the only way to weaken it."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_Turn1Tooltip",
+            "What? The {name} is attacking you again."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_Turn2Tooltip",
+            "The {name} attacks you without giving you time to attack."
+          ],
+          [
+            "ST_FB_Ramasseur_Alpha_Turn3Tooltip",
+            "Looks like you're going to have to find a way to stop it."
+          ],
+          [
+            "ST_FB_Troubadour_BuffTeam",
+            "{name} applies {Buff} to its allies."
+          ],
+          [
+            "ST_FB_Troubadour_TrickyShot",
+            "{name} performs a Tricky Shot with its trumpet."
+          ],
+          [
+            "ST_FB_Troubadour_TrumpetConcerto",
+            "{name} performs a Trumpet Concerto."
+          ],
+          [
+            "ST_FB_Troubadour_CursedSong",
+            "{name} plays its final Cursed Song."
+          ],
+          [
+            "ST_FB_Benisseur_BubbleAttack",
+            "{name} summons protective bubbles."
+          ],
+          [
+            "ST_FB_Benisseur_BubbleExplosion",
+            "Enemies are Marked."
+          ],
+          [
+            "ST_FB_Benisseur_BubbleShields",
+            "{name}'s bubbles are Shielding enemies."
+          ],
+          [
+            "ST_FB_Benisseur_SpearSummon",
+            "{name} grabs a spear from its hat."
+          ],
+          [
+            "ST_FB_Benisseur_SpearAtack",
+            "{name} performs a spear combo."
+          ],
+          [
+            "ST_FB_Benisseur_Mortar",
+            "{name} launches projectiles from its hat."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Combo1",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Combo2",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Combo3",
+            "{name} performs a swiping combo."
+          ],
+          [
+            "ST_FB_DuallisteLR_P1_Telluriforce",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_FB_DuallisteLR_Telluriforce",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_FB_DuallisteLR_StormBlood",
+            "{name} uses Stormblood."
+          ],
+          [
+            "ST_FB_DuallisteLR_Requiem",
+            "{name} applies Inverted to the Expedition."
+          ],
+          [
+            "ST_FB_DuallisteLR_Combo1",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_FB_DuallisteLR_Combo2",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_FB_ChalierSword_SwordCombo",
+            "{name} performs a relentless combo."
+          ],
+          [
+            "ST_FB_ChalierSword_AnyWeaponCombo",
+            "{name} performs a swiping combo."
+          ],
+          [
+            "ST_FB_ChalierSword_HeadSmash",
+            "{name} performs a punching combo."
+          ],
+          [
+            "ST_FB_ChalierHammer_HammerCombo",
+            "{name} performs a smashing combo."
+          ],
+          [
+            "ST_FB_ChalierSpear_SpearCombo",
+            "{name} performs an impaling combo."
+          ],
+          [
+            "ST_FB_ChalierSword_Alpha_AlphaSwordcombo",
+            "{name} performs a relentless combo."
+          ],
+          [
+            "ST_FB_Chalier_GradientCounterTutorial_GradientCounterTutorial",
+            "{name} performs a smashing jump."
+          ],
+          [
+            "ST_MM_Pelerin_Fire_ColdSteelCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_MM_Pelerin_FreshAir",
+            "{name} heals his allies."
+          ],
+          [
+            "ST_MM_Pelerin_Counterattack",
+            "{name} counterattacks."
+          ],
+          [
+            "ST_MM_Pelerin_SwitchStanceAndCounter",
+            "{name} switches stance and counterattacks."
+          ],
+          [
+            "ST_MM_Pelerin_SwitchStance",
+            "{name} switches stance."
+          ],
+          [
+            "ST_MM_Danseuse_Fire_GradientFall",
+            "{name} performs a Gradient Fall."
+          ],
+          [
+            "ST_MM_Danseuse_Fire_DanceCombo",
+            "{name} performs a Dance Combo."
+          ],
+          [
+            "ST_MM_Danseuse_SwitchStanceAndSummon",
+            "{name} summons a clone and switches stance."
+          ],
+          [
+            "ST_MM_Danseuse_SummonClone",
+            "{name} summons a clone."
+          ],
+          [
+            "ST_MM_Stalact_Fire_SmashCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_MM_Stalact_Fire_Earthquakes",
+            "{name} creates earthquakes."
+          ],
+          [
+            "ST_MM_Stalact_StanceSwitch",
+            "{name} switches stance to {Element}."
+          ],
+          [
+            "ST_MM_Stalact_AnnounceExplosion",
+            "{name} is heating up."
+          ],
+          [
+            "ST_MM_Stalact_Explosion",
+            "{name} is about to explode."
+          ],
+          [
+            "ST_MM_Stalact_ExplosionOnHeroes",
+            "{name} explodes."
+          ],
+          [
+            "ST_MM_Stalact_ExplosionOnEnemies",
+            "{name} explodes near its allies."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_SummonDrones",
+            "{name} summons 2 fire orbs."
+          ],
+          [
+            "ST_MM_Braseleur_Ice_SummonDrones",
+            "{name} summons 2 ice orbs."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_DroneFire",
+            "{name}'s orbs are about to shoot."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_HammerCombo",
+            "{name} performs a Hammer Combo."
+          ],
+          [
+            "ST_MM_Braseleur_Fire_HammerSmash",
+            "{name} performs a Hammer Smash."
+          ],
+          [
+            "ST_MM_Gargant_SnowStormSpawn",
+            "A Snow Storm arrives."
+          ],
+          [
+            "ST_MM_Gargant_CastYell",
+            "{name} yells."
+          ],
+          [
+            "ST_MM_Gargant_IcePunchA",
+            "{name} lands a series of punches."
+          ],
+          [
+            "ST_MM_Gargant_IcePunchB",
+            "{name} throws even more punches."
+          ],
+          [
+            "ST_MM_Gargant_IceSmash",
+            "{name} performs a smash combo."
+          ],
+          [
+            "ST_MM_Gargant_IcyRavageA",
+            "{name} tears up the field with his arms."
+          ],
+          [
+            "ST_MM_Gargant_IcyRavageB",
+            "{name} wreaks havoc."
+          ],
+          [
+            "ST_MM_Gargant_ApplyFrozen",
+            "{name} Freezes {target}."
+          ],
+          [
+            "ST_MM_Gargant_HeatWaveRemoveFrozen",
+            "The explosion of heat thaws the Frozen characters."
+          ],
+          [
+            "ST_MM_Gargant_Summon",
+            "{name} summons other Nevrons."
+          ],
+          [
+            "ST_MS_Monoco_Skill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_MS_Monoco_Skill2",
+            "{name} performs a dual attack."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill_AOE",
+            "{name} tears apart reality."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill_Combo",
+            "{name} shatters the void."
+          ],
+          [
+            "ST_CZ_ChromaMaelle_ChromaFury",
+            "{name} uses Chroma Fury."
+          ],
+          [
+            "ST_CZ_ChromaMaelle_ChromaFencing",
+            "{name} uses Chroma Fencing."
+          ],
+          [
+            "ST_CZ_ChromaMaelle_CounterStrike",
+            "{name} uses Counter Strike."
+          ],
+          [
+            "ST_CZ_ChromaVerso_ChromaCombo",
+            "{name} uses Chroma Combo."
+          ],
+          [
+            "ST_CZ_ChromaVerso_ChromaBlitz",
+            "{name} uses Chroma Blitz."
+          ],
+          [
+            "ST_CZ_ChromaLune_ChromaThunderFall",
+            "{name} uses Chroma Thunderfall."
+          ],
+          [
+            "ST_CZ_ChromaLune_ChromaMayhem",
+            "{name} uses Chroma Mayhem."
+          ],
+          [
+            "ST_CZ_ChromaSciel_ChromaSlash",
+            "{name} uses Chroma Slash."
+          ],
+          [
+            "ST_CZ_ChromaSciel_ChromaCombo",
+            "{name} uses Chroma Combo."
+          ],
+          [
+            "ST_MF_Moissonneuse_Moisson",
+            "{name} performs a short combo."
+          ],
+          [
+            "ST_MF_Moissonneuse_Vendage",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_MF_Moissonneuse_Buff",
+            "{name} applies Rush to her allies."
+          ],
+          [
+            "ST_MF_Moissonneuse_ALPHA_AlphaBuff",
+            "{name} is stronger."
+          ],
+          [
+            "ST_MF_Boucheclier_SwordCombo",
+            "{name} performs a sword combo."
+          ],
+          [
+            "ST_MF_Boucheclier_ShieldSmash",
+            "{name} slams his shield."
+          ],
+          [
+            "ST_MF_Boucheclier_DefenseMode",
+            "{name} gets ready to counterattack."
+          ],
+          [
+            "ST_MF_Boucheclier_DefenseModeInterupted",
+            "{name}'s counter mode is interrupted."
+          ],
+          [
+            "ST_MF_Boucheclier_CounterAttack",
+            "{name} counterattacks."
+          ],
+          [
+            "ST_MF_Chapelier_ThrowMask",
+            "{name} launches Masks."
+          ],
+          [
+            "ST_MF_Chapelier_AxeBash",
+            "{name} strikes."
+          ],
+          [
+            "ST_MF_Chapelier_AxeSlash",
+            "{name} slashes with its axe."
+          ],
+          [
+            "ST_MF_Chapelier_LastStand",
+            "{name} applies Exhaust to the Expedition."
+          ],
+          [
+            "ST_MF_Contorsionniste_SadCombo",
+            "{name} attacks slowly."
+          ],
+          [
+            "ST_MF_Contorsionniste_JoyfulImpale",
+            "{name} impales its target."
+          ],
+          [
+            "ST_MF_Contorsionniste_AngryBlast",
+            "{name} absorbs Health."
+          ],
+          [
+            "ST_MF_Contorsionniste_6hitCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskAnger_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskSadness_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskJoy_AttackRemoveAP",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_MaskJoy_AttackDebuff",
+            "{name} attacks."
+          ],
+          [
+            "ST_MF_Axon_Visages_AllMasksAttack",
+            "{name} sacrifices its crumbling Masks for an ultimate attack."
+          ],
+          [
+            "ST_MF_Axon_Visages_InvertedMaskCombo",
+            "{name} attacks with the Anxiety Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_BurnMaskCombo",
+            "{name} attacks with the Doubt Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_PowerMaskCombo",
+            "{name} attacks with the Determination Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_ShieldMaskCombo",
+            "{name} tries to build Shields with the Peace Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_HealMaskCombo",
+            "{name} tries to heal with the Confidence Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_HealMaskHeal",
+            "{name} tries to build Shields with the Peace Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_ShieldMaskShield",
+            "{name} tries to heal with the Confidence Mask."
+          ],
+          [
+            "ST_MF_Axon_Visages_TurnStart",
+            "{name} selects new active Masks."
+          ],
+          [
+            "ST_MF_Axon_Visages_MaskVanish",
+            "The Mask vanishes in the Mirror."
+          ],
+          [
+            "ST_MF_Axon_Visages_MaskDestroyed",
+            "Unable to re-enter the Mirror, the Mask explodes."
+          ],
+          [
+            "ST_MF_Axon_Visages_NoMoreMask",
+            "There are no more Masks in the Mirror."
+          ],
+          [
+            "ST_MF_Axon_Visages_MaskAppear",
+            "A Mask emerges from the Mirror."
+          ],
+          [
+            "ST_MF_Axon_Visages_DeathNoMask",
+            "Having no masks left, Visages falls."
+          ],
+          [
+            "ST_MF_MoissonneuseMaskJoy_MaskSkill",
+            "The Mask heals the Moissonneuse."
+          ],
+          [
+            "ST_MF_Boucheclier_MaskAnger_MaskSkill",
+            "The Mask makes the Boucheclier take another turn."
+          ],
+          [
+            "ST_MF_Chapelier_MaskSadness_MaskSkill",
+            "The Mask applies Exhaust to {target}."
+          ],
+          [
+            "ST_MF_Grosstete_Skill1_HeavyBounce",
+            "{name} attacks by bouncing."
+          ],
+          [
+            "ST_MF_Grosstete_Skill2_Wrecking",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_MF_Grosstete_Skill3_EarthquakeJump",
+            "{name} creates an earthquake."
+          ],
+          [
+            "ST_MF_Grosstete_Skill4_FireSpits",
+            "{name} spits fireballs."
+          ],
+          [
+            "ST_MF_Grosstete_OnDamageReceivedCalm",
+            "{name}'s placid stance makes it more resistant to damage."
+          ],
+          [
+            "ST_MF_Grosstete_OnStunRemoved",
+            "{name} is off-balance and more vulnerable."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill1A_Swing",
+            "{name} performs a swing combo."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill1B_LongSwing",
+            "{name} performs a long swing combo."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill2_FireCombo",
+            "{name} sets Fire to his sword."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill3_IcyRage",
+            "{name} turns his sword into ice."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill4A_StormBringer",
+            "{name} attacks like a storm."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill4B_ChaosBringer",
+            "{name} performs a chaotic combo."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill5_FullBuff",
+            "{name} gains Powerful, Shell and Speed."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill6A_FleuretAttack",
+            "{name} attacks the Expedition."
+          ],
+          [
+            "ST_MF_MaskKeeper_Skill6B_FleuretDanse",
+            "{name} vehemently attacks the Expedition."
+          ],
+          [
+            "ST_MF_MaskKeeper_ShieldBuff",
+            "{name} is surrounded by a defensive aura."
+          ],
+          [
+            "ST_MF_MaskKeeper_ShieldBuff2",
+            "{name} now gains Shield for each blow dealt to an expeditioner."
+          ],
+          [
+            "ST_MF_MaskKeeper_AngerMaskSkill",
+            "The Anger Mask makes {name} play a second time."
+          ],
+          [
+            "ST_MF_MaskKeeper_JoyMaskSkill",
+            "The Joy Mask heals {name}."
+          ],
+          [
+            "ST_MF_MaskKeeper_SadMaskSkill",
+            "The Sadness Mask applies Exhaust to the Expedition."
+          ],
+          [
+            "ST_MF_MaskKeeper_SummonMasks",
+            "{Name} calls the Masks of emotions."
+          ],
+          [
+            "ST_RE_OrphelinHammer_CommonCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_RE_OrphelinHammer_HammerCombo",
+            "{name} attacks with his hammer."
+          ],
+          [
+            "ST_RE_OrphelinHammer_Buff",
+            "{name} applies Powerful to his allies."
+          ],
+          [
+            "ST_RE_OrphelinHammer_Debuff",
+            "{name} applies Powerless to the Expedition."
+          ],
+          [
+            "ST_RE_OrphelinSpoon_SpoonCombo",
+            "{name} attacks with his spoon."
+          ],
+          [
+            "ST_RE_OrphelinNail_NailCombo",
+            "{name} attacks with his nail."
+          ],
+          [
+            "ST_RE_Echassier_Skill1",
+            "{name} performs a powerful 5-hit combo."
+          ],
+          [
+            "ST_RE_Echassier_Skill2",
+            "{name} performs a jump attack."
+          ],
+          [
+            "ST_RE_Echassier_Skill3",
+            "{name} doubles the Blight and heals its allies."
+          ],
+          [
+            "ST_RE_Echassier_Skill4",
+            "{name} performs a 2-hit combo."
+          ],
+          [
+            "ST_RE_Veilleur_BlightSmash",
+            "{name} performs a Blighted strike."
+          ],
+          [
+            "ST_RE_Veilleur_BlightWave",
+            "{name} summons a Blighted wave."
+          ],
+          [
+            "ST_RE_Veilleur_CarrionDevourer",
+            "{name} absorbs {Target}."
+          ],
+          [
+            "ST_RE_Veilleur_CarrionDevourer2",
+            "{name} heals itself and becomes dangerously stronger."
+          ],
+          [
+            "ST_RE_Veilleur_LampHit",
+            "The lamp removes Blight from {target}."
+          ],
+          [
+            "ST_SI_Ballet_Charm",
+            "{name} enchants its target."
+          ],
+          [
+            "ST_SI_Ballet_Ranged1Hit",
+            "{name} casts a spell."
+          ],
+          [
+            "ST_SI_Ballet_Range1Hit_NOAP",
+            "{name} casts a stronger spell."
+          ],
+          [
+            "ST_SI_Ballet_Ranged3Hit",
+            "{name} launches multiple attacks."
+          ],
+          [
+            "ST_SI_Ballet_SwordSlash",
+            "{name} attacks."
+          ],
+          [
+            "ST_SI_Ballet_SwordSwipe",
+            "{name} swipes with her sword."
+          ],
+          [
+            "ST_SI_Glissando_BalletsSummon",
+            "{name} summons Ballets to attack the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_HeadSlam",
+            "{name} smashes its head into the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_TailAttack",
+            "{name} uses its tail to slam its target."
+          ],
+          [
+            "ST_SI_Glissando_GobbleUp",
+            "{name} gobbles up its target."
+          ],
+          [
+            "ST_SI_Glissando_BalletsRelease",
+            "{name} releases the Bouquet Final."
+          ],
+          [
+            "ST_SI_Tisseur_Clap",
+            "{name} smashes its target."
+          ],
+          [
+            "ST_SI_Tisseur_JumpCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_SI_Tisseur_Weaving",
+            "{name} weaves some Glissandos."
+          ],
+          [
+            "ST_SI_Tisseur_SwipeCombo",
+            "{name} performs a swiping combo."
+          ],
+          [
+            "ST_SI_Tisseur_TisseurCurse",
+            "{name} curses the Expedition."
+          ],
+          [
+            "ST_SI_Axon_Sirene_Valse",
+            "{name} attacks with her dress."
+          ],
+          [
+            "ST_SI_Axon_Sirene_AoEJump",
+            "{name}'s Glissandos cause the ground to shake."
+          ],
+          [
+            "ST_SI_Axon_Sirene_Charm",
+            "A widow Ballet Charms {target} and flies away."
+          ],
+          [
+            "ST_SI_Axon_Sirene_DeathStare",
+            "{name} seduces {target}."
+          ],
+          [
+            "ST_SI_Axon_Sirene_DoubleGlissando",
+            "{name} dances with the Glissandos."
+          ],
+          [
+            "ST_SI_Axon_Sirene_GrandBallet",
+            "The Grand Ballet begins."
+          ],
+          [
+            "ST_SI_Axon_Sirene_BouquetFinal",
+            "The Final Act begins."
+          ],
+          [
+            "ST_SI_Axon_Sirene_CloseCombo",
+            "{name} is enraged and smashes the ground."
+          ],
+          [
+            "ST_SI_Axon_Sirene_TisseurShield",
+            "The Tisseur sends fabric to {name}'s dress."
+          ],
+          [
+            "ST_SI_Axon_Sirene_DeathCharm",
+            "{name} Charmed the whole Expedition. It's over."
+          ],
+          [
+            "ST_SI_Axon_Sirene_SirenePhase2",
+            "{name}'s dance becomes frantic."
+          ],
+          [
+            "ST_SI_Axon_Sirene_SirenePhase3",
+            "{name} performs her last dance."
+          ],
+          [
+            "ST_SI_Chorale_ChoraleShields",
+            "{name} applies Shields to its allies."
+          ],
+          [
+            "ST_SI_Chorale_ChoralePowerBuff",
+            "{name} increases its allies' Power."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_TailRegen",
+            "{name} regenerates its tail."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_Turn_End_Phase3Enraged",
+            "{name} is enraged."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_GobbleUp",
+            "{name} gobbles up a dead expeditioner."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_ShootBack",
+            "{name} spits out an expeditioner."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_BigHeadsmash",
+            "{name} smashes its head into the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_HyperRibbonAttack",
+            "{name} uses its tail to slam the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_SandAttack",
+            "{name} blinds the Expedition."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_WeakRibbonAttack",
+            "{name} slams the Expedition with its weakened tail."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_TailHit",
+            "{name}'s tail weakens."
+          ],
+          [
+            "ST_SI_Glissando_Alpha_TailBreak",
+            "{name}'s tail is incapacitated."
+          ],
+          [
+            "ST_SI_DarkBallet_RangeHits",
+            "{name} launches multiple attacks."
+          ],
+          [
+            "ST_SI_DarkBallet_BlightAttack",
+            "{name} applies Blight."
+          ],
+          [
+            "ST_ML_PaintressIntro_PaintressTurn",
+            "{name} doesn't seem to react."
+          ],
+          [
+            "ST_ML_Obscur_Melee5Hits",
+            "{name} performs an Exhausting combo."
+          ],
+          [
+            "ST_ML_Obscur_AoERange3hits",
+            "{name} performs a Silencing combo."
+          ],
+          [
+            "ST_ML_Obscur_Buff",
+            "{name} applies Enrage to its allies."
+          ],
+          [
+            "ST_ML_Obscur_Melee4Hits",
+            "{name} attacks."
+          ],
+          [
+            "ST_ML_Obscur_AoEMelee1Hit",
+            "{name} performs a weakening strike."
+          ],
+          [
+            "ST_ML_Obscur_Melee2Hits",
+            "{name} attacks."
+          ],
+          [
+            "ST_ML_Clair_Buff_Shield",
+            "{name} protects its allies."
+          ],
+          [
+            "ST_ML_Clair_AoEMelee1Hit",
+            "{name} performs a weakening strike."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoE4Hits",
+            "{name} throws Chroma waves."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoe5Hits",
+            "{name} scatters Chroma."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoE3Hits",
+            "{name} manipulates Rocks from the Monolith."
+          ],
+          [
+            "ST_MO_Boss_Paintress_RangeAoE7Hits",
+            "{name} summons Void meteors."
+          ],
+          [
+            "ST_MO_Boss_Paintress_Melee1HitGradient",
+            "{name} performs a Gradient Attack."
+          ],
+          [
+            "ST_MO_Boss_Paintress_PaintressBuff",
+            "{name} summons her weapon from her palette."
+          ],
+          [
+            "ST_MO_Boss_Paintress_Melee5Hits",
+            "{name} flies into the air."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_4HitsRange1Jump",
+            "{name} attacks from afar."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_8HitMeleeCombo",
+            "{name} unleashes."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_3HitsCombo",
+            "{name} summons a giant brush of light."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_5HitsCombo",
+            "{name} rips reality apart."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P2_Curse",
+            "Corrupted Chroma cascades from the hands of the {name}."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P3_HealAlly",
+            "{name} heals an Expeditioner."
+          ],
+          [
+            "ST_MO_Boss_Paintress_P3_ApplyShieldOnHero",
+            "{name} protects an Expeditioner."
+          ],
+          [
+            "ST_L_LumiereCitizen_Attack_1",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Combo1",
+            "{name} performs a Fire combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Combo2",
+            "{name} performs a Light combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Combo3",
+            "{name} performs a Lightning combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_GunSword_Female_Powerful",
+            "{name} uses Powerful."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo1",
+            "{name} performs a Fire combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo2",
+            "{name} performs an Ice combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo3",
+            "{name} performs a Lightning combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Fleuret_Female_Combo4",
+            "{name} performs an Earth combo."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_Combo1",
+            "{name} casts a Fire spell."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_Combo2",
+            "{name} casts an Ice spell."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_BuffShield",
+            "{name} Shields her allies."
+          ],
+          [
+            "ST_L_LumiereCitizen_Mage_Female_Combo4",
+            "{name} casts a Lightning spell."
+          ],
+          [
+            "ST_L_Boss_Curator_BlackHole",
+            "{name} summons a black hole."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill2",
+            "{name} attacks frenetically."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill4",
+            "{name} summons Void meteors."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill5",
+            "{name} summons a Void cross."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill8",
+            "{name} increases his power."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill10",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_L_Boss_Curator_Skill11",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_L_Boss_Curator_BlackLake",
+            "{name} summons a pool of darkness."
+          ],
+          [
+            "ST_L_Boss_Curator_Flying",
+            "{name} flies away and gathers power."
+          ],
+          [
+            "ST_L_Boss_Curator_Finisher",
+            "{name} unleashes his power."
+          ],
+          [
+            "ST_L_Boss_Curator_ConvasTransition",
+            "{name} summons the Dessendre Canvas."
+          ],
+          [
+            "ST_L_Boss_Curator_SummonAxons",
+            "{name} summons the Axons."
+          ],
+          [
+            "ST_L_Boss_Curator_Sirene",
+            "Sirène rescues {name}."
+          ],
+          [
+            "ST_L_Boss_Curator_Visages",
+            "Visages Shields {name}."
+          ],
+          [
+            "ST_L_Boss_Curator_Reacher",
+            "Reacher supports {name}."
+          ],
+          [
+            "ST_L_Boss_Curator_Hauler",
+            "The Hauler defends {name}."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill1_FleuretFury",
+            "{name} performs Sword Ballet."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill2_EveryoneInspiration",
+            "{name} performs Virtuose Strike."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill3_VariantSwords",
+            "{name} performs Phantom Strike."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill4_DancingFury",
+            "{name} performs Fleuret Fury."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Skill5_VoidSlash",
+            "{name} performs a Void slash."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Transition1_Phase2",
+            "{name} enters Phase 2."
+          ],
+          [
+            "ST_FinalBoss_Maelle_Transition2_Phase3",
+            "{name} enters Phase 3."
+          ],
+          [
+            "ST_FinalBoss_Maelle_SwitchStance",
+            "{name} switches stance."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill1_Combo1",
+            "{name} attacks."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill2_Combo2",
+            "{name} attacks."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill3_Combo3",
+            "{name} attacks."
+          ],
+          [
+            "ST_FinalBoss_Verso_Skill4_Powerful",
+            "{name} gains Powerful."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill1_CaneMeleeCombo",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill2_RangeCombo",
+            "{name} attacks from a distance."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill3_SummonSirene",
+            "{name} summons the shadow of a Sirène."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill4_MirrorExplosion",
+            "{name} summons a pool of Chroma."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill5_KillingHand",
+            "{name} attempts to vanish {target}."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill5_KillingHand_Feedback",
+            "{name} vanished."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill6_Masks",
+            "{name} summons strange masks."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill7_HealPreparation",
+            "Petals start to gather around {name}."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill7B_Heal",
+            "The Petals heal {name}."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill8_ChromaWaves",
+            "{name} sends waves of Chroma."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Skill9_Tornado",
+            "{name} gathers an incredible amount of Chroma."
+          ],
+          [
+            "ST_MM_MirrorRenoir_EnterPhase2",
+            "{name} is furious."
+          ],
+          [
+            "ST_MM_MirrorRenoir_EnterPhase3",
+            "{name} is furious."
+          ],
+          [
+            "ST_MM_MirrorRenoir_SummonBernast",
+            "Something is coming..."
+          ],
+          [
+            "ST_MM_MirrorRenoir_Bernastclaw",
+            "The Dark Creature claws the Expedition."
+          ],
+          [
+            "ST_MM_MirrorRenoir_BernastTailAttack",
+            "The Dark Creature performs a Tail Attack."
+          ],
+          [
+            "ST_MM_MirrorRenoir_BernastRoar",
+            "The Dark Creature roars."
+          ],
+          [
+            "ST_MM_MirrorRenoir_BernastJump",
+            "The Dark Creature launches itself at the Expedition."
+          ],
+          [
+            "ST_L_MaelleTutorial_TutoDodge",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_MaelleTutorial_TutoParry",
+            "{name} attacks again."
+          ],
+          [
+            "ST_L_MaelleTutorial_TutoFreeAim",
+            "{name} spawns a target."
+          ],
+          [
+            "ST_L_MaelleTutorial_OrbHit",
+            "{name} releases her attack."
+          ],
+          [
+            "ST_L_MaelleTutorial_1hitSlash",
+            "{name} attacks."
+          ],
+          [
+            "ST_L_MaelleTutorial_3hitsCombo",
+            "{name} performs a combo."
+          ],
+          [
+            "ST_L_MaelleTutorial_EndBattle",
+            "{name} ends the training session."
+          ],
+          [
+            "ST_L_Aberration_Melee6Hits",
+            "{name} performs a Dark combo."
+          ],
+          [
+            "ST_L_Aberration_Melee7Hits",
+            "{name} performs a Light combo."
+          ],
+          [
+            "ST_L_Aberration_MeleeAoE1Hit",
+            "{name} slashes forward."
+          ],
+          [
+            "ST_L_Aberration_RangeAoE3Hits",
+            "{name} performs Dark strikes."
+          ],
+          [
+            "ST_L_Aberration_RangeAoE2Hits",
+            "{name} performs Light strikes."
+          ],
+          [
+            "ST_L_Aberration_RangeAoE2Hits_Earthquakes",
+            "{name} creates earthquakes."
+          ],
+          [
+            "ST_L_Aberration_Buff",
+            "{name} gains Powerful."
+          ],
+          [
+            "ST_L_Creation_Melee5Hits",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_L_Creation_AoEMelee3hits",
+            "{name} swipes with its tail."
+          ],
+          [
+            "ST_L_Creation_Buff",
+            "{name} applies Inverted to the Expedition."
+          ],
+          [
+            "ST_L_Creation_Melee1Hit",
+            "{name} kicks."
+          ],
+          [
+            "ST_L_Creation_Range3Hits",
+            "{name} projects blasts of energy."
+          ],
+          [
+            "ST_L_Creation_Melee6Hits",
+            "{name} performs a flying combo."
+          ],
+          [
+            "ST_L_Creation_SwitchPhase2",
+            "{name} rises into the air."
+          ],
+          [
+            "ST_L_Creation_SwitchBackPhase1",
+            "{name} comes back down."
+          ],
+          [
+            "ST_L_Creation_BlackOrbAboutToExplode",
+            "The Void Orbs are about to explode."
+          ],
+          [
+            "ST_L_Creation_BlackOrbExplode",
+            "A Void Orb explodes."
+          ],
+          [
+            "ST_WM_Serpenphare_HeadCrush1",
+            "{name} smashes its head 2 times."
+          ],
+          [
+            "ST_WM_Serpenphare_HeadCrush2",
+            "{name} smashes its head 4 times."
+          ],
+          [
+            "ST_WM_Serpenphare_HeadCrush3",
+            "{name} smashes its head 6 times."
+          ],
+          [
+            "ST_WM_Serpenphare_Dive",
+            "{name} launches a silencing attack."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserCombo1",
+            "{name} attacks 2 times."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserCombo2",
+            "{name} attacks 4 times."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserCombo3",
+            "{name} attacks 7 times."
+          ],
+          [
+            "ST_WM_Serpenphare_Absorption",
+            "{name} gains Shields and increases its Speed."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserSwipe1",
+            "{name} casts a freezing beam."
+          ],
+          [
+            "ST_WM_Serpenphare_LaserSwipe2",
+            "{name} casts a freezing beam."
+          ],
+          [
+            "ST_WM_Serpenphare_TailSwipe1",
+            "{name} swipes with its tail 2 times."
+          ],
+          [
+            "ST_WM_Serpenphare_TailSwipe2",
+            "{name} swipes with its tail 3 times."
+          ],
+          [
+            "ST_WM_Serpenphare_TailSwipe3",
+            "{name} swipes with its tail 4 times."
+          ],
+          [
+            "ST_WM_Serpenphare_AbsorbAP",
+            "{name} absorbs all APs."
+          ],
+          [
+            "ST_WM_Serpenphare_Collapse",
+            "{name} absorbed too many APs and explodes."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill1A",
+            "Stage 1: {name} strikes the Expedition."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill1B",
+            "Stage 1: {name} strikes the Expedition twice."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill1C",
+            "Stage 1: {name} strikes the Expedition 3 times."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill2A",
+            "Stage 2: {name} sabotages the Expedition."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill2B",
+            "Stage 2: {name} sabotages the Expedition."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill3A",
+            "Stage 3: {name} performs a 4-hit combo."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill3B",
+            "Stage 3: {name} performs a 5-hit combo."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill3C",
+            "Stage 3: {name} performs a 7-hit combo."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill4",
+            "Stage 4: {name} charges its Extermination Boom."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill5A",
+            "Stage 5: {name} uses its Extermination Boom."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill5B",
+            "{name} is not able to use its Extermination Boom."
+          ],
+          [
+            "ST_WM_Boss_Sprong_Skill5BToolTip2",
+            "{name} performs a defensive manoeuvre."
+          ],
+          [
+            "ST_WM_Boss_Sprong_BattleStep1",
+            "Stage {stage} interrupted."
+          ],
+          [
+            "ST_WM_Boss_Sprong_BattleStartTooltip",
+            "{name} begins its combat process."
+          ],
+          [
+            "ST_GA_GestralSumo_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralSkinny_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralChad_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralBuff_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralTall_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_GA_GestralBaby_Attack",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifA_HollowEstoc",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifA_HollowEstoc_2",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifB_JumpSpearCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifB_FeintSpearEstoc",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifD_LongSpearCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Lancelier_AlternatifD_SpearCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativA_TrickyCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativB_LongCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativC_SamuraiStance",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativD_DarkCloneCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Gault_AlternativE_Combo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativA_EarthQuakeCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativB_RootCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativC_MeleeCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativD_Meteor",
+            "{name} attacks."
+          ],
+          [
+            "ST_SM_Portier_AlternativE_BoundCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeA_MiseMort",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeA_DeathPotFromSkyCast",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeA_DeathPotFromSkyProc",
+            "...?"
+          ],
+          [
+            "ST_YF_Potier_AlternativeC_ShotSerie",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeD_CursingCry",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Potier_AlternativeE_CallForHelp",
+            "{Character} calls for help."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeA_Relentlessness",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeA_ApSteal",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeB_Absorption",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeB_DisturbingWave",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeC_Harassment",
+            "{name} attacks."
+          ],
+          [
+            "ST_YF_Sapling_AlternativeC_Assassination",
+            "{name} attacks."
+          ],
+          [
+            "ST_RC_Alicia_Inspiration",
+            "{name} uses Virtuose Strike."
+          ],
+          [
+            "ST_RC_Alicia_FleuretFury",
+            "{name} uses Sword Ballet."
+          ],
+          [
+            "ST_RC_Alicia_VariantSwords",
+            "{name} uses Phantom Strike."
+          ],
+          [
+            "ST_RC_Alicia_DancingFury",
+            "{name} uses Fleuret Fury."
+          ],
+          [
+            "ST_RC_Alicia_VoidSlash",
+            "{name} performs a Void slash."
+          ],
+          [
+            "ST_RC_Alicia_TransitionPhase2",
+            "{name} gets stronger."
+          ],
+          [
+            "ST_RC_Alicia_TransitionPhase3",
+            "{name} gets faster."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove1",
+            "The walls are moving."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove2",
+            "The walls are closing."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove3",
+            "The walls are closing even more."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove4",
+            "The walls are about to crush you, hurry!"
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMove5",
+            "Incoming!"
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_WallMoveFinal",
+            "The walls crush the Expedition."
+          ],
+          [
+            "ST_SL_Sapling_CrushingWall_Shield",
+            "The Sapling Shields itself."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Skinny_GestralSkinnySkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Chad_GestralChadSkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Sumo_GestralSumoSkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill1",
+            "{name} grows bigger."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill9",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Baby_GestralBabySkill10",
+            "{name} jumps."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill1",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill2",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill3",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill4",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill5",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill6",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill7",
+            "{name} attacks."
+          ],
+          [
+            "ST_Gestral_Tall_GestralTallSkill8",
+            "{name} attacks."
+          ],
+          [
+            "ST_QUEST_Danseuse_DanceClass_Instructions",
+            "Parry all incoming attacks to Counter."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial1",
+            "The trial begins."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial2",
+            "The trial enters its second phase."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial3",
+            "The trial enters its third phase."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_FailedTrial",
+            "Failure. The trial will restart."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial1Win",
+            "Congratulations, the first trial is complete."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial2Win",
+            "Congratulations, the second trial is complete."
+          ],
+          [
+            "ST_Quest_TroubadourCantPlay_Trial3Win",
+            "All of the trials are complete."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt1",
+            "Come on! Hit me as hard as you can."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt2",
+            "Ok, ok, take your time…"
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt3",
+            "I'm waiting... I'm waiting…"
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt4",
+            "You can do it. At least... I think so."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_Taunt5",
+            "ATTACK ME! HIT ME HARD!"
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_TrialFailed",
+            "You failed, you weakling."
+          ],
+          [
+            "ST_Quest_GestralOnoPuncho_TrialWin",
+            "Congratulations, nobody's ever hit me like that before."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldAoe",
+            "{Name} uses Shields to unleash an unblockable attack."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldMode",
+            "{name} protects itself."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldModeTurnEnd",
+            "{Name} appears to be charging an attack with its Shields."
+          ],
+          [
+            "ST_Quest_HexgaQuest_ShieldBreak",
+            "{Name}'s Shields are broken! It receives Break damage."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_1",
+            "{Name} throws bubbles at the Expedition."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_2",
+            "{Name} continues to throw bubbles at the Expedition."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_3",
+            "{Name} continues to throw bubbles at the Expedition."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_4",
+            "{Name} seems to be blowing fewer bubbles."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_5",
+            "{Name} gets tired and throws fewer and fewer bubbles."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_6",
+            "{Name} looks weak."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BubbleThrow_7",
+            "{Name} makes one last attempt to attack."
+          ],
+          [
+            "ST_Quest_SleepingBenisseur_BenisseurDefeated",
+            "{Name} dies of exhaustion."
+          ],
+          [
+            "ST_Quest_Bourgeon_Quest_SpittingAllHeroes",
+            "{name} spits out all of the swallowed Expeditioners."
+          ],
+          [
+            "ST_Quest_Bourgeon_Quest_RemainingTurnBeforeEating",
+            "{Count} turn(s) remaining before an Expeditioner is eaten."
+          ],
+          [
+            "ST_Quest_Bourgeon_Quest_EatNextTurn",
+            "An Expeditioner will be eaten on the {name}'s next turn."
+          ],
+          [
+            "ST_Petank_Skill_Melee",
+            "{Name} performs a melee attack."
+          ],
+          [
+            "ST_Petank_Skill_Range",
+            "{Name} performs a ranged combo."
+          ],
+          [
+            "ST_Petank_Skill_Flee",
+            "{Name} flees."
+          ],
+          [
+            "ST_Petank_Blue_ShieldTurn1",
+            "{Name} gains {Shieldcount} Shields."
+          ],
+          [
+            "ST_Petank_Green_WeakSpotSelfDamages",
+            "{Name} takes heavy damage."
+          ],
+          [
+            "ST_Petank_Blue_Buff",
+            "{Name} gains Shields."
+          ],
+          [
+            "ST_Petank_Green_Buff",
+            "{Name} applies Dizzy."
+          ],
+          [
+            "ST_Petank_Violet_Buff",
+            "{Name} applies Exhaust."
+          ],
+          [
+            "ST_Petank_Yellow_Buff",
+            "{Name} heals its Break bar."
+          ],
+          [
+            "ST_Petank_Orange_Buff",
+            "{Name} summons another Nevron to protect it."
+          ],
+          [
+            "ST_Petank_Red_CounterEffect",
+            "The counterattack shocked {Name} and delayed its flight."
+          ],
+          [
+            "ST_Petank_FleeInXTurns",
+            "{Name} will flee in {X} turn(s)."
+          ],
+          [
+            "ST_Petank_FleeNextTurn",
+            "{Name} will flee next turn."
+          ],
+          [
+            "ST_Petank_AlphaSummon",
+            "{name} calls for help."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo3Hits",
+            "{name} performs a fast combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_GradientAttack",
+            "{name} is dancing around."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo3Hits_2",
+            "{name} attacks swiftly."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo4",
+            "{name} performs an impressive combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Buff",
+            "{name} gets angry."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo1ExtendP26Hits",
+            "{name} performs a crazy combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_GradientComboExtended",
+            "{name} shakes the earth."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo3ExtendP24Hits",
+            "{name} performs a fast combo."
+          ],
+          [
+            "ST_QUEST_Golgra_DarkArena_Combo4Extended6Hits",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_Boss_Simon_Combo1",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_Boss_Simon_Combo2",
+            "{name} performs a short combo."
+          ],
+          [
+            "ST_Boss_Simon_SwordOfLumiere",
+            "The Sword of Lumière is attacking."
+          ],
+          [
+            "ST_Boss_Simon_PowerfulCombo",
+            "{name} performs a powerful combo."
+          ],
+          [
+            "ST_Boss_Simon_Buff",
+            "{name} becomes more powerful."
+          ],
+          [
+            "ST_Boss_Simon_SwordPlant",
+            "{name} plants his sword in the ground."
+          ],
+          [
+            "ST_Boss_Simon_LightSpeedattack",
+            "{name} attacks at light speed."
+          ],
+          [
+            "ST_Boss_Simon_ChromaGathering",
+            "{name} gathers Chroma around {target}."
+          ],
+          [
+            "ST_Boss_Simon_ShieldSteal",
+            "{name} steals all Shields."
+          ],
+          [
+            "ST_Boss_Simon_ExpeditionRemoved",
+            "The Expedition is removed from the Canvas."
+          ],
+          [
+            "ST_Boss_Simon_DeadRemoved",
+            "The dead are removed from the Canvas."
+          ],
+          [
+            "ST_Mime_Skill1_Shield",
+            "{name} protects itself."
+          ],
+          [
+            "ST_Mime_Skill2_Silence",
+            "{name} applies Silence to the Expedition."
+          ],
+          [
+            "ST_Mime_Skill3_ChaoticCombo",
+            "{name} performs a strange combo."
+          ],
+          [
+            "ST_Mime_Skill4_PunchCombo",
+            "{name} performs a hand-to-hand combo."
+          ],
+          [
+            "ST_Noire_Skill_1_BestialCombo",
+            "{name} performs a bestial combo."
+          ],
+          [
+            "ST_Noire_Skill_2_NoireBeam",
+            "{name} gathers Dark chroma."
+          ],
+          [
+            "ST_Noire_Skill_3_BerserkYell",
+            "{name} gets increasingly stronger."
+          ],
+          [
+            "ST_Noire_BerserkRemoved",
+            "Enemies calm down."
+          ],
+          [
+            "ST_Noire_Skill_4_DarkSpear",
+            "{name} summons a Dark spear."
+          ],
+          [
+            "ST_Noire_Skill_5_SlapCombo",
+            "{name} performs a strange combo."
+          ],
+          [
+            "ST_Noire_TurnEnd_ApplyInverted",
+            "{name} applies Inverted to the Expedition."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint1",
+            "Destroy the Punching Ball in one hit to impress the girl."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint2",
+            "Destroy the Punching Ball in one hit."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint3",
+            "Come on, don't lose face in front of Sophie."
+          ],
+          [
+            "ST_LU_Act1_PunchingBall_Hint4",
+            "Use Overcharge at maximum output to impress the girl (and Sophie)."
+          ],
+          [
+            "ST_LU_Act1_Sophie_Dodge1",
+            "Dodge {name}'s playful attacks perfectly!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Dodge2",
+            "The Painter starts to be inspired. Dodge again!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Dodge3",
+            "The Painter is almost inspired! One last time!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Fail",
+            "You got hit, the Painter is not inspired. Try again!"
+          ],
+          [
+            "ST_LU_Act1_Sophie_Counter",
+            "Come on, don't counter Sophie, this is not a duel to the death!"
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_1",
+            "The White-haired Man ignores Gustave."
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_2",
+            "The White-haired Man stares at Maelle."
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_3",
+            "The White-haired Man turns his attention to Gustave. He is about to attack."
+          ],
+          [
+            "ST_SC_MirrorRenoir_Turn_4",
+            "Gustave overcharges his arm."
+          ],
+          [
+            "ST_CFH_Boss_Clea_PowerfulNevrons",
+            "{name} summons powerful Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_AgileNevrons",
+            "{name} summons agile Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_CreepyNevrons",
+            "{name} summons creepy Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_MusicalNevrons",
+            "{name} summons musical Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_ViolentNevrons",
+            "{name} summons violent Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_WaterNevrons",
+            "{name} summons Nevrons from the deep."
+          ],
+          [
+            "ST_CFH_Boss_Clea_TrickyNevrons",
+            "{name} summons tricky Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_ChromaDisturbed",
+            "The Chroma has been disturbed."
+          ],
+          [
+            "ST_CFH_Boss_Clea_Heal",
+            "The Chroma heals {name}."
+          ],
+          [
+            "ST_CFH_Boss_Clea_ChromaProjection",
+            "{name} projects disturbing Chroma."
+          ],
+          [
+            "ST_CFH_Boss_Clea_GiganticNevrons",
+            "{name} summons gigantic Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_EarthShatteringNevrons",
+            "{name} summons earth-shattering Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_NimbleNevrons",
+            "{name} summons nimble Nevrons."
+          ],
+          [
+            "ST_CFH_Boss_Clea_SpellSlingingNevrons",
+            "{name} summons spell-slinging Nevrons."
+          ],
+          [
+            "ST_Licorne_Skill1_Rainbow",
+            "{name} launches rainbows."
+          ],
+          [
+            "ST_Licorne_Skill2_FluffingStacks",
+            "{name} applies Barbapapa."
+          ],
+          [
+            "ST_Licorne_Skill3_JumpAttack",
+            "{name} performs a bouncing attack."
+          ],
+          [
+            "ST_Licorne_Skill4_Charge",
+            "{name} charges."
+          ],
+          [
+            "ST_LicorneAlpha_Skill3_Rainboom",
+            "{name} uses the strongest rainbow attack ever."
+          ],
+          [
+            "ST_Barbasucette_Skill1_LolipopCombo",
+            "{name} attacks with its lollipops."
+          ],
+          [
+            "ST_Barbasucette_Skill2_SummonCandy",
+            "{name} summons flying candy."
+          ],
+          [
+            "ST_Barbasucette_Skill3_KungFu",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_Barbasucette_Skill4_ThrowBubbles",
+            "{name} throws projectiles at the Expedition."
+          ],
+          [
+            "ST_Barbasucette_enrage",
+            "{name} is not happy."
+          ],
+          [
+            "ST_Barbasucette_CandyShield",
+            "{name}'s candy apply Shields."
+          ],
+          [
+            "ST_GestralBalloon_AngryGestral",
+            "{name} is angry."
+          ],
+          [
+            "ST_Franctale_FrancoisShoot",
+            "{name} kicks its head."
+          ],
+          [
+            "ST_Franctale_Lasers",
+            "{name} shoots lasers with style."
+          ],
+          [
+            "ST_Franctale_FrancoisCombo",
+            "{name} attacks."
+          ],
+          [
+            "ST_FranctaleAlpha_Lasers",
+            "The Franctales shoot lasers with style."
+          ],
+          [
+            "ST_FranctaleAlpha_SynchronizedAttack",
+            "The Franctales synchronise to attack."
+          ],
+          [
+            "ST_FranctaleAlpha_Combo",
+            "The Franctales perform a synchronised combo."
+          ],
+          [
+            "ST_Machinapieds_Skill1_punch",
+            "{name} performs a punching attack."
+          ],
+          [
+            "ST_Machinapieds_Skill2_Skydive",
+            "{name} flies to attack."
+          ],
+          [
+            "ST_Machinapieds_Skill3_PunchCombo",
+            "{name} performs a punching combo."
+          ],
+          [
+            "ST_Machinapieds_Skill4_Buff",
+            "{name} buffs its team and applies Barbapapa."
+          ],
+          [
+            "ST_Licornapieds_Skill1",
+            "{name} performs a melee combo."
+          ],
+          [
+            "ST_Licornapieds_Skill2",
+            "{name} performs a raging combo."
+          ],
+          [
+            "ST_Licornapieds_Skill3",
+            "{name} performs a wonderful combo."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoA_MeleeAndGhost",
+            "The {name} perform a sneaky combo."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoB_Telluriforce",
+            "The {name} perfom an impressive combo."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoC_DuoMelee",
+            "The {name} attack together."
+          ],
+          [
+            "ST_Boss_DuollistesP1_ComboDuoD_StormBloodDuo",
+            "The {name} perform Stormblood in duo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkA_LongCombo",
+            "{name} performs a long combo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkB_SwiftCombo",
+            "{name} performs a swift combo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkC_RelentlessCombo",
+            "{name} performs a relentless combo."
+          ],
+          [
+            "ST_Boss_DuollistP2_ComboBerserkD_UltimateStormBlood",
+            "{name} unleashes the Ultimate Stormblood."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart1",
+            "Try to counter this, worm."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart2",
+            "How about this."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart3",
+            "You'll never see it coming."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart4",
+            "Let me show you something new."
+          ],
+          [
+            "ST_Quest_FeintFight_AttackStart5",
+            "A test of your reflexes."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail1",
+            "Is that the extent of your strength?"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail2",
+            "Surely you can do better."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail3",
+            "I'm really feeling it."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail4",
+            "Isn't this fun?"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterFail5",
+            "I'm having a great time."
+          ],
+          [
+            "ST_Quest_FeintFight_CounterSuccessful1",
+            "Great. GREAT!"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterSuccessful2",
+            "How brushtastic. Show it to me once more!"
+          ],
+          [
+            "ST_Quest_FeintFight_CounterSuccessful3",
+            "What strength!!"
+          ],
+          [
+            "ST_Osquio_Skill1",
+            "{name} is flying gracefully."
+          ],
+          [
+            "ST_Osquio_Skill2",
+            "{name} summons his little friends."
+          ],
+          [
+            "ST_Osquio_Skill3",
+            "Time for a spin spin."
+          ],
+          [
+            "ST_Osquio_Skill4",
+            "{name} thinks he is the fastest ball."
+          ],
+          [
+            "ST_Osquio_Skill5",
+            "{name} has very very strong fists."
+          ],
+          [
+            "ST_Osquio_Skill6",
+            "{name} goes Pew Pew Pew."
+          ],
+          [
+            "ST_Osquio_Skill7",
+            "{name} decides to destroy the world. Bye bye."
+          ],
+          [
+            "ST_Osquio_Skill8",
+            "{name} prepares a drop kick."
+          ]
+        ]
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ST_Enemies_Skills",
+      "OuterIndex": 0,
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -3,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 103149,
+      "SerialOffset": 693,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -3
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": "DwMAACAAAABTVF9TTV9GaXJzdExhbmNlbGllcl9BdHRhY2tGYXN0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9TTV9GaXJzdExhbmNlbGllcl9BdHRhY2tTbG93AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACcAAABTVF9TTV9GaXJzdExhbmNlbGllcl9MYW5jZWxpZXJXZWFrU3BvdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfU01fRmlyc3RfUG9ydGllcl9BdHRhY2tBb0UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHAAAAFNUX1NNX0ZpcnN0X1BvcnRpZXJfSnVtcEhpdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfU01fUG9ydGllcl9BTFBIQV9BbHBoYTJIaXRDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAkAAAAU1RfU01fUG9ydGllcl9BTFBIQV9BbHBoYU1lbGVlQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX1NNX1BvcnRpZXJfQUxQSEFfRGVsYXllZEFvZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfU01fRG9vclNvdWxQb3J0aWVyX01lbGVlQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIAAAAFNUX1NNX0Rvb3JTb3VsUG9ydGllcl9BdHRhY2tBb2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1NNX0Rvb3JTb3VsUG9ydGllcl9KdW1waGl0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9TTV9Wb2xlc3Rlcl9TcGVlZFNob3QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NNX1ZvbGVzdGVyX1Nsb3dTaG90AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9TTV9BYmJlc3RfTWVsZWVBdHRhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHQAAAFNUX1NNX0FiYmVzdF9FbGVtZW50YWxBdHRhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1NNX0Jvc3NfRXZlcXVlX1NpbXBsZVNwZWFyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9TTV9Cb3NzX0V2ZXF1ZV9Bb0VHcm91bmQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1NNX0Jvc3NfRXZlcXVlX0RvdWJsZVNwZWFyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9TTV9Cb3NzX0V2ZXF1ZV9TdW1tb24AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIQAAAFNUX1NNX0Jvc3NfRXZlcXVlX0NoYXJnZVVsdGltYXRlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9TTV9Cb3NzX0V2ZXF1ZV9XYXJuVWx0aW1hdGUAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX1NNX0Jvc3NfRXZlcXVlX0Nhc3RVbHRpbWF0ZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfU01fQm9zc19FdmVxdWVfRW50ZXJQaGFzZTIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1NNX0Jvc3NfRXZlcXVlX0VudGVyUGhhc2UzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACYAAABTVF9TTV9MYW5jZWxpZXJfQWxwaGFfQ29tYmluZWRfQXR0YWNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9TTV9BYmJlc3RfQWxwaGFfTWVsZWVDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAuAAAAU1RfU01fQm9zc19FdmVxdWVfRWFydGhfQUxQSEFfU3BlYXJfRXhwbG9zaW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACoAAABTVF9TTV9Cb3NzX0V2ZXF1ZV9FYXJ0aF9BTFBIQV9TcGVsbF9jb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAsAAAAU1RfU01fQm9zc19FdmVxdWVfRWFydGhfQUxQSEFfRW5yYWdlZF9Db21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAoAAAAU1RfU01fQm9zc19FdmVxdWVfRWFydGhfQUxQSEFfSXNFbnJhZ2VkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9HT19MdXN0ZXJfM0hpdENvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9HT19MdXN0ZXJfVW5sZWFzaEZ1cnkAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAEwAAAFNUX0dPX0JydWxlcl9Fc3RvYwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAATAAAAU1RfR09fQnJ1bGVyX0Jvb3N0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9HT19DcnVsZXJfSGFtbWVyU21hc2hBb0UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGwAAAFNUX0dPX0NydWxlcl9IYW1tZXIyeENvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9HT19DcnVsZXJfU2hpZWxkVGVhbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAXAAAAU1RfR09fQ3J1bGVyX0p1bXBDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAaAAAAU1RfR09fRGVtaW5ldXJfQ2xvc2VSYW5nZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfR09fRGVtaW5ldXJfTG9uZ1JhbmdlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABoAAABTVF9HT19Cb3VyZ2Vvbl9TdWNrdXBIZXJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9HT19Cb3VyZ2Vvbl9TcGl0SGVybwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAbAAAAU1RfR09fQm91cmdlb25fU3BpdDJIZXJvZXMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX0dPX0JvdXJnZW9uX01pYXNtYVNwaXQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX0dPX0JvdXJnZW9uX0NvbWJvQ3J1c2gAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX0dPX0JvdXJnZW9uXzNoaXRDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfR09fQm91cmdlb25fNGhpdEhlYWRDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfR09fQm91cmdlb25fNWhpdENvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABYAAABTVF9HT19Hb2JsdV8zQW9FQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFgAAAFNUX0dPX0dvYmx1XzJoaXRDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAATAAAAU1RfR09fR29ibHVfQmlnaGl0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABYAAABTVF9HT19Hb2JsdV9Hb2JsdUNhbGwAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFgAAAFNUX0dPX0dvYmx1X0dvYmx1UmFnZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfR09fR29ibHVfV2Vha1BvaW50SGl0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABoAAABTVF9HT19Hb2JsdV9GbG93ZXJTdW1tb24xAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABoAAABTVF9HT19Hb2JsdV9GbG93ZXJTdW1tb24yAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9HT19Hb2JsdV9GbG93ZXJFZmZlY3QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHQAAAFNUX0dPX0dvYmx1X1JlQWN0aXZhdGVGbG93ZXIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX0dPX0x1c3Rlcl9BbHBoYV9Db21idXN0aW9uX0RhbWFnZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfR09fTHVzdGVyX0FscGhhX0ZpcmVDaGFyZ2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX0dPX0RlbWluZXVyX0FMUEhBX01lbGVlRmlyZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfR09fRGVtaW5ldXJfQUxQSEFfQW9FRmlyZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfR09fRGVtaW5ldXJfQUxQSEFfU2VsZkJ1cm4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIQAAAFNUX0dPX0RlbWluZXVyX0FMUEhBX1VubGVhc2hGaXJlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9HT19EZW1pbmV1cl9BTFBIQV9GaXJlQnJlYWsAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAKAAAAFNUX0dPX0N1cmF0b3JfSnVtcFR1dG9yaWFsX0p1bXBUdXRvcmlhbAABAAAAAQAAAAAAAAAFAAAATWFsZQAmAAAAU1RfR09fQ3VyYXRvcl9KdW1wVHV0b3JpYWxfTWVsZWUzSGl0cwABAAAAAQAAAAAAAAAFAAAATWFsZQAlAAAAU1RfR09fQ3VyYXRvcl9KdW1wVHV0b3JpYWxfQmF0dGxlRW5kAAEAAAABAAAAAAAAAAUAAABNYWxlABkAAABTVF9ZRl9DaGV2YWxpZXJlX0FfQ29tYm8AAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAaAAAAU1RfWUZfQ2hldmFsaWVyZV9BX0NvbWJvMgABAAAAAQAAAAAAAAAHAAAARmVtYWxlABYAAABTVF9ZRl9HYXVsdEFfTW9ub0F0azEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFwAAAFNUX1lGX0dhdWx0QV9Nb25vQVR0azIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX1lGX0dhdWx0Ql9NZWxlZUNvbWJvMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfWUZfR2F1bHRCX01lbGVlQ29tYm8yAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABoAAABTVF9ZRl9Qb3RpZXJfU3Bhd25UdXJyZXRzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9ZRl9Qb3RpZXJfVHVycmV0U2hvdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAWAAAAU1RfWUZfUG90aWVyX0J1ZmZUZWFtAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABMAAABTVF9ZRl9KYXJfU2tpbGxBb0UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFQAAAFNUX1lGX0phcl9Ta2lsbENvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9ZRl9KYXJfRnJlZUFpbVdlYWtTcG90SGl0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACEAAABTVF9ZRl9TYXBsaW5nX1JhbmdlQXR0YWNrRXhoYXVzdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfWUZfU2FwbGluZ19SYW5nZUF0dGFja01hcmtlZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAWAAAAU1RfWUZfR2xhaXNlX011bHRpQW9FAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9ZRl9HbGFpc2VfU2ltcGxlQW9FAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABYAAABTVF9ZRl9HbGFpc2VfM3hTaW5nbGUAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHAAAAFNUX1lGX0dsYWlzZV9CaWdCbG93V2FybmluZwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAcAAAAU1RfWUZfQ2hldmFsaWVyZV9CX0FvRUNvbWJvAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAJAAAAFNUX1lGX0NoZXZhbGllcmVfQl9Nb25vVGFyZ2V0QXR0YWNrAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHAAAAFNUX1lGX0NoZXZhbGllcmVfQ19Bb0VDb21ibwABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB0AAABTVF9ZRl9DaGV2YWxpZXJlX0NfQW9FQ29tYm8yAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAKAAAAFNUX1lGX0Jvc3NfU2NhdmVuZ2VyX1JhbmdlU3BlY2lmaWNDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAkAAAAU1RfWUZfQm9zc19TY2F2ZW5nZXJfTWVsZWVNb25vQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIwAAAFNUX1lGX0Jvc3NfU2NhdmVuZ2VyX0Zsb2F0aW5nSGVhZHMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIAAAAFNUX1lGX0Jvc3NfU2NhdmVuZ2VyX0ZhY2VzU2hvb3QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIAAAAFNUX1lGX0Jvc3NfU2NhdmVuZ2VyX01hc2tzX0ZpcmUAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIgAAAFNUX1lGX0Jvc3NfU2NhdmVuZ2VyX1VuaGlkZUF0dGFjawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAlAAAAU1RfWUZfQm9zc19TY2F2ZW5nZXJfQ2xvc2luZ0RhcmtuZXNzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9ZRl9Cb3NzX1NjYXZlbmdlcl9IaWRlQXR0YWNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9ZRl9Cb3NzX1NjYXZlbmdlcl9CdWlsZGluZzEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX1lGX0Jvc3NfU2NhdmVuZ2VyX0J1aWxkaW5nMgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfWUZfQm9zc19TY2F2ZW5nZXJfQnVpbGRpbmczAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9ZRl9Cb3NzX1NjYXZlbmdlcl9CdWlsZGluZzQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIAAAAFNUX1lGX0Jvc3NfU2NhdmVuZ2VyX0ZhY2VzQm9vc3QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJAAAAFNUX1lGX0NoZXZhbGllcmVfQV9BbHBoYV9Db21ib0FscGhhAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAJQAAAFNUX1lGX0NoZXZhbGllcmVfQV9BbHBoYV9Db21ibzJBbHBoYQABAAAAAQAAAAAAAAAHAAAARmVtYWxlABsAAABTVF9ZRl9HYXVsdEJfQWxwaGFfU2luZ2xlMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAYAAAAU1RfWUZfR2F1bHRCX0FscGhhX0F0azIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1lGX0dhdWx0Ql9BbHBoYV9CdWZmAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9ZRl9HYXVsdEJfQWxwaGFfUG93ZXJmdWwAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX1lGX0dhdWx0Ql9BbHBoYV9TaGVsbAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAYAAAAU1RfWUZfR2F1bHRCX0FscGhhX1JhZ2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX1lGX0dhdWx0Ql9BbHBoYV9Cb3VuZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAlAAAAU1RfQVNfUG90YXRvQmFnX1RhbmtfRnJlZUFpbVdlYWtTcG90AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACYAAABTVF9BU19Qb3RhdG9CYWdfVGFua19GcmVlQWltRXhwbG9zaW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9BU19Qb3RhdG9CYWdfVGFua19SaWdodFNsYW0AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX0FTX1BvdGF0b0JhZ19UYW5rX1NoaWVsZEhpdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfQVNfUG90YXRvQmFnX1RhbmtfM0hpdENvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACUAAABTVF9BU19Qb3RhdG9CYWdfVGFua19FbnRlclNoaWVsZE1vZGUAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIwAAAFNUX0FTX1BvdGF0b0JhZ19UYW5rX1NoaWVsZENvdW50ZXIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX0FTX1BvdGF0b0JhZ19UYW5rX0xhc3RTdGFuZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAlAAAAU1RfQVNfUG90YXRvQmFnX01hZ2VfRnJlZUFpbVdlYWtTcG90AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACYAAABTVF9BU19Qb3RhdG9CYWdfTWFnZV9GcmVlQWltRXhwbG9zaW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACMAAABTVF9BU19Qb3RhdG9CYWdfTWFnZV9UaHVuZGVyTGF1bmNoAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACcAAABTVF9BU19Qb3RhdG9CYWdfTWFnZV9IaWRkZW5Td29yZEF0dGFjawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfQVNfUG90YXRvQmFnX01hZ2VfTGFzdFN0YW5kAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9BU19Qb3RhdG9CYWdfUmFuZ2VyX0ZpcmVXYXZlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9BU19Qb3RhdG9CYWdfUmFuZ2VyX0VzdG9jAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACMAAABTVF9BU19Qb3RhdG9CYWdfUmFuZ2VyX0N1dHRlckNvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACEAAABTVF9BU19Qb3RhdG9CYWdfUmFuZ2VyX0xhc3RTdGFuZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAnAAAAU1RfQVNfUG90YXRvQmFnX1Jhbmdlcl9GcmVlQWltV2Vha1Nwb3QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAKAAAAFNUX0FTX1BvdGF0b0JhZ19SYW5nZXJfRnJlZUFpbUV4cGxvc2lvbgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAsAAAAU1RfQVNfUG90YXRvQmFnX1Jhbmdlcl9BTFBIQV9Fc3RvY0JlcnNlcmtlcgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAqAAAAU1RfQVNfUG90YXRvQmFnX1Jhbmdlcl9BTFBIQV9UaHVuZGVyQ3J1c2gAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX0FTX1BvdGF0b0JhZ19SYW5nZXJfQUxQSEFfVG9ybmFkbwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfQVNfUG90YXRvQmFnX1Jhbmdlcl9BTFBIQV9HcmFuZEltcGFjdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfQVNfUG90YXRvQmFnX1Jhbmdlcl9BTFBIQV9Td2VlcAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAoAAAAU1RfQVNfUG90YXRvQmFnX1Jhbmdlcl9BTFBIQV9Bcm1SZWJ1aWxkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACUAAABTVF9BU19Qb3RhdG9CYWdfQm9zc19GcmVlQWltV2Vha1Nwb3QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJAAAAFNUX0FTX1BvdGF0b0JhZ19Cb3NzX1JpZ2h0U2xhbUNvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9BU19Qb3RhdG9CYWdfQm9zc19SaWdodFNsYW0AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX0FTX1BvdGF0b0JhZ19Cb3NzX1N0dW5uaW5nR3JlbmFkZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfQVNfUG90YXRvQmFnX0Jvc3NfU2hpZWxkUHVuY2gAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX0FTX1BvdGF0b0JhZ19Cb3NzX0VudGVyU2hpZWxkTW9kZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfQVNfUG90YXRvQmFnX0Jvc3NfQ291bnRlckZpcmUAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIQAAAFNUX0FTX1BvdGF0b0JhZ19Cb3NzX0VudGVyUGhhc2UxAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACcAAABTVF9BU19Qb3RhdG9CYWdfQm9zc19FbnRlclBoYXNlMVNoaWVsZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfQVNfUG90YXRvQmFnX0Jvc3NfRW50ZXJQaGFzZTIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJgAAAFNUX0FTX1BvdGF0b0JhZ19Cb3NzX0ZyZWVBaW1FeHBsb3Npb24AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGwAAAFNUX0FTX1BvdGF0b0JhZ19Cb3NzX0JyZWFrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9HVl9MaWxvVGhlVXNlbGVzc19BdHRhY2sAAQAAAAEAAAAAAAAABQAAAE1hbGUAHgAAAFNUX0dWX0JlcnRyYW5kQmlnSGFuZHNfQXR0YWNrAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9HVl9NYXR0aGlldVRoZUNvbG9zc3VzX0F0dGFjawABAAAAAQAAAAAAAAAFAAAATWFsZQAcAAAAU1RfR1ZfSnVsaWVuVGlueUhlYWRfQXR0YWNrAAEAAAABAAAAAAAAAAUAAABNYWxlACAAAABTVF9HVl9Eb21pbmlxdWVHaWFudEZlZXRfQXR0YWNrAAEAAAABAAAAAAAAAAUAAABNYWxlABoAAABTVF9HVl9TY2llbF9Ud2lsaWdodFNsYXNoAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9HVl9TY2llbF9TZWFsZWRGYXRlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9HVl9TY2llbF9NYXJraW5nQ2FyZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfR1ZfU2NpZWxfUnVzaAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfU0NfQ3VsdGlzdER1YWxTd29yZF82SGl0Q29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX1NDX0N1bHRpc3REdWFsU3dvcmRfNEhpdENvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9TQ19DdWx0aXN0SGVhdnlfQmxvb2RpbmdTd29yZAABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB4AAABTVF9TQ19DdWx0aXN0SGVhdnlfQmxvb2R5SnVtcAABAAAAAQAAAAAAAAAHAAAARmVtYWxlABkAAABTVF9TQ19DdWx0aXN0TWFnZV9TaGllbGQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX1NDX0N1bHRpc3RNYWdlX0V4cGxvc2lvbkFvRQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfU0NfQ3VsdGlzdE1hZ2VfQ291bnRlckF0dGFjawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfU0NfQ3VsdGlzdEZseWluZ19Db21ib18mX0FvRQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfU0NfQ3VsdGlzdEZseWluZ19NZWxlZUNvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABMAAABTVF9TQ19IZXhnYV9Ta2lsbDEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAEwAAAFNUX1NDX0hleGdhX1NraWxsMgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAATAAAAU1RfU0NfSGV4Z2FfU2tpbGw0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9TQ19IZXhnYV9XZWFwb25Ccm9rZW4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NDX0hleGdhX0FwcGx5U2hpZWxkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9TQ19IZXhnYV9BbHBoYV9DcnlzdGFsQnJva2VuAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9TQ19IZXhnYV9BbHBoYV9DcnlzdGFsQ3JhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJAAAAFNUX1NDX0hleGdhX0FscGhhX0NyeXN0YWxWdWxuZXJhYmxlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9TQ19IZXhnYV9BbHBoYV9DcnlzdGFsUG93ZXIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NDX0hleGdhX0FscGhhX0Jvb3N0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9TQ19IZXhnYV9BbHBoYV9Bb0VBdHRhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NDX0hleGdhX0FscGhhX0NvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACEAAABTVF9TQ19IZXhnYV9BbHBoYV9DcnlzdGFsUG93ZXJVcAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAYAAAAU1RfU0NfTGFtcG1hc3Rlcl9Ta2lsbDEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NDX0xhbXBtYXN0ZXJfU2tpbGwyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9TQ19MYW1wbWFzdGVyX1NraWxsMwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAYAAAAU1RfU0NfTGFtcG1hc3Rlcl9Ta2lsbDQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NDX0xhbXBtYXN0ZXJfU2tpbGw1AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9TQ19MYW1wbWFzdGVyX1NraWxsNgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAYAAAAU1RfU0NfTGFtcG1hc3Rlcl9Ta2lsbDcAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NDX0xhbXBtYXN0ZXJfU2tpbGw4AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9TQ19MYW1wbWFzdGVyX1NraWxsOQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfU0NfTGFtcG1hc3Rlcl9QaGFzZVN3aXRjaAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAaAAAAU1RfU0NfTGFtcG1hc3Rlcl9Ta2lwVHVybgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfU0NfTGFtcG1hc3Rlcl9UdXJuT2ZmTGV2ZWxMYW1wcwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfU0NfTGFtcG1hc3Rlcl9MYW1wUml0dWFsSWRsZTIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIwAAAFNUX1NDX0xhbXBtYXN0ZXJfTGFtcFJpdHVhbElkbGUyXzIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1NDX0xhbXBtYXN0ZXJfTGFtcE5vRWZmZWN0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9TQ19MYW1wbWFzdGVyX0xhbXBOb0VmZmVjdDIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHAAAAFNUX1NDX0xhbXBtYXN0ZXJfUHV6emxlR29vZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfU0NfTGFtcG1hc3Rlcl9QdXp6bGVDb21wbGV0ZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfU0NfTGFtcG1hc3Rlcl9QdXp6bGVDb21wbGV0ZTIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX1NDX0xhbXBtYXN0ZXJfUHV6emxlRmFpbGVkMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfU0NfTGFtcG1hc3Rlcl9QdXp6bGVGYWlsZWQyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACQAAABTVF9TQ19MYW1wbWFzdGVyX1R1cm5PZmZMZXZlbExhbXBzMgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfQ1dfTGFtcE1hc3RlckFscGhhX1N3b3JkTGFtcEhpdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfQ1dfTGFtcE1hc3RlckFscGhhX0RhcmtuZXNzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9DV19MYW1wTWFzdGVyQWxwaGFfUml0dWFsAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACQAAABTVF9DV19MYW1wTWFzdGVyQWxwaGFfTGlnaHRFcGxvc2lvbgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfQ1dfTGFtcE1hc3RlckFscGhhX0xpZ2h0VXAAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX0NXX0xhbXBNYXN0ZXJBbHBoYV9BUFN0ZWFsAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9DV19MYW1wTWFzdGVyQWxwaGFfUmV2aXZlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACIAAABTVF9DV19MYW1wTWFzdGVyQWxwaGFfVHVybk9uTGFtcHMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJgAAAFNUX0NXX0xhbXBNYXN0ZXJBbHBoYV9IeXBlckxpZ2h0U2xhc2gAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX1NDX1JvY2hlcl9NZWxlZTJIaXRzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABoAAABTVF9TQ19Sb2NoZXJfTWVsZWVBb0UxSGl0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9TQ19Sb2NoZXJfTWVsZWU0SGl0cwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAaAAAAU1RfRU5fRnJhbmNvaXNfVWx0cmFsYXNlcgABAAAAAQAAAAAAAAAFAAAATWFsZQAXAAAAU1RfRkJfUmFtYXNzZXVyX0NvbWJvMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAVAAAAU1RfRkJfUmFtYXNzZXVyX0JvbmsAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAKQAAAFNUX0ZCX1JhbWFzc2V1cl9BbHBoYV9Nb3J0YWxCbG93RmVlZEJhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIQAAAFNUX0ZCX1JhbWFzc2V1cl9BbHBoYV9Nb3J0YWxCbG93AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACUAAABTVF9GQl9SYW1hc3NldXJfQWxwaGFfTG9uZ0NvbWJvQWxwaGEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX0ZCX1JhbWFzc2V1cl9BbHBoYV9Db21ib1dlYWtlbkhpbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAA1AAAAU1RfRkJfUmFtYXNzZXVyX0FscGhhX0F0dGFja0FnYWluQnV0Q291bnRlcldlYWtlbkhpbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAiAAAAU1RfRkJfUmFtYXNzZXVyX0FscGhhX0F0dGFja0FnYWluAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACcAAABTVF9GQl9SYW1hc3NldXJfQWxwaGFfUGFycnlUb1dlYWtlbkhpbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfRkJfUmFtYXNzZXVyX0FscGhhX1R1cm4xVG9vbHRpcAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfRkJfUmFtYXNzZXVyX0FscGhhX1R1cm4yVG9vbHRpcAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfRkJfUmFtYXNzZXVyX0FscGhhX1R1cm4zVG9vbHRpcAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAaAAAAU1RfRkJfVHJvdWJhZG91cl9CdWZmVGVhbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAcAAAAU1RfRkJfVHJvdWJhZG91cl9Ucmlja3lTaG90AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACEAAABTVF9GQl9Ucm91YmFkb3VyX1RydW1wZXRDb25jZXJ0bwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAcAAAAU1RfRkJfVHJvdWJhZG91cl9DdXJzZWRTb25nAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9GQl9CZW5pc3NldXJfQnViYmxlQXR0YWNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9GQl9CZW5pc3NldXJfQnViYmxlRXhwbG9zaW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9GQl9CZW5pc3NldXJfQnViYmxlU2hpZWxkcwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAcAAAAU1RfRkJfQmVuaXNzZXVyX1NwZWFyU3VtbW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9GQl9CZW5pc3NldXJfU3BlYXJBdGFjawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAXAAAAU1RfRkJfQmVuaXNzZXVyX01vcnRhcgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAcAAAAU1RfRkJfRHVhbGxpc3RlTFJfUDFfQ29tYm8xAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9GQl9EdWFsbGlzdGVMUl9QMV9Db21ibzIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHAAAAFNUX0ZCX0R1YWxsaXN0ZUxSX1AxX0NvbWJvMwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAiAAAAU1RfRkJfRHVhbGxpc3RlTFJfUDFfVGVsbHVyaWZvcmNlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9GQl9EdWFsbGlzdGVMUl9UZWxsdXJpZm9yY2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHQAAAFNUX0ZCX0R1YWxsaXN0ZUxSX1N0b3JtQmxvb2QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX0ZCX0R1YWxsaXN0ZUxSX1JlcXVpZW0AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX0ZCX0R1YWxsaXN0ZUxSX0NvbWJvMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfRkJfRHVhbGxpc3RlTFJfQ29tYm8yAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9GQl9DaGFsaWVyU3dvcmRfU3dvcmRDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAiAAAAU1RfRkJfQ2hhbGllclN3b3JkX0FueVdlYXBvbkNvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9GQl9DaGFsaWVyU3dvcmRfSGVhZFNtYXNoAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9GQl9DaGFsaWVySGFtbWVyX0hhbW1lckNvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9GQl9DaGFsaWVyU3BlYXJfU3BlYXJDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfRkJfQ2hhbGllclN3b3JkX0FscGhhX0FscGhhU3dvcmRjb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAA+AAAAU1RfRkJfQ2hhbGllcl9HcmFkaWVudENvdW50ZXJUdXRvcmlhbF9HcmFkaWVudENvdW50ZXJUdXRvcmlhbAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAiAAAAU1RfTU1fUGVsZXJpbl9GaXJlX0NvbGRTdGVlbENvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlABcAAABTVF9NTV9QZWxlcmluX0ZyZXNoQWlyAAEAAAABAAAAAAAAAAUAAABNYWxlABwAAABTVF9NTV9QZWxlcmluX0NvdW50ZXJhdHRhY2sAAQAAAAEAAAAAAAAABQAAAE1hbGUAJQAAAFNUX01NX1BlbGVyaW5fU3dpdGNoU3RhbmNlQW5kQ291bnRlcgABAAAAAQAAAAAAAAAFAAAATWFsZQAbAAAAU1RfTU1fUGVsZXJpbl9Td2l0Y2hTdGFuY2UAAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX01NX0RhbnNldXNlX0ZpcmVfR3JhZGllbnRGYWxsAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHwAAAFNUX01NX0RhbnNldXNlX0ZpcmVfRGFuY2VDb21ibwABAAAAAQAAAAAAAAAHAAAARmVtYWxlACUAAABTVF9NTV9EYW5zZXVzZV9Td2l0Y2hTdGFuY2VBbmRTdW1tb24AAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAbAAAAU1RfTU1fRGFuc2V1c2VfU3VtbW9uQ2xvbmUAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAeAAAAU1RfTU1fU3RhbGFjdF9GaXJlX1NtYXNoQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX01NX1N0YWxhY3RfRmlyZV9FYXJ0aHF1YWtlcwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAbAAAAU1RfTU1fU3RhbGFjdF9TdGFuY2VTd2l0Y2gAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIAAAAFNUX01NX1N0YWxhY3RfQW5ub3VuY2VFeHBsb3Npb24AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX01NX1N0YWxhY3RfRXhwbG9zaW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9NTV9TdGFsYWN0X0V4cGxvc2lvbk9uSGVyb2VzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACEAAABTVF9NTV9TdGFsYWN0X0V4cGxvc2lvbk9uRW5lbWllcwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAiAAAAU1RfTU1fQnJhc2VsZXVyX0ZpcmVfU3VtbW9uRHJvbmVzAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9NTV9CcmFzZWxldXJfSWNlX1N1bW1vbkRyb25lcwABAAAAAQAAAAAAAAAFAAAATWFsZQAfAAAAU1RfTU1fQnJhc2VsZXVyX0ZpcmVfRHJvbmVGaXJlAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9NTV9CcmFzZWxldXJfRmlyZV9IYW1tZXJDb21ibwABAAAAAQAAAAAAAAAFAAAATWFsZQAhAAAAU1RfTU1fQnJhc2VsZXVyX0ZpcmVfSGFtbWVyU21hc2gAAQAAAAEAAAAAAAAABQAAAE1hbGUAHQAAAFNUX01NX0dhcmdhbnRfU25vd1N0b3JtU3Bhd24AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFwAAAFNUX01NX0dhcmdhbnRfQ2FzdFllbGwAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX01NX0dhcmdhbnRfSWNlUHVuY2hBAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9NTV9HYXJnYW50X0ljZVB1bmNoQgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAXAAAAU1RfTU1fR2FyZ2FudF9JY2VTbWFzaAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfTU1fR2FyZ2FudF9JY3lSYXZhZ2VBAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9NTV9HYXJnYW50X0ljeVJhdmFnZUIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX01NX0dhcmdhbnRfQXBwbHlGcm96ZW4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIwAAAFNUX01NX0dhcmdhbnRfSGVhdFdhdmVSZW1vdmVGcm96ZW4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFQAAAFNUX01NX0dhcmdhbnRfU3VtbW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABQAAABTVF9NU19Nb25vY29fU2tpbGwxAAEAAAABAAAAAAAAAAUAAABNYWxlABQAAABTVF9NU19Nb25vY29fU2tpbGwyAAEAAAABAAAAAAAAAAUAAABNYWxlAB0AAABTVF9NTV9NaXJyb3JSZW5vaXJfU2tpbGxfQU9FAAEAAAABAAAAAAAAAAUAAABNYWxlAB8AAABTVF9NTV9NaXJyb3JSZW5vaXJfU2tpbGxfQ29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUAHgAAAFNUX0NaX0Nocm9tYU1hZWxsZV9DaHJvbWFGdXJ5AAEAAAABAAAAAAAAAAcAAABGZW1hbGUAIQAAAFNUX0NaX0Nocm9tYU1hZWxsZV9DaHJvbWFGZW5jaW5nAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAIQAAAFNUX0NaX0Nocm9tYU1hZWxsZV9Db3VudGVyU3RyaWtlAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHgAAAFNUX0NaX0Nocm9tYVZlcnNvX0Nocm9tYUNvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlAB4AAABTVF9DWl9DaHJvbWFWZXJzb19DaHJvbWFCbGl0egABAAAAAQAAAAAAAAAFAAAATWFsZQAjAAAAU1RfQ1pfQ2hyb21hTHVuZV9DaHJvbWFUaHVuZGVyRmFsbAABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB4AAABTVF9DWl9DaHJvbWFMdW5lX0Nocm9tYU1heWhlbQABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB4AAABTVF9DWl9DaHJvbWFTY2llbF9DaHJvbWFTbGFzaAABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB4AAABTVF9DWl9DaHJvbWFTY2llbF9DaHJvbWFDb21ibwABAAAAAQAAAAAAAAAHAAAARmVtYWxlABsAAABTVF9NRl9Nb2lzc29ubmV1c2VfTW9pc3NvbgABAAAAAQAAAAAAAAAHAAAARmVtYWxlABsAAABTVF9NRl9Nb2lzc29ubmV1c2VfVmVuZGFnZQABAAAAAQAAAAAAAAAHAAAARmVtYWxlABgAAABTVF9NRl9Nb2lzc29ubmV1c2VfQnVmZgABAAAAAQAAAAAAAAAHAAAARmVtYWxlACMAAABTVF9NRl9Nb2lzc29ubmV1c2VfQUxQSEFfQWxwaGFCdWZmAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHQAAAFNUX01GX0JvdWNoZWNsaWVyX1N3b3JkQ29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUAHgAAAFNUX01GX0JvdWNoZWNsaWVyX1NoaWVsZFNtYXNoAAEAAAABAAAAAAAAAAUAAABNYWxlAB4AAABTVF9NRl9Cb3VjaGVjbGllcl9EZWZlbnNlTW9kZQABAAAAAQAAAAAAAAAFAAAATWFsZQAoAAAAU1RfTUZfQm91Y2hlY2xpZXJfRGVmZW5zZU1vZGVJbnRlcnVwdGVkAAEAAAABAAAAAAAAAAUAAABNYWxlACAAAABTVF9NRl9Cb3VjaGVjbGllcl9Db3VudGVyQXR0YWNrAAEAAAABAAAAAAAAAAUAAABNYWxlABoAAABTVF9NRl9DaGFwZWxpZXJfVGhyb3dNYXNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9NRl9DaGFwZWxpZXJfQXhlQmFzaAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfTUZfQ2hhcGVsaWVyX0F4ZVNsYXNoAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABoAAABTVF9NRl9DaGFwZWxpZXJfTGFzdFN0YW5kAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9NRl9Db250b3JzaW9ubmlzdGVfU2FkQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIwAAAFNUX01GX0NvbnRvcnNpb25uaXN0ZV9Kb3lmdWxJbXBhbGUAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIQAAAFNUX01GX0NvbnRvcnNpb25uaXN0ZV9BbmdyeUJsYXN0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9NRl9Db250b3JzaW9ubmlzdGVfNmhpdENvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9NRl9NYXNrQW5nZXJfQXR0YWNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9NRl9NYXNrU2FkbmVzc19BdHRhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHQAAAFNUX01GX01hc2tKb3lfQXR0YWNrUmVtb3ZlQVAAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGwAAAFNUX01GX01hc2tKb3lfQXR0YWNrRGVidWZmAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACIAAABTVF9NRl9BeG9uX1Zpc2FnZXNfQWxsTWFza3NBdHRhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX01GX0F4b25fVmlzYWdlc19JbnZlcnRlZE1hc2tDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfTUZfQXhvbl9WaXNhZ2VzX0J1cm5NYXNrQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIgAAAFNUX01GX0F4b25fVmlzYWdlc19Qb3dlck1hc2tDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfTUZfQXhvbl9WaXNhZ2VzX1NoaWVsZE1hc2tDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfTUZfQXhvbl9WaXNhZ2VzX0hlYWxNYXNrQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIAAAAFNUX01GX0F4b25fVmlzYWdlc19IZWFsTWFza0hlYWwAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJAAAAFNUX01GX0F4b25fVmlzYWdlc19TaGllbGRNYXNrU2hpZWxkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9NRl9BeG9uX1Zpc2FnZXNfVHVyblN0YXJ0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9NRl9BeG9uX1Zpc2FnZXNfTWFza1ZhbmlzaAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfTUZfQXhvbl9WaXNhZ2VzX01hc2tEZXN0cm95ZWQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX01GX0F4b25fVmlzYWdlc19Ob01vcmVNYXNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9NRl9BeG9uX1Zpc2FnZXNfTWFza0FwcGVhcgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfTUZfQXhvbl9WaXNhZ2VzX0RlYXRoTm9NYXNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACQAAABTVF9NRl9Nb2lzc29ubmV1c2VNYXNrSm95X01hc2tTa2lsbAACAAAAAQAAAAAAAAAHAAAARmVtYWxlAAAAAAAAAAAAFwAAAE1vaXNzb25uZXVzZSBpcyBGZW1hbGUAJgAAAFNUX01GX0JvdWNoZWNsaWVyX01hc2tBbmdlcl9NYXNrU2tpbGwAAgAAAAEAAAAAAAAABQAAAE1hbGUAAAAAAAAAAAAUAAAAQm91Y2hlY2xpZXIgaXMgbWFsZQAmAAAAU1RfTUZfQ2hhcGVsaWVyX01hc2tTYWRuZXNzX01hc2tTa2lsbAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfTUZfR3Jvc3N0ZXRlX1NraWxsMV9IZWF2eUJvdW5jZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfTUZfR3Jvc3N0ZXRlX1NraWxsMl9XcmVja2luZwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAmAAAAU1RfTUZfR3Jvc3N0ZXRlX1NraWxsM19FYXJ0aHF1YWtlSnVtcAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfTUZfR3Jvc3N0ZXRlX1NraWxsNF9GaXJlU3BpdHMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX01GX0dyb3NzdGV0ZV9PbkRhbWFnZVJlY2VpdmVkQ2FsbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfTUZfR3Jvc3N0ZXRlX09uU3R1blJlbW92ZWQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX01GX01hc2tLZWVwZXJfU2tpbGwxQV9Td2luZwABAAAAAQAAAAAAAAAFAAAATWFsZQAjAAAAU1RfTUZfTWFza0tlZXBlcl9Ta2lsbDFCX0xvbmdTd2luZwABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfTUZfTWFza0tlZXBlcl9Ta2lsbDJfRmlyZUNvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlACAAAABTVF9NRl9NYXNrS2VlcGVyX1NraWxsM19JY3lSYWdlAAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9NRl9NYXNrS2VlcGVyX1NraWxsNEFfU3Rvcm1CcmluZ2VyAAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9NRl9NYXNrS2VlcGVyX1NraWxsNEJfQ2hhb3NCcmluZ2VyAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9NRl9NYXNrS2VlcGVyX1NraWxsNV9GdWxsQnVmZgABAAAAAQAAAAAAAAAFAAAATWFsZQAnAAAAU1RfTUZfTWFza0tlZXBlcl9Ta2lsbDZBX0ZsZXVyZXRBdHRhY2sAAQAAAAEAAAAAAAAABQAAAE1hbGUAJgAAAFNUX01GX01hc2tLZWVwZXJfU2tpbGw2Ql9GbGV1cmV0RGFuc2UAAQAAAAEAAAAAAAAABQAAAE1hbGUAHAAAAFNUX01GX01hc2tLZWVwZXJfU2hpZWxkQnVmZgABAAAAAQAAAAAAAAAFAAAATWFsZQAdAAAAU1RfTUZfTWFza0tlZXBlcl9TaGllbGRCdWZmMgABAAAAAQAAAAAAAAAFAAAATWFsZQAgAAAAU1RfTUZfTWFza0tlZXBlcl9Bbmdlck1hc2tTa2lsbAABAAAAAQAAAAAAAAAFAAAATWFsZQAeAAAAU1RfTUZfTWFza0tlZXBlcl9Kb3lNYXNrU2tpbGwAAQAAAAEAAAAAAAAABQAAAE1hbGUAHgAAAFNUX01GX01hc2tLZWVwZXJfU2FkTWFza1NraWxsAAEAAAABAAAAAAAAAAUAAABNYWxlAB0AAABTVF9NRl9NYXNrS2VlcGVyX1N1bW1vbk1hc2tzAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9SRV9PcnBoZWxpbkhhbW1lcl9Db21tb25Db21ibwABAAAAAQAAAAAAAAAFAAAATWFsZQAhAAAAU1RfUkVfT3JwaGVsaW5IYW1tZXJfSGFtbWVyQ29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUAGgAAAFNUX1JFX09ycGhlbGluSGFtbWVyX0J1ZmYAAQAAAAEAAAAAAAAABQAAAE1hbGUAHAAAAFNUX1JFX09ycGhlbGluSGFtbWVyX0RlYnVmZgABAAAAAQAAAAAAAAAFAAAATWFsZQAfAAAAU1RfUkVfT3JwaGVsaW5TcG9vbl9TcG9vbkNvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlAB0AAABTVF9SRV9PcnBoZWxpbk5haWxfTmFpbENvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlABcAAABTVF9SRV9FY2hhc3NpZXJfU2tpbGwxAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9SRV9FY2hhc3NpZXJfU2tpbGwyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9SRV9FY2hhc3NpZXJfU2tpbGwzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9SRV9FY2hhc3NpZXJfU2tpbGw0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9SRV9WZWlsbGV1cl9CbGlnaHRTbWFzaAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAaAAAAU1RfUkVfVmVpbGxldXJfQmxpZ2h0V2F2ZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfUkVfVmVpbGxldXJfQ2FycmlvbkRldm91cmVyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACAAAABTVF9SRV9WZWlsbGV1cl9DYXJyaW9uRGV2b3VyZXIyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9SRV9WZWlsbGV1cl9MYW1wSGl0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABMAAABTVF9TSV9CYWxsZXRfQ2hhcm0AAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAYAAAAU1RfU0lfQmFsbGV0X1JhbmdlZDFIaXQAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAcAAAAU1RfU0lfQmFsbGV0X1JhbmdlMUhpdF9OT0FQAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAGAAAAFNUX1NJX0JhbGxldF9SYW5nZWQzSGl0AAEAAAABAAAAAAAAAAcAAABGZW1hbGUAGAAAAFNUX1NJX0JhbGxldF9Td29yZFNsYXNoAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAGAAAAFNUX1NJX0JhbGxldF9Td29yZFN3aXBlAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHgAAAFNUX1NJX0dsaXNzYW5kb19CYWxsZXRzU3VtbW9uAAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAAHwAAAEJhbGxldCBpcyB0aGUgbmFtZSBvZiBhbiBlbmVteQAZAAAAU1RfU0lfR2xpc3NhbmRvX0hlYWRTbGFtAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9TSV9HbGlzc2FuZG9fVGFpbEF0dGFjawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfU0lfR2xpc3NhbmRvX0dvYmJsZVVwAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9TSV9HbGlzc2FuZG9fQmFsbGV0c1JlbGVhc2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAEwAAAFNUX1NJX1Rpc3NldXJfQ2xhcAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAYAAAAU1RfU0lfVGlzc2V1cl9KdW1wQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFgAAAFNUX1NJX1Rpc3NldXJfV2VhdmluZwACAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAAAAAAAAAAACMAAABHbGlzc2FuZG8gaXMgdGhlIG5hbWUgb2YgdGhlIGVuZW15ABkAAABTVF9TSV9UaXNzZXVyX1N3aXBlQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGwAAAFNUX1NJX1Rpc3NldXJfVGlzc2V1ckN1cnNlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9TSV9BeG9uX1NpcmVuZV9WYWxzZQABAAAAAQAAAAAAAAAHAAAARmVtYWxlABoAAABTVF9TSV9BeG9uX1NpcmVuZV9Bb0VKdW1wAAIAAAABAAAAAAAAAAcAAABGZW1hbGUAAAAAAAAAAAAjAAAAR2xpc3NhbmRvIGlzIHRoZSBuYW1lIG9mIHRoZSBlbmVteQAYAAAAU1RfU0lfQXhvbl9TaXJlbmVfQ2hhcm0AAgAAAAEAAAAAAAAABwAAAEZlbWFsZQAAAAAAAAAAAEMAAABCYWxsZXQgaXMgdGhlIG5hbWUgb2YgYW4gZW5lbXkuIENoYXJtIGlzIHRoZSBuYW1lIG9mIHN0YXR1cyBlZmZlY3QAHQAAAFNUX1NJX0F4b25fU2lyZW5lX0RlYXRoU3RhcmUAAgAAAAEAAAAAAAAABwAAAEZlbWFsZQAAAAAAAAAAAB8AAABCYWxsZXQgaXMgdGhlIG5hbWUgb2YgYW4gZW5lbXkAIgAAAFNUX1NJX0F4b25fU2lyZW5lX0RvdWJsZUdsaXNzYW5kbwACAAAAAQAAAAAAAAAHAAAARmVtYWxlAAAAAAAAAAAAIwAAAEdsaXNzYW5kbyBpcyB0aGUgbmFtZSBvZiB0aGUgZW5lbXkAHgAAAFNUX1NJX0F4b25fU2lyZW5lX0dyYW5kQmFsbGV0AAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHwAAAFNUX1NJX0F4b25fU2lyZW5lX0JvdXF1ZXRGaW5hbAACAAAAAQAAAAAAAAAHAAAARmVtYWxlAAAAAAAAAAAAHwAAAEZpbmFsIEFjdCBhcyBpbiBhIHRoZWF0ZXIgcGxheQAdAAAAU1RfU0lfQXhvbl9TaXJlbmVfQ2xvc2VDb21ibwABAAAAAQAAAAAAAAAHAAAARmVtYWxlACAAAABTVF9TSV9BeG9uX1NpcmVuZV9UaXNzZXVyU2hpZWxkAAIAAAABAAAAAAAAAAcAAABGZW1hbGUAAAAAAAAAAAAhAAAAVGlzc2V1ciBpcyB0aGUgbmFtZSBvZiB0aGUgZW5lbXkAHQAAAFNUX1NJX0F4b25fU2lyZW5lX0RlYXRoQ2hhcm0AAgAAAAEAAAAAAAAABwAAAEZlbWFsZQAAAAAAAAAAACMAAABDaGFybSBpcyB0aGUgbmFtZSBvZiBzdGF0dXMgZWZmZWN0AB8AAABTVF9TSV9BeG9uX1NpcmVuZV9TaXJlbmVQaGFzZTIAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAfAAAAU1RfU0lfQXhvbl9TaXJlbmVfU2lyZW5lUGhhc2UzAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHQAAAFNUX1NJX0Nob3JhbGVfQ2hvcmFsZVNoaWVsZHMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX1NJX0Nob3JhbGVfQ2hvcmFsZVBvd2VyQnVmZgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfU0lfR2xpc3NhbmRvX0FscGhhX1RhaWxSZWdlbgACAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAAAAAAAAAAAB8AAABCYWxsZXQgaXMgdGhlIG5hbWUgb2YgYW4gZW5lbXkALQAAAFNUX1NJX0dsaXNzYW5kb19BbHBoYV9UdXJuX0VuZF9QaGFzZTNFbnJhZ2VkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9TSV9HbGlzc2FuZG9fQWxwaGFfR29iYmxlVXAAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIAAAAFNUX1NJX0dsaXNzYW5kb19BbHBoYV9TaG9vdEJhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIwAAAFNUX1NJX0dsaXNzYW5kb19BbHBoYV9CaWdIZWFkc21hc2gAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAKAAAAFNUX1NJX0dsaXNzYW5kb19BbHBoYV9IeXBlclJpYmJvbkF0dGFjawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfU0lfR2xpc3NhbmRvX0FscGhhX1NhbmRBdHRhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJwAAAFNUX1NJX0dsaXNzYW5kb19BbHBoYV9XZWFrUmliYm9uQXR0YWNrAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9TSV9HbGlzc2FuZG9fQWxwaGFfVGFpbEhpdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfU0lfR2xpc3NhbmRvX0FscGhhX1RhaWxCcmVhawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAbAAAAU1RfU0lfRGFya0JhbGxldF9SYW5nZUhpdHMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAeAAAAU1RfU0lfRGFya0JhbGxldF9CbGlnaHRBdHRhY2sAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAjAAAAU1RfTUxfUGFpbnRyZXNzSW50cm9fUGFpbnRyZXNzVHVybgABAAAAAQAAAAAAAAAHAAAARmVtYWxlABgAAABTVF9NTF9PYnNjdXJfTWVsZWU1SGl0cwACAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAAAAAAAAAAAB4AAABhcHBsaWVzIEV4aGF1c3Qgb24gdGhlIHRhcmdldAAbAAAAU1RfTUxfT2JzY3VyX0FvRVJhbmdlM2hpdHMAAgAAAAEAAAAAAAAACAAAAE5ldXRyYWwAAAAAAAAAAAAfAAAAYXBwbGllcyBTaWxsZW5jZSBvbiB0aGUgdGFyZ2V0ABIAAABTVF9NTF9PYnNjdXJfQnVmZgACAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAAAAAAAAAAABkAAABhcHBsaWVzIEVucmFnZSB0byBhbGxpZXMAGAAAAFNUX01MX09ic2N1cl9NZWxlZTRIaXRzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABoAAABTVF9NTF9PYnNjdXJfQW9FTWVsZWUxSGl0AAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAAFAAAAGFwcGxpZXMgRGVmZW5zZWxlc3MAGAAAAFNUX01MX09ic2N1cl9NZWxlZTJIaXRzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABgAAABTVF9NTF9DbGFpcl9CdWZmX1NoaWVsZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfTUxfQ2xhaXJfQW9FTWVsZWUxSGl0AAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAAEgAAAGFwcGxpZXMgcG93ZXJsZXNzACMAAABTVF9NT19Cb3NzX1BhaW50cmVzc19SYW5nZUFvRTRIaXRzAAEAAAABAAAAAAAAAAUAAABNYWxlACMAAABTVF9NT19Cb3NzX1BhaW50cmVzc19SYW5nZUFvZTVIaXRzAAEAAAABAAAAAAAAAAUAAABNYWxlACMAAABTVF9NT19Cb3NzX1BhaW50cmVzc19SYW5nZUFvRTNIaXRzAAEAAAABAAAAAAAAAAUAAABNYWxlACMAAABTVF9NT19Cb3NzX1BhaW50cmVzc19SYW5nZUFvRTdIaXRzAAEAAAABAAAAAAAAAAUAAABNYWxlACcAAABTVF9NT19Cb3NzX1BhaW50cmVzc19NZWxlZTFIaXRHcmFkaWVudAABAAAAAQAAAAAAAAAFAAAATWFsZQAjAAAAU1RfTU9fQm9zc19QYWludHJlc3NfUGFpbnRyZXNzQnVmZgABAAAAAQAAAAAAAAAFAAAATWFsZQAgAAAAU1RfTU9fQm9zc19QYWludHJlc3NfTWVsZWU1SGl0cwABAAAAAQAAAAAAAAAFAAAATWFsZQAoAAAAU1RfTU9fQm9zc19QYWludHJlc3NfUDJfNEhpdHNSYW5nZTFKdW1wAAEAAAABAAAAAAAAAAUAAABNYWxlACcAAABTVF9NT19Cb3NzX1BhaW50cmVzc19QMl84SGl0TWVsZWVDb21ibwABAAAAAQAAAAAAAAAFAAAATWFsZQAjAAAAU1RfTU9fQm9zc19QYWludHJlc3NfUDJfM0hpdHNDb21ibwABAAAAAQAAAAAAAAAFAAAATWFsZQAjAAAAU1RfTU9fQm9zc19QYWludHJlc3NfUDJfNUhpdHNDb21ibwABAAAAAQAAAAAAAAAFAAAATWFsZQAeAAAAU1RfTU9fQm9zc19QYWludHJlc3NfUDJfQ3Vyc2UAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAhAAAAU1RfTU9fQm9zc19QYWludHJlc3NfUDNfSGVhbEFsbHkAAQAAAAEAAAAAAAAABQAAAE1hbGUAKgAAAFNUX01PX0Jvc3NfUGFpbnRyZXNzX1AzX0FwcGx5U2hpZWxkT25IZXJvAAEAAAABAAAAAAAAAAUAAABNYWxlAB0AAABTVF9MX0x1bWllcmVDaXRpemVuX0F0dGFja18xAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACsAAABTVF9MX0x1bWllcmVDaXRpemVuX0d1blN3b3JkX0ZlbWFsZV9Db21ibzEAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQArAAAAU1RfTF9MdW1pZXJlQ2l0aXplbl9HdW5Td29yZF9GZW1hbGVfQ29tYm8yAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAKwAAAFNUX0xfTHVtaWVyZUNpdGl6ZW5fR3VuU3dvcmRfRmVtYWxlX0NvbWJvMwABAAAAAQAAAAAAAAAHAAAARmVtYWxlAC0AAABTVF9MX0x1bWllcmVDaXRpemVuX0d1blN3b3JkX0ZlbWFsZV9Qb3dlcmZ1bAABAAAAAQAAAAAAAAAHAAAARmVtYWxlACoAAABTVF9MX0x1bWllcmVDaXRpemVuX0ZsZXVyZXRfRmVtYWxlX0NvbWJvMQABAAAAAQAAAAAAAAAHAAAARmVtYWxlACoAAABTVF9MX0x1bWllcmVDaXRpemVuX0ZsZXVyZXRfRmVtYWxlX0NvbWJvMgABAAAAAQAAAAAAAAAHAAAARmVtYWxlACoAAABTVF9MX0x1bWllcmVDaXRpemVuX0ZsZXVyZXRfRmVtYWxlX0NvbWJvMwABAAAAAQAAAAAAAAAHAAAARmVtYWxlACoAAABTVF9MX0x1bWllcmVDaXRpemVuX0ZsZXVyZXRfRmVtYWxlX0NvbWJvNAABAAAAAQAAAAAAAAAHAAAARmVtYWxlACcAAABTVF9MX0x1bWllcmVDaXRpemVuX01hZ2VfRmVtYWxlX0NvbWJvMQABAAAAAQAAAAAAAAAHAAAARmVtYWxlACcAAABTVF9MX0x1bWllcmVDaXRpemVuX01hZ2VfRmVtYWxlX0NvbWJvMgABAAAAAQAAAAAAAAAHAAAARmVtYWxlACsAAABTVF9MX0x1bWllcmVDaXRpemVuX01hZ2VfRmVtYWxlX0J1ZmZTaGllbGQAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAnAAAAU1RfTF9MdW1pZXJlQ2l0aXplbl9NYWdlX0ZlbWFsZV9Db21ibzQAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAcAAAAU1RfTF9Cb3NzX0N1cmF0b3JfQmxhY2tIb2xlAAEAAAABAAAAAAAAAAUAAABNYWxlABkAAABTVF9MX0Jvc3NfQ3VyYXRvcl9Ta2lsbDIAAQAAAAEAAAAAAAAABQAAAE1hbGUAGQAAAFNUX0xfQm9zc19DdXJhdG9yX1NraWxsMwABAAAAAQAAAAAAAAAFAAAATWFsZQAZAAAAU1RfTF9Cb3NzX0N1cmF0b3JfU2tpbGw0AAEAAAABAAAAAAAAAAUAAABNYWxlABkAAABTVF9MX0Jvc3NfQ3VyYXRvcl9Ta2lsbDUAAQAAAAEAAAAAAAAABQAAAE1hbGUAGQAAAFNUX0xfQm9zc19DdXJhdG9yX1NraWxsOAABAAAAAQAAAAAAAAAFAAAATWFsZQAaAAAAU1RfTF9Cb3NzX0N1cmF0b3JfU2tpbGwxMAABAAAAAQAAAAAAAAAFAAAATWFsZQAaAAAAU1RfTF9Cb3NzX0N1cmF0b3JfU2tpbGwxMQABAAAAAQAAAAAAAAAFAAAATWFsZQAcAAAAU1RfTF9Cb3NzX0N1cmF0b3JfQmxhY2tMYWtlAAEAAAABAAAAAAAAAAUAAABNYWxlABkAAABTVF9MX0Jvc3NfQ3VyYXRvcl9GbHlpbmcAAQAAAAEAAAAAAAAABQAAAE1hbGUAGwAAAFNUX0xfQm9zc19DdXJhdG9yX0ZpbmlzaGVyAAEAAAABAAAAAAAAAAUAAABNYWxlACMAAABTVF9MX0Jvc3NfQ3VyYXRvcl9Db252YXNUcmFuc2l0aW9uAAEAAAABAAAAAAAAAAUAAABNYWxlAB4AAABTVF9MX0Jvc3NfQ3VyYXRvcl9TdW1tb25BeG9ucwABAAAAAQAAAAAAAAAFAAAATWFsZQAZAAAAU1RfTF9Cb3NzX0N1cmF0b3JfU2lyZW5lAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAGgAAAFNUX0xfQm9zc19DdXJhdG9yX1Zpc2FnZXMAAQAAAAEAAAAAAAAABQAAAE1hbGUAGgAAAFNUX0xfQm9zc19DdXJhdG9yX1JlYWNoZXIAAQAAAAEAAAAAAAAABQAAAE1hbGUAGQAAAFNUX0xfQm9zc19DdXJhdG9yX0hhdWxlcgACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAACQAAABIYXVsZXIgaXMgdGhlIG5hbWUgb2YgdGhlIGRlYWQgQXhvbgAnAAAAU1RfRmluYWxCb3NzX01hZWxsZV9Ta2lsbDFfRmxldXJldEZ1cnkAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAvAAAAU1RfRmluYWxCb3NzX01hZWxsZV9Ta2lsbDJfRXZlcnlvbmVJbnNwaXJhdGlvbgABAAAAAQAAAAAAAAAHAAAARmVtYWxlACkAAABTVF9GaW5hbEJvc3NfTWFlbGxlX1NraWxsM19WYXJpYW50U3dvcmRzAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAJwAAAFNUX0ZpbmFsQm9zc19NYWVsbGVfU2tpbGw0X0RhbmNpbmdGdXJ5AAEAAAABAAAAAAAAAAcAAABGZW1hbGUAJQAAAFNUX0ZpbmFsQm9zc19NYWVsbGVfU2tpbGw1X1ZvaWRTbGFzaAABAAAAAQAAAAAAAAAHAAAARmVtYWxlACcAAABTVF9GaW5hbEJvc3NfTWFlbGxlX1RyYW5zaXRpb24xX1BoYXNlMgABAAAAAQAAAAAAAAAHAAAARmVtYWxlACcAAABTVF9GaW5hbEJvc3NfTWFlbGxlX1RyYW5zaXRpb24yX1BoYXNlMwABAAAAAQAAAAAAAAAHAAAARmVtYWxlACEAAABTVF9GaW5hbEJvc3NfTWFlbGxlX1N3aXRjaFN0YW5jZQACAAAAAQAAAAAAAAAHAAAARmVtYWxlAAAAAAAAAAAAJAAAACJzdGFuY2UiIHJlZmVycyB0byBtYWVsbGUncyBTdGFuY2VzACEAAABTVF9GaW5hbEJvc3NfVmVyc29fU2tpbGwxX0NvbWJvMQABAAAAAQAAAAAAAAAFAAAATWFsZQAhAAAAU1RfRmluYWxCb3NzX1ZlcnNvX1NraWxsMl9Db21ibzIAAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX0ZpbmFsQm9zc19WZXJzb19Ta2lsbDNfQ29tYm8zAAEAAAABAAAAAAAAAAUAAABNYWxlACMAAABTVF9GaW5hbEJvc3NfVmVyc29fU2tpbGw0X1Bvd2VyZnVsAAEAAAABAAAAAAAAAAUAAABNYWxlACkAAABTVF9NTV9NaXJyb3JSZW5vaXJfU2tpbGwxX0NhbmVNZWxlZUNvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlACUAAABTVF9NTV9NaXJyb3JSZW5vaXJfU2tpbGwyX1JhbmdlQ29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUAJwAAAFNUX01NX01pcnJvclJlbm9pcl9Ta2lsbDNfU3VtbW9uU2lyZW5lAAEAAAABAAAAAAAAAAUAAABNYWxlACoAAABTVF9NTV9NaXJyb3JSZW5vaXJfU2tpbGw0X01pcnJvckV4cGxvc2lvbgABAAAAAQAAAAAAAAAFAAAATWFsZQAmAAAAU1RfTU1fTWlycm9yUmVub2lyX1NraWxsNV9LaWxsaW5nSGFuZAABAAAAAQAAAAAAAAAFAAAATWFsZQAvAAAAU1RfTU1fTWlycm9yUmVub2lyX1NraWxsNV9LaWxsaW5nSGFuZF9GZWVkYmFjawABAAAAAQAAAAAAAAAFAAAATWFsZQAgAAAAU1RfTU1fTWlycm9yUmVub2lyX1NraWxsNl9NYXNrcwABAAAAAQAAAAAAAAAFAAAATWFsZQAqAAAAU1RfTU1fTWlycm9yUmVub2lyX1NraWxsN19IZWFsUHJlcGFyYXRpb24AAQAAAAEAAAAAAAAABQAAAE1hbGUAIAAAAFNUX01NX01pcnJvclJlbm9pcl9Ta2lsbDdCX0hlYWwAAQAAAAEAAAAAAAAABQAAAE1hbGUAJgAAAFNUX01NX01pcnJvclJlbm9pcl9Ta2lsbDhfQ2hyb21hV2F2ZXMAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX01NX01pcnJvclJlbm9pcl9Ta2lsbDlfVG9ybmFkbwABAAAAAQAAAAAAAAAFAAAATWFsZQAfAAAAU1RfTU1fTWlycm9yUmVub2lyX0VudGVyUGhhc2UyAAEAAAABAAAAAAAAAAUAAABNYWxlAB8AAABTVF9NTV9NaXJyb3JSZW5vaXJfRW50ZXJQaGFzZTMAAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX01NX01pcnJvclJlbm9pcl9TdW1tb25CZXJuYXN0AAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAAJQAAAFNvbWV0aGluZyIgcmVmZXJzIHRvIGEgYmlnIGNyZWF0dXJlIgAfAAAAU1RfTU1fTWlycm9yUmVub2lyX0Jlcm5hc3RjbGF3AAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAAJgAAAFRoZSBDcmVhdHVyZSBsb29rcyBsaWtlIHZlcnkgYmlnIExpb24AJQAAAFNUX01NX01pcnJvclJlbm9pcl9CZXJuYXN0VGFpbEF0dGFjawACAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAAAAAAAAAAACYAAABUaGUgQ3JlYXR1cmUgbG9va3MgbGlrZSB2ZXJ5IGJpZyBMaW9uAB8AAABTVF9NTV9NaXJyb3JSZW5vaXJfQmVybmFzdFJvYXIAAgAAAAEAAAAAAAAACAAAAE5ldXRyYWwAAAAAAAAAAAAmAAAAVGhlIENyZWF0dXJlIGxvb2tzIGxpa2UgdmVyeSBiaWcgTGlvbgAfAAAAU1RfTU1fTWlycm9yUmVub2lyX0Jlcm5hc3RKdW1wAAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAAJgAAAFRoZSBDcmVhdHVyZSBsb29rcyBsaWtlIHZlcnkgYmlnIExpb24AHgAAAFNUX0xfTWFlbGxlVHV0b3JpYWxfVHV0b0RvZGdlAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHgAAAFNUX0xfTWFlbGxlVHV0b3JpYWxfVHV0b1BhcnJ5AAEAAAABAAAAAAAAAAcAAABGZW1hbGUAIAAAAFNUX0xfTWFlbGxlVHV0b3JpYWxfVHV0b0ZyZWVBaW0AAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAbAAAAU1RfTF9NYWVsbGVUdXRvcmlhbF9PcmJIaXQAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAeAAAAU1RfTF9NYWVsbGVUdXRvcmlhbF8xaGl0U2xhc2gAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAfAAAAU1RfTF9NYWVsbGVUdXRvcmlhbF8zaGl0c0NvbWJvAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAHgAAAFNUX0xfTWFlbGxlVHV0b3JpYWxfRW5kQmF0dGxlAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAGwAAAFNUX0xfQWJlcnJhdGlvbl9NZWxlZTZIaXRzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9MX0FiZXJyYXRpb25fTWVsZWU3SGl0cwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfTF9BYmVycmF0aW9uX01lbGVlQW9FMUhpdAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfTF9BYmVycmF0aW9uX1JhbmdlQW9FM0hpdHMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX0xfQWJlcnJhdGlvbl9SYW5nZUFvRTJIaXRzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACoAAABTVF9MX0FiZXJyYXRpb25fUmFuZ2VBb0UySGl0c19FYXJ0aHF1YWtlcwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAVAAAAU1RfTF9BYmVycmF0aW9uX0J1ZmYAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX0xfQ3JlYXRpb25fTWVsZWU1SGl0cwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAcAAAAU1RfTF9DcmVhdGlvbl9Bb0VNZWxlZTNoaXRzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABMAAABTVF9MX0NyZWF0aW9uX0J1ZmYAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGAAAAFNUX0xfQ3JlYXRpb25fTWVsZWUxSGl0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9MX0NyZWF0aW9uX1JhbmdlM0hpdHMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX0xfQ3JlYXRpb25fTWVsZWU2SGl0cwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAbAAAAU1RfTF9DcmVhdGlvbl9Td2l0Y2hQaGFzZTIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX0xfQ3JlYXRpb25fU3dpdGNoQmFja1BoYXNlMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAlAAAAU1RfTF9DcmVhdGlvbl9CbGFja09yYkFib3V0VG9FeHBsb2RlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9MX0NyZWF0aW9uX0JsYWNrT3JiRXhwbG9kZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfV01fU2VycGVucGhhcmVfSGVhZENydXNoMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfV01fU2VycGVucGhhcmVfSGVhZENydXNoMgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfV01fU2VycGVucGhhcmVfSGVhZENydXNoMwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAXAAAAU1RfV01fU2VycGVucGhhcmVfRGl2ZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfV01fU2VycGVucGhhcmVfTGFzZXJDb21ibzEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1dNX1NlcnBlbnBoYXJlX0xhc2VyQ29tYm8yAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9XTV9TZXJwZW5waGFyZV9MYXNlckNvbWJvMwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfV01fU2VycGVucGhhcmVfQWJzb3JwdGlvbgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAeAAAAU1RfV01fU2VycGVucGhhcmVfTGFzZXJTd2lwZTEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1dNX1NlcnBlbnBoYXJlX0xhc2VyU3dpcGUyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9XTV9TZXJwZW5waGFyZV9UYWlsU3dpcGUxAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9XTV9TZXJwZW5waGFyZV9UYWlsU3dpcGUyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB0AAABTVF9XTV9TZXJwZW5waGFyZV9UYWlsU3dpcGUzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9XTV9TZXJwZW5waGFyZV9BYnNvcmJBUAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAbAAAAU1RfV01fU2VycGVucGhhcmVfQ29sbGFwc2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsMUEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsMUIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsMUMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsMkEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsMkIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsM0EAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsM0IAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsM0MAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX1dNX0Jvc3NfU3Byb25nX1NraWxsNAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAaAAAAU1RfV01fQm9zc19TcHJvbmdfU2tpbGw1QQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAaAAAAU1RfV01fQm9zc19TcHJvbmdfU2tpbGw1QgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAiAAAAU1RfV01fQm9zc19TcHJvbmdfU2tpbGw1QlRvb2xUaXAyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB4AAABTVF9XTV9Cb3NzX1Nwcm9uZ19CYXR0bGVTdGVwMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAlAAAAU1RfV01fQm9zc19TcHJvbmdfQmF0dGxlU3RhcnRUb29sdGlwAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9HQV9HZXN0cmFsU3Vtb19BdHRhY2sAAQAAAAEAAAAAAAAABQAAAE1hbGUAGwAAAFNUX0dBX0dlc3RyYWxTa2lubnlfQXR0YWNrAAEAAAABAAAAAAAAAAUAAABNYWxlABkAAABTVF9HQV9HZXN0cmFsQ2hhZF9BdHRhY2sAAQAAAAEAAAAAAAAABQAAAE1hbGUAGQAAAFNUX0dBX0dlc3RyYWxCdWZmX0F0dGFjawABAAAAAQAAAAAAAAAFAAAATWFsZQAZAAAAU1RfR0FfR2VzdHJhbFRhbGxfQXR0YWNrAAEAAAABAAAAAAAAAAUAAABNYWxlABkAAABTVF9HQV9HZXN0cmFsQmFieV9BdHRhY2sAAQAAAAEAAAAAAAAABQAAAE1hbGUAKAAAAFNUX1NNX0xhbmNlbGllcl9BbHRlcm5hdGlmQV9Ib2xsb3dFc3RvYwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAqAAAAU1RfU01fTGFuY2VsaWVyX0FsdGVybmF0aWZBX0hvbGxvd0VzdG9jXzIAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAKwAAAFNUX1NNX0xhbmNlbGllcl9BbHRlcm5hdGlmQl9KdW1wU3BlYXJDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAsAAAAU1RfU01fTGFuY2VsaWVyX0FsdGVybmF0aWZCX0ZlaW50U3BlYXJFc3RvYwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAArAAAAU1RfU01fTGFuY2VsaWVyX0FsdGVybmF0aWZEX0xvbmdTcGVhckNvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACcAAABTVF9TTV9MYW5jZWxpZXJfQWx0ZXJuYXRpZkRfU3BlYXJDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAkAAAAU1RfWUZfR2F1bHRfQWx0ZXJuYXRpdkFfVHJpY2t5Q29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIgAAAFNUX1lGX0dhdWx0X0FsdGVybmF0aXZCX0xvbmdDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAmAAAAU1RfWUZfR2F1bHRfQWx0ZXJuYXRpdkNfU2FtdXJhaVN0YW5jZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAnAAAAU1RfWUZfR2F1bHRfQWx0ZXJuYXRpdkRfRGFya0Nsb25lQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX1lGX0dhdWx0X0FsdGVybmF0aXZFX0NvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACoAAABTVF9TTV9Qb3J0aWVyX0FsdGVybmF0aXZBX0VhcnRoUXVha2VDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAkAAAAU1RfU01fUG9ydGllcl9BbHRlcm5hdGl2Ql9Sb290Q29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX1NNX1BvcnRpZXJfQWx0ZXJuYXRpdkNfTWVsZWVDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfU01fUG9ydGllcl9BbHRlcm5hdGl2RF9NZXRlb3IAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX1NNX1BvcnRpZXJfQWx0ZXJuYXRpdkVfQm91bmRDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAjAAAAU1RfWUZfUG90aWVyX0FsdGVybmF0aXZlQV9NaXNlTW9ydAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAuAAAAU1RfWUZfUG90aWVyX0FsdGVybmF0aXZlQV9EZWF0aFBvdEZyb21Ta3lDYXN0AAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAC4AAABTVF9ZRl9Qb3RpZXJfQWx0ZXJuYXRpdmVBX0RlYXRoUG90RnJvbVNreVByb2MAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJAAAAFNUX1lGX1BvdGllcl9BbHRlcm5hdGl2ZUNfU2hvdFNlcmllAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACUAAABTVF9ZRl9Qb3RpZXJfQWx0ZXJuYXRpdmVEX0N1cnNpbmdDcnkAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJgAAAFNUX1lGX1BvdGllcl9BbHRlcm5hdGl2ZUVfQ2FsbEZvckhlbHAAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAKgAAAFNUX1lGX1NhcGxpbmdfQWx0ZXJuYXRpdmVBX1JlbGVudGxlc3NuZXNzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACMAAABTVF9ZRl9TYXBsaW5nX0FsdGVybmF0aXZlQV9BcFN0ZWFsAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACYAAABTVF9ZRl9TYXBsaW5nX0FsdGVybmF0aXZlQl9BYnNvcnB0aW9uAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACoAAABTVF9ZRl9TYXBsaW5nX0FsdGVybmF0aXZlQl9EaXN0dXJiaW5nV2F2ZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAmAAAAU1RfWUZfU2FwbGluZ19BbHRlcm5hdGl2ZUNfSGFyYXNzbWVudAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfWUZfU2FwbGluZ19BbHRlcm5hdGl2ZUNfQXNzYXNzaW5hdGlvbgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfUkNfQWxpY2lhX0luc3BpcmF0aW9uAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAGQAAAFNUX1JDX0FsaWNpYV9GbGV1cmV0RnVyeQABAAAAAQAAAAAAAAAHAAAARmVtYWxlABsAAABTVF9SQ19BbGljaWFfVmFyaWFudFN3b3JkcwABAAAAAQAAAAAAAAAHAAAARmVtYWxlABkAAABTVF9SQ19BbGljaWFfRGFuY2luZ0Z1cnkAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAXAAAAU1RfUkNfQWxpY2lhX1ZvaWRTbGFzaAABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB4AAABTVF9SQ19BbGljaWFfVHJhbnNpdGlvblBoYXNlMgABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB4AAABTVF9SQ19BbGljaWFfVHJhbnNpdGlvblBoYXNlMwABAAAAAQAAAAAAAAAHAAAARmVtYWxlACUAAABTVF9TTF9TYXBsaW5nX0NydXNoaW5nV2FsbF9XYWxsTW92ZTEAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX1NMX1NhcGxpbmdfQ3J1c2hpbmdXYWxsX1dhbGxNb3ZlMgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAlAAAAU1RfU0xfU2FwbGluZ19DcnVzaGluZ1dhbGxfV2FsbE1vdmUzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACUAAABTVF9TTF9TYXBsaW5nX0NydXNoaW5nV2FsbF9XYWxsTW92ZTQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJQAAAFNUX1NMX1NhcGxpbmdfQ3J1c2hpbmdXYWxsX1dhbGxNb3ZlNQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfU0xfU2FwbGluZ19DcnVzaGluZ1dhbGxfV2FsbE1vdmVGaW5hbAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAiAAAAU1RfU0xfU2FwbGluZ19DcnVzaGluZ1dhbGxfU2hpZWxkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGwxAAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGwyAAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGwzAAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGw0AAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGw1AAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGw2AAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGw3AAEAAAABAAAAAAAAAAUAAABNYWxlACYAAABTVF9HZXN0cmFsX1NraW5ueV9HZXN0cmFsU2tpbm55U2tpbGw4AAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX0NoYWRfR2VzdHJhbENoYWRTa2lsbDEAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfQ2hhZF9HZXN0cmFsQ2hhZFNraWxsMgABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9DaGFkX0dlc3RyYWxDaGFkU2tpbGwzAAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX0NoYWRfR2VzdHJhbENoYWRTa2lsbDQAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfQ2hhZF9HZXN0cmFsQ2hhZFNraWxsNQABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9DaGFkX0dlc3RyYWxDaGFkU2tpbGw2AAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX0NoYWRfR2VzdHJhbENoYWRTa2lsbDcAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfQ2hhZF9HZXN0cmFsQ2hhZFNraWxsOAABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9TdW1vX0dlc3RyYWxTdW1vU2tpbGwxAAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX1N1bW9fR2VzdHJhbFN1bW9Ta2lsbDIAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfU3Vtb19HZXN0cmFsU3Vtb1NraWxsMwABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9TdW1vX0dlc3RyYWxTdW1vU2tpbGw0AAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX1N1bW9fR2VzdHJhbFN1bW9Ta2lsbDUAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfU3Vtb19HZXN0cmFsU3Vtb1NraWxsNgABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9TdW1vX0dlc3RyYWxTdW1vU2tpbGw3AAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX1N1bW9fR2VzdHJhbFN1bW9Ta2lsbDgAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfQmFieV9HZXN0cmFsQmFieVNraWxsMQABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9CYWJ5X0dlc3RyYWxCYWJ5U2tpbGwyAAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX0JhYnlfR2VzdHJhbEJhYnlTa2lsbDMAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfQmFieV9HZXN0cmFsQmFieVNraWxsNAABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9CYWJ5X0dlc3RyYWxCYWJ5U2tpbGw1AAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX0JhYnlfR2VzdHJhbEJhYnlTa2lsbDYAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfQmFieV9HZXN0cmFsQmFieVNraWxsNwABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9CYWJ5X0dlc3RyYWxCYWJ5U2tpbGw4AAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX0JhYnlfR2VzdHJhbEJhYnlTa2lsbDkAAQAAAAEAAAAAAAAABQAAAE1hbGUAIwAAAFNUX0dlc3RyYWxfQmFieV9HZXN0cmFsQmFieVNraWxsMTAAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfVGFsbF9HZXN0cmFsVGFsbFNraWxsMQABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9UYWxsX0dlc3RyYWxUYWxsU2tpbGwyAAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX1RhbGxfR2VzdHJhbFRhbGxTa2lsbDMAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfVGFsbF9HZXN0cmFsVGFsbFNraWxsNAABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9UYWxsX0dlc3RyYWxUYWxsU2tpbGw1AAEAAAABAAAAAAAAAAUAAABNYWxlACIAAABTVF9HZXN0cmFsX1RhbGxfR2VzdHJhbFRhbGxTa2lsbDYAAQAAAAEAAAAAAAAABQAAAE1hbGUAIgAAAFNUX0dlc3RyYWxfVGFsbF9HZXN0cmFsVGFsbFNraWxsNwABAAAAAQAAAAAAAAAFAAAATWFsZQAiAAAAU1RfR2VzdHJhbF9UYWxsX0dlc3RyYWxUYWxsU2tpbGw4AAEAAAABAAAAAAAAAAUAAABNYWxlACMAAABTVF9RdWVzdF9Ucm91YmFkb3VyQ2FudFBsYXlfVHJpYWwxAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACMAAABTVF9RdWVzdF9Ucm91YmFkb3VyQ2FudFBsYXlfVHJpYWwyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACMAAABTVF9RdWVzdF9Ucm91YmFkb3VyQ2FudFBsYXlfVHJpYWwzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACgAAABTVF9RdWVzdF9Ucm91YmFkb3VyQ2FudFBsYXlfRmFpbGVkVHJpYWwAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJgAAAFNUX1F1ZXN0X1Ryb3ViYWRvdXJDYW50UGxheV9UcmlhbDFXaW4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJgAAAFNUX1F1ZXN0X1Ryb3ViYWRvdXJDYW50UGxheV9UcmlhbDJXaW4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAJgAAAFNUX1F1ZXN0X1Ryb3ViYWRvdXJDYW50UGxheV9UcmlhbDNXaW4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIQAAAFNUX1F1ZXN0X0dlc3RyYWxPbm9QdW5jaG9fVGF1bnQxAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9RdWVzdF9HZXN0cmFsT25vUHVuY2hvX1RhdW50MgABAAAAAQAAAAAAAAAFAAAATWFsZQAhAAAAU1RfUXVlc3RfR2VzdHJhbE9ub1B1bmNob19UYXVudDMAAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX1F1ZXN0X0dlc3RyYWxPbm9QdW5jaG9fVGF1bnQ0AAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9RdWVzdF9HZXN0cmFsT25vUHVuY2hvX1RhdW50NQABAAAAAQAAAAAAAAAFAAAATWFsZQAmAAAAU1RfUXVlc3RfR2VzdHJhbE9ub1B1bmNob19UcmlhbEZhaWxlZAABAAAAAQAAAAAAAAAFAAAATWFsZQAjAAAAU1RfUXVlc3RfR2VzdHJhbE9ub1B1bmNob19UcmlhbFdpbgABAAAAAQAAAAAAAAAFAAAATWFsZQAeAAAAU1RfUXVlc3RfSGV4Z2FRdWVzdF9TaGllbGRBb2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHwAAAFNUX1F1ZXN0X0hleGdhUXVlc3RfU2hpZWxkTW9kZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAmAAAAU1RfUXVlc3RfSGV4Z2FRdWVzdF9TaGllbGRNb2RlVHVybkVuZAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfUXVlc3RfSGV4Z2FRdWVzdF9TaGllbGRCcmVhawABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQnViYmxlVGhyb3dfMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQnViYmxlVGhyb3dfMgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQnViYmxlVGhyb3dfMwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQnViYmxlVGhyb3dfNAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQnViYmxlVGhyb3dfNQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQnViYmxlVGhyb3dfNgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAApAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQnViYmxlVGhyb3dfNwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAtAAAAU1RfUXVlc3RfU2xlZXBpbmdCZW5pc3NldXJfQmVuaXNzZXVyRGVmZWF0ZWQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAKgAAAFNUX1F1ZXN0X0JvdXJnZW9uX1F1ZXN0X1NwaXR0aW5nQWxsSGVyb2VzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsADIAAABTVF9RdWVzdF9Cb3VyZ2Vvbl9RdWVzdF9SZW1haW5pbmdUdXJuQmVmb3JlRWF0aW5nAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsACQAAABTVF9RdWVzdF9Cb3VyZ2Vvbl9RdWVzdF9FYXROZXh0VHVybgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAWAAAAU1RfUGV0YW5rX1NraWxsX01lbGVlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABYAAABTVF9QZXRhbmtfU2tpbGxfUmFuZ2UAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFQAAAFNUX1BldGFua19Ta2lsbF9GbGVlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9QZXRhbmtfQmx1ZV9TaGllbGRUdXJuMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAkAAAAU1RfUGV0YW5rX0dyZWVuX1dlYWtTcG90U2VsZkRhbWFnZXMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFAAAAFNUX1BldGFua19CbHVlX0J1ZmYAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFQAAAFNUX1BldGFua19HcmVlbl9CdWZmAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABYAAABTVF9QZXRhbmtfVmlvbGV0X0J1ZmYAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFgAAAFNUX1BldGFua19ZZWxsb3dfQnVmZgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAWAAAAU1RfUGV0YW5rX09yYW5nZV9CdWZmAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9QZXRhbmtfUmVkX0NvdW50ZXJFZmZlY3QAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFwAAAFNUX1BldGFua19GbGVlSW5YVHVybnMAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFwAAAFNUX1BldGFua19GbGVlTmV4dFR1cm4AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAFgAAAFNUX1BldGFua19BbHBoYVN1bW1vbgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAlAAAAU1RfUVVFU1RfR29sZ3JhX0RhcmtBcmVuYV9Db21ibzNIaXRzAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAKQAAAFNUX1FVRVNUX0dvbGdyYV9EYXJrQXJlbmFfR3JhZGllbnRBdHRhY2sAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAnAAAAU1RfUVVFU1RfR29sZ3JhX0RhcmtBcmVuYV9Db21ibzNIaXRzXzIAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAhAAAAU1RfUVVFU1RfR29sZ3JhX0RhcmtBcmVuYV9Db21ibzQAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAfAAAAU1RfUVVFU1RfR29sZ3JhX0RhcmtBcmVuYV9CdWZmAAEAAAABAAAAAAAAAAcAAABGZW1hbGUALgAAAFNUX1FVRVNUX0dvbGdyYV9EYXJrQXJlbmFfQ29tYm8xRXh0ZW5kUDI2SGl0cwABAAAAAQAAAAAAAAAHAAAARmVtYWxlADAAAABTVF9RVUVTVF9Hb2xncmFfRGFya0FyZW5hX0dyYWRpZW50Q29tYm9FeHRlbmRlZAABAAAAAQAAAAAAAAAHAAAARmVtYWxlAC4AAABTVF9RVUVTVF9Hb2xncmFfRGFya0FyZW5hX0NvbWJvM0V4dGVuZFAyNEhpdHMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAuAAAAU1RfUVVFU1RfR29sZ3JhX0RhcmtBcmVuYV9Db21ibzRFeHRlbmRlZDZIaXRzAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAFQAAAFNUX0Jvc3NfU2ltb25fQ29tYm8xAAEAAAABAAAAAAAAAAUAAABNYWxlABUAAABTVF9Cb3NzX1NpbW9uX0NvbWJvMgABAAAAAQAAAAAAAAAFAAAATWFsZQAcAAAAU1RfQm9zc19TaW1vbl9Qb3dlcmZ1bENvbWJvAAEAAAABAAAAAAAAAAUAAABNYWxlABMAAABTVF9Cb3NzX1NpbW9uX0J1ZmYAAQAAAAEAAAAAAAAABQAAAE1hbGUAGQAAAFNUX0Jvc3NfU2ltb25fU3dvcmRQbGFudAABAAAAAQAAAAAAAAAFAAAATWFsZQAfAAAAU1RfQm9zc19TaW1vbl9MaWdodFNwZWVkYXR0YWNrAAEAAAABAAAAAAAAAAUAAABNYWxlAB4AAABTVF9Cb3NzX1NpbW9uX0Nocm9tYUdhdGhlcmluZwABAAAAAQAAAAAAAAAFAAAATWFsZQAaAAAAU1RfQm9zc19TaW1vbl9TaGllbGRTdGVhbAABAAAAAQAAAAAAAAAFAAAATWFsZQAWAAAAU1RfTWltZV9Ta2lsbDFfU2hpZWxkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9NaW1lX1NraWxsMl9TaWxlbmNlAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABwAAABTVF9NaW1lX1NraWxsM19DaGFvdGljQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGgAAAFNUX01pbWVfU2tpbGw0X1B1bmNoQ29tYm8AAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHgAAAFNUX05vaXJlX1NraWxsXzFfQmVzdGlhbENvbWJvAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9Ob2lyZV9Ta2lsbF8yX05vaXJlQmVhbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAdAAAAU1RfTm9pcmVfU2tpbGxfM19CZXJzZXJrWWVsbAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAYAAAAU1RfTm9pcmVfQmVyc2Vya1JlbW92ZWQAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGwAAAFNUX05vaXJlX1NraWxsXzRfRGFya1NwZWFyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9Ob2lyZV9Ta2lsbF81X1NsYXBDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAfAAAAU1RfTm9pcmVfVHVybkVuZF9BcHBseUludmVydGVkAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABkAAABTVF9MVV9BY3QxX1NvcGhpZV9Eb2RnZTEAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAaAAAAU1RfU0NfTWlycm9yUmVub2lyX1R1cm5fMQACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAAFEAAABXaGl0ZS1oYWlyZWQgTWFuIHJlZmVycyB0byBNaXJyb3IgUmVub2lyLCB0aGUgcGxheWVyIGRvZXNuJ3QgeWV0IGtub3cgaG93IGhlIGlzLgAaAAAAU1RfU0NfTWlycm9yUmVub2lyX1R1cm5fMgACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAAFEAAABXaGl0ZS1oYWlyZWQgTWFuIHJlZmVycyB0byBNaXJyb3IgUmVub2lyLCB0aGUgcGxheWVyIGRvZXNuJ3QgeWV0IGtub3cgaG93IGhlIGlzLgAaAAAAU1RfU0NfTWlycm9yUmVub2lyX1R1cm5fMwACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAAFEAAABXaGl0ZS1oYWlyZWQgTWFuIHJlZmVycyB0byBNaXJyb3IgUmVub2lyLCB0aGUgcGxheWVyIGRvZXNuJ3QgeWV0IGtub3cgaG93IGhlIGlzLgAaAAAAU1RfU0NfTWlycm9yUmVub2lyX1R1cm5fNAACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAAFEAAABXaGl0ZS1oYWlyZWQgTWFuIHJlZmVycyB0byBNaXJyb3IgUmVub2lyLCB0aGUgcGxheWVyIGRvZXNuJ3QgeWV0IGtub3cgaG93IGhlIGlzLgAhAAAAU1RfQ0ZIX0Jvc3NfQ2xlYV9Qb3dlcmZ1bE5ldnJvbnMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAeAAAAU1RfQ0ZIX0Jvc3NfQ2xlYV9BZ2lsZU5ldnJvbnMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAfAAAAU1RfQ0ZIX0Jvc3NfQ2xlYV9DcmVlcHlOZXZyb25zAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAIAAAAFNUX0NGSF9Cb3NzX0NsZWFfTXVzaWNhbE5ldnJvbnMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAgAAAAU1RfQ0ZIX0Jvc3NfQ2xlYV9WaW9sZW50TmV2cm9ucwABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB4AAABTVF9DRkhfQm9zc19DbGVhX1dhdGVyTmV2cm9ucwABAAAAAQAAAAAAAAAHAAAARmVtYWxlAB8AAABTVF9DRkhfQm9zc19DbGVhX1RyaWNreU5ldnJvbnMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAhAAAAU1RfQ0ZIX0Jvc3NfQ2xlYV9DaHJvbWFEaXN0dXJiZWQAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAWAAAAU1RfQ0ZIX0Jvc3NfQ2xlYV9IZWFsAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAIgAAAFNUX0NGSF9Cb3NzX0NsZWFfQ2hyb21hUHJvamVjdGlvbgABAAAAAQAAAAAAAAAHAAAARmVtYWxlACEAAABTVF9DRkhfQm9zc19DbGVhX0dpZ2FudGljTmV2cm9ucwABAAAAAQAAAAAAAAAHAAAARmVtYWxlACgAAABTVF9DRkhfQm9zc19DbGVhX0VhcnRoU2hhdHRlcmluZ05ldnJvbnMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAfAAAAU1RfQ0ZIX0Jvc3NfQ2xlYV9OaW1ibGVOZXZyb25zAAEAAAABAAAAAAAAAAcAAABGZW1hbGUAJgAAAFNUX0NGSF9Cb3NzX0NsZWFfU3BlbGxTbGluZ2luZ05ldnJvbnMAAQAAAAEAAAAAAAAABwAAAEZlbWFsZQAaAAAAU1RfTGljb3JuZV9Ta2lsbDFfUmFpbmJvdwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAhAAAAU1RfTGljb3JuZV9Ta2lsbDJfRmx1ZmZpbmdTdGFja3MAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAHQAAAFNUX0xpY29ybmVfU2tpbGwzX0p1bXBBdHRhY2sAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAGQAAAFNUX0xpY29ybmVfU2tpbGw0X0NoYXJnZQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAgAAAAU1RfTGljb3JuZUFscGhhX1NraWxsM19SYWluYm9vbQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAkAAAAU1RfQmFyYmFzdWNldHRlX1NraWxsMV9Mb2xpcG9wQ29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUAIwAAAFNUX0JhcmJhc3VjZXR0ZV9Ta2lsbDJfU3VtbW9uQ2FuZHkAAQAAAAEAAAAAAAAABQAAAE1hbGUAHgAAAFNUX0JhcmJhc3VjZXR0ZV9Ta2lsbDNfS3VuZ0Z1AAEAAAABAAAAAAAAAAUAAABNYWxlACQAAABTVF9CYXJiYXN1Y2V0dGVfU2tpbGw0X1Rocm93QnViYmxlcwABAAAAAQAAAAAAAAAFAAAATWFsZQAXAAAAU1RfQmFyYmFzdWNldHRlX2VucmFnZQABAAAAAQAAAAAAAAAFAAAATWFsZQAcAAAAU1RfQmFyYmFzdWNldHRlX0NhbmR5U2hpZWxkAAEAAAABAAAAAAAAAAUAAABNYWxlAB8AAABTVF9HZXN0cmFsQmFsbG9vbl9BbmdyeUdlc3RyYWwAAQAAAAEAAAAAAAAABQAAAE1hbGUAGwAAAFNUX0ZyYW5jdGFsZV9GcmFuY29pc1Nob290AAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAASwAAAGZyYW5jdGFsZSBwb3NlcyBpdHMgaGVhZCBvbiB0aGUgZ3JvdW5kIGFuZCBraWNrcyBpdCB0b3dhcmRzIHRoZSBleHBlZGl0aW9uABQAAABTVF9GcmFuY3RhbGVfTGFzZXJzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABsAAABTVF9GcmFuY3RhbGVfRnJhbmNvaXNDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAZAAAAU1RfRnJhbmN0YWxlQWxwaGFfTGFzZXJzAAIAAAABAAAAAAAAAAgAAABOZXV0cmFsAAAAAAAAAAAARAAAAFRoZXJlIGFyZSAzIEZyYW5jdGFsZSBpbiB0aGUgZmlnaHQgYW5kIHRoZXkgYXR0YWNrIGF0IHRoZSBzYW1lIHRpbWUAJQAAAFNUX0ZyYW5jdGFsZUFscGhhX1N5bmNocm9uaXplZEF0dGFjawACAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAAAAAAAAAAAEQAAABUaGVyZSBhcmUgMyBGcmFuY3RhbGUgaW4gdGhlIGZpZ2h0IGFuZCB0aGV5IGF0dGFjayBhdCB0aGUgc2FtZSB0aW1lABgAAABTVF9GcmFuY3RhbGVBbHBoYV9Db21ibwACAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAAAAAAAAAAAEQAAABUaGVyZSBhcmUgMyBGcmFuY3RhbGUgaW4gdGhlIGZpZ2h0IGFuZCB0aGV5IGF0dGFjayBhdCB0aGUgc2FtZSB0aW1lAB0AAABTVF9NYWNoaW5hcGllZHNfU2tpbGwxX3B1bmNoAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAB8AAABTVF9NYWNoaW5hcGllZHNfU2tpbGwyX1NreWRpdmUAAQAAAAEAAAAAAAAACAAAAE5ldXRyYWwAIgAAAFNUX01hY2hpbmFwaWVkc19Ta2lsbDNfUHVuY2hDb21ibwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAAcAAAAU1RfTWFjaGluYXBpZWRzX1NraWxsNF9CdWZmAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9MaWNvcm5hcGllZHNfU2tpbGwxAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9MaWNvcm5hcGllZHNfU2tpbGwyAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsABcAAABTVF9MaWNvcm5hcGllZHNfU2tpbGwzAAEAAAABAAAAAAAAAAgAAABOZXV0cmFsAC0AAABTVF9Cb3NzX0R1b2xsaXN0ZXNQMV9Db21ib0R1b0FfTWVsZWVBbmRHaG9zdAACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAADgAAABUaGVyZSBhcmUgMiBkdW9saXN0ZXMgdGhhdCBib3RoIGF0dGFjayBhdCB0aGUgc2FtZSB0aW1lACwAAABTVF9Cb3NzX0R1b2xsaXN0ZXNQMV9Db21ib0R1b0JfVGVsbHVyaWZvcmNlAAIAAAABAAAAAAAAAAUAAABNYWxlAAAAAAAAAAAAOAAAAFRoZXJlIGFyZSAyIGR1b2xpc3RlcyB0aGF0IGJvdGggYXR0YWNrIGF0IHRoZSBzYW1lIHRpbWUAKAAAAFNUX0Jvc3NfRHVvbGxpc3Rlc1AxX0NvbWJvRHVvQ19EdW9NZWxlZQACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAADgAAABUaGVyZSBhcmUgMiBkdW9saXN0ZXMgdGhhdCBib3RoIGF0dGFjayBhdCB0aGUgc2FtZSB0aW1lAC0AAABTVF9Cb3NzX0R1b2xsaXN0ZXNQMV9Db21ib0R1b0RfU3Rvcm1CbG9vZER1bwACAAAAAQAAAAAAAAAFAAAATWFsZQAAAAAAAAAAADgAAABUaGVyZSBhcmUgMiBkdW9saXN0ZXMgdGhhdCBib3RoIGF0dGFjayBhdCB0aGUgc2FtZSB0aW1lACsAAABTVF9Cb3NzX0R1b2xsaXN0UDJfQ29tYm9CZXJzZXJrQV9Mb25nQ29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUALAAAAFNUX0Jvc3NfRHVvbGxpc3RQMl9Db21ib0JlcnNlcmtCX1N3aWZ0Q29tYm8AAQAAAAEAAAAAAAAABQAAAE1hbGUAMQAAAFNUX0Jvc3NfRHVvbGxpc3RQMl9Db21ib0JlcnNlcmtDX1JlbGVudGxlc3NDb21ibwABAAAAAQAAAAAAAAAFAAAATWFsZQA0AAAAU1RfQm9zc19EdW9sbGlzdFAyX0NvbWJvQmVyc2Vya0RfVWx0aW1hdGVTdG9ybUJsb29kAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9RdWVzdF9GZWludEZpZ2h0X0F0dGFja1N0YXJ0MQABAAAAAQAAAAAAAAAFAAAATWFsZQAhAAAAU1RfUXVlc3RfRmVpbnRGaWdodF9BdHRhY2tTdGFydDIAAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX1F1ZXN0X0ZlaW50RmlnaHRfQXR0YWNrU3RhcnQzAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9RdWVzdF9GZWludEZpZ2h0X0F0dGFja1N0YXJ0NAABAAAAAQAAAAAAAAAFAAAATWFsZQAhAAAAU1RfUXVlc3RfRmVpbnRGaWdodF9BdHRhY2tTdGFydDUAAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX1F1ZXN0X0ZlaW50RmlnaHRfQ291bnRlckZhaWwxAAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9RdWVzdF9GZWludEZpZ2h0X0NvdW50ZXJGYWlsMgABAAAAAQAAAAAAAAAFAAAATWFsZQAhAAAAU1RfUXVlc3RfRmVpbnRGaWdodF9Db3VudGVyRmFpbDMAAQAAAAEAAAAAAAAABQAAAE1hbGUAIQAAAFNUX1F1ZXN0X0ZlaW50RmlnaHRfQ291bnRlckZhaWw0AAEAAAABAAAAAAAAAAUAAABNYWxlACEAAABTVF9RdWVzdF9GZWludEZpZ2h0X0NvdW50ZXJGYWlsNQABAAAAAQAAAAAAAAAFAAAATWFsZQAnAAAAU1RfUXVlc3RfRmVpbnRGaWdodF9Db3VudGVyU3VjY2Vzc2Z1bDEAAQAAAAEAAAAAAAAABQAAAE1hbGUAJwAAAFNUX1F1ZXN0X0ZlaW50RmlnaHRfQ291bnRlclN1Y2Nlc3NmdWwyAAEAAAABAAAAAAAAAAUAAABNYWxlACcAAABTVF9RdWVzdF9GZWludEZpZ2h0X0NvdW50ZXJTdWNjZXNzZnVsMwABAAAAAQAAAAAAAAAFAAAATWFsZQARAAAAU1RfT3NxdWlvX1NraWxsMQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfT3NxdWlvX1NraWxsMgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfT3NxdWlvX1NraWxsMwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfT3NxdWlvX1NraWxsNAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfT3NxdWlvX1NraWxsNQABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfT3NxdWlvX1NraWxsNgABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfT3NxdWlvX1NraWxsNwABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAARAAAAU1RfT3NxdWlvX1NraWxsOAABAAAAAQAAAAAAAAAIAAAATmV1dHJhbAA="
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -8,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "StringTable",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__StringTable",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 10
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/StringTables/ST_Enemies_Skills",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 485,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 4,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_Cooked, PKG_UnversionedProperties, PKG_FilterEditorOnly",
+  "HasUnversionedProperties": true,
+  "IsFilterEditorOnly": true
+}
