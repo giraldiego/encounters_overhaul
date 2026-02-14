@@ -17,6 +17,7 @@ NAMES = {
 # Multipliers by enemy type
 MULTIPLIERS = {
     "normal": {"HP": 3.0, "ATK": 1.0, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
+    # "alpha":  {"HP": 2.0, "ATK": 1.2, "Speed": 1.4, "Chroma": 1.5, "XP": 1.25},
     "boss":   {"HP": 1.5, "ATK": 1.0, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
 }
 
@@ -31,6 +32,12 @@ ENEMY_OVERRIDES = {}
 # EnemyHardcodedName patterns that should be treated as bosses (case-insensitive substring match)
 BOSS_NAME_PATTERNS = [
     "MIME",
+]
+
+# EnemyHardcodedName patterns for alpha/elite enemies (case-insensitive substring match)
+ALPHA_NAME_PATTERNS = [
+    "ALPHA",
+    "_Alpha",
 ]
 
 # ---- Constants ----
@@ -102,6 +109,12 @@ def matches_boss_pattern(enemy_name: str) -> bool:
     name_upper = enemy_name.upper()
     return any(pattern.upper() in name_upper for pattern in BOSS_NAME_PATTERNS if pattern)
 
+def matches_alpha_pattern(enemy_name: str) -> bool:
+    if not enemy_name:
+        return False
+    name_upper = enemy_name.upper()
+    return any(pattern.upper() in name_upper for pattern in ALPHA_NAME_PATTERNS if pattern)
+
 # Build a reverse map: property Name -> label ("HP"/"Speed"/"XP")
 NAME_TO_LABEL = {v: k for k, v in NAMES.items()}
 
@@ -111,14 +124,8 @@ with INFILE.open("r", encoding="utf-8") as f:
     data = json.load(f)
 
 stats = {
-    "changed": {
-        "normal": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
-        "boss": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
-    },
-    "skipped_non_numeric": {
-        "normal": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
-        "boss": {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0},
-    },
+    "changed": {kind: {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0} for kind in MULTIPLIERS},
+    "skipped_non_numeric": {kind: {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0} for kind in MULTIPLIERS},
     "missing_scaling": 0,
     "overrides_applied": 0,
 }
@@ -148,15 +155,19 @@ for entry in enemy_data:
     enemy_name = extract_enemy_hardcoded_name(entry)
     is_boss = extract_is_boss(entry)
 
-    matches_pattern = matches_boss_pattern(enemy_name)
+    matches_boss_pat = matches_boss_pattern(enemy_name)
+    matches_alpha_pat = matches_alpha_pattern(enemy_name)
 
-    kind = "boss" if (is_boss or matches_pattern) else "normal"
-
-    reason = (
-    "boss"
-    if is_boss
-    else ("pattern->boss" if matches_pattern else "normal")
-    )
+    # Determine category: boss takes priority, then alpha (if configured), then normal
+    if is_boss or matches_boss_pat:
+        kind = "boss"
+        reason = "boss" if is_boss else "pattern->boss"
+    elif matches_alpha_pat and "alpha" in MULTIPLIERS:
+        kind = "alpha"
+        reason = "alpha"
+    else:
+        kind = "normal"
+        reason = "normal"
 
     scaling = find_scaling_struct(entry)
     if scaling is None:
@@ -199,7 +210,7 @@ print("\nSUMMARY")
 print("-------")
 print("Missing scaling struct:", stats["missing_scaling"])
 print("Overrides applied:", stats["overrides_applied"])
-for kind in ("normal", "boss"):
+for kind in MULTIPLIERS.keys():
     print(f"\n{kind.upper()}")
     for label in ("HP", "ATK", "Speed", "Chroma", "XP"):
         print(f"  {label} changed: {stats['changed'][kind][label]}")
