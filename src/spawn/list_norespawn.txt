@@ -1,0 +1,41 @@
+nospawn\JSONs\Enemies\Forgotten_BattleField\Benisseur\BP_EnemyWorld_Benisseur_Alpha.json
+nospawn\JSONs\Enemies\Forgotten_BattleField\Chalier\BP_EnemyWorld_Chalier_Sword_Alpha.json
++ nospawn\JSONs\Enemies\Forgotten_BattleField\Troubadour\BP_EnemyWorld_TroubadourAlpha.json
+nospawn\JSONs\Enemies\Goblu_Ennemies\Bourgeon\BP_EnemyWorld_Bourgeon.json
+nospawn\JSONs\Enemies\Goblu_Ennemies\bruler\BP_EnemyWorld_Bruler_ALPHA.json
+nospawn\JSONs\Enemies\Goblu_Ennemies\Cruler\BP_EnemyWorld_Cruler_ALPHA.json
+nospawn\JSONs\Enemies\Goblu_Ennemies\Demineur\BP_EnemyWorld_Demineur_ALPHA.json
+nospawn\JSONs\Enemies\Goblu_Ennemies\Goblu\BP_EnemyWorld_Goblu_ALPHA.json
+nospawn\JSONs\Enemies\Goblu_Ennemies\Luster\BP_EnemyWorld_UniqueLusterAlpha.json
+nospawn\JSONs\Enemies\Lumiere\ACTE_3\Aberration\BP_EnemyWorld_Aberration_ALPHA.json
+nospawn\JSONs\Enemies\ManyFaces\Boucheclier\BP_EnemyWorld_Boucheclier_ALPHA.json
+nospawn\JSONs\Enemies\ManyFaces\Chapelier\BP_EnemyWorld_Chapelier_Alpha.json
+nospawn\JSONs\Enemies\ManyFaces\Grosstete\BP_EnemyWorld_GrossTete.json
+nospawn\JSONs\Enemies\ManyFaces\Moissonneuse\BP_Enemy_World_Moissonneuse_Alpha.json
+nospawn\JSONs\Enemies\MonocoMountain\Braseleur\BP_EnemyWorld_BlackSmith_ALPHA.json
+nospawn\JSONs\Enemies\MonocoMountain\Dancer\BP_EnemyWorld_Dancer_Alpha.json
+nospawn\JSONs\Enemies\Monolith\Obscure\BP_EnemyWorld_ClairObscur_Alpha.json
+nospawn\JSONs\Enemies\Reacher\Echassier\BP_EnemyWorld_Echassier_ALPHA.json
++ nospawn\JSONs\Enemies\Reacher\Orphelin\BP_EnemyWorld_OrphelinHammer_Alpha.json
++ nospawn\JSONs\Enemies\Reacher\Orphelin\BP_EnemyWorld_OrphelinNail_Alpha.json
++ nospawn\JSONs\Enemies\Reacher\Orphelin\BP_EnemyWorld_OrphelinSpoon_Alpha.json
+nospawn\JSONs\Enemies\Reacher\Veilleur\BP_EnemyWorld_Veilleur_Alpha.json
+nospawn\JSONs\Enemies\Sea_Cliff\Cultist_Flying\BP_EnemyWorld_CultistFlying_ALPHA.json
+nospawn\JSONs\Enemies\Sea_Cliff\Cultist_Heavy\BP_EnemyWorld_CultistHeavy_Alpha.json
+nospawn\JSONs\Enemies\Sea_Cliff\Lampmaster\BP_EnemyWorld_LampMaster_Alpha.json
+nospawn\JSONs\Enemies\Sea_Cliff\Rocher\BP_EnemyWorld_Rocher_HexgaQuest.json
+nospawn\JSONs\Enemies\Sirene\Ballet\BP_EnemyWorld_Ballet_ALPHA_Charm.json
+nospawn\JSONs\Enemies\Sirene\Glissando\BP_EnemyWorld_Glissando.json
+nospawn\JSONs\Enemies\SpringMeadows\Abbest\BP_EnemyWorld_SM_Abbest_Alpha.json
+nospawn\JSONs\Enemies\SpringMeadows\Eveque_Boss\BP_EnemyWorld_BossEveque_Fire_ALPHA.json
+nospawn\JSONs\Enemies\SpringMeadows\Eveque_Boss\BP_EnemyWorld_BossEveque_Ice_ALPHA.json
+nospawn\JSONs\Enemies\SpringMeadows\Eveque_Boss\BP_EnemyWorld_BossEveque_Lightning_ALPHA.json
++ nospawn\JSONs\Enemies\SpringMeadows\Lancelier\BP_EnemyWorld_Lancelier_Unique.json
+nospawn\JSONs\Enemies\SpringMeadows\Portier\BP_EnemyWorld_Portier_ALPHA.json
+nospawn\JSONs\Enemies\Verso_Draft\Barbasucette\BP_EnemyWorld_Barbasucette_Alpha.json
+nospawn\JSONs\Enemies\Verso_Draft\Franctale\BP_EnemyWorld_Franctale_Alpha.json
+nospawn\JSONs\Enemies\Verso_Draft\Machinapied\BP_EnemyWorld_Machinapied_Alpha.json
+nospawn\JSONs\Enemies\YellowForest\Gault\BP_jRPG_EnemyWorld_GaultB_Unique.json
+* nospawn\JSONs\Enemies\YellowForest\Glaise\BP_jRPG_EnemyWorld_Glaise_ALPHA.json
+nospawn\JSONs\Enemies\YellowForest\Jar\BP_jRPG_EnemyWorld_Jar_ALPHA.json
+nospawn\JSONs\Gestrals\Mime\BP_EnemyWorld_Mime.json
