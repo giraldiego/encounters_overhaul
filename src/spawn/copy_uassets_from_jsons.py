@@ -11,7 +11,7 @@ UASSET_SOURCE_ROOT = Path(
 DEST_DIR = Path(
     r"H:\Gaming\Modding\Exp33\Retoc\Building\Z_NoRespawn_P\Sandfall\Content\Characters"
 )
-JSON_ROOT_NAME = "processed"
+JSON_LOOKUP_ROOT = Path("reference/respawn")
 
 
 def compact_path(value: str) -> str:
@@ -51,50 +51,47 @@ def recover_mangled_dir(raw: str, base: Path) -> Path | None:
     return None
 
 
-def build_uasset_source_dir(json_dir: Path) -> Path:
-    parts = json_dir.parts
-    if JSON_ROOT_NAME in parts:
-        idx = parts.index(JSON_ROOT_NAME)
-        relative = Path(*parts[idx + 1 :])
-        return UASSET_SOURCE_ROOT / relative
-    return UASSET_SOURCE_ROOT / json_dir.name
+def build_uasset_source_dir(relative_path: Path) -> Path:
+    """Build source directory path from user input."""
+    return UASSET_SOURCE_ROOT / relative_path
 
 
-def build_dest_base_dir(json_dir: Path) -> Path:
-    parts = json_dir.parts
-    if JSON_ROOT_NAME in parts:
-        idx = parts.index(JSON_ROOT_NAME)
-        relative = Path(*parts[idx + 1 :])
-        return DEST_DIR / relative
-    return DEST_DIR / json_dir.name
+def build_dest_base_dir(relative_path: Path) -> Path:
+    """Build destination directory path from user input."""
+    return DEST_DIR / relative_path
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Copy matching .uasset files based on JSON file names."
     )
-    parser.add_argument("json_dir", help="Directory containing JSON files")
+    parser.add_argument("relative_path", help="Relative path to JSON files (e.g., Enemies\\Forgotten_BattleField)")
     args = parser.parse_args()
 
-    json_dir = Path(args.json_dir)
+    # Build full path by prepending JSON_LOOKUP_ROOT
+    relative_path = Path(args.relative_path)
+    json_dir = JSON_LOOKUP_ROOT / relative_path
+    
     if not json_dir.is_dir():
         recovered = None
-        if "/" not in args.json_dir and "\\" not in args.json_dir:
-            recovered = recover_mangled_dir(args.json_dir, Path.cwd())
+        if "/" not in args.relative_path and "\\" not in args.relative_path:
+            recovered = recover_mangled_dir(args.relative_path, Path.cwd())
         if recovered is None:
             print(f"JSON dir not found: {json_dir}")
             print(
                 "Hint: In bash, wrap Windows paths in single quotes to keep backslashes."
             )
             return 2
+        # If recovered, use it as the relative path
+        relative_path = recovered.relative_to(JSON_LOOKUP_ROOT) if str(recovered).startswith(str(JSON_LOOKUP_ROOT)) else recovered
         json_dir = recovered
 
-    uasset_source_dir = build_uasset_source_dir(json_dir)
+    uasset_source_dir = build_uasset_source_dir(relative_path)
     if not uasset_source_dir.is_dir():
         print(f"Uasset source dir not found: {uasset_source_dir}")
         return 2
 
-    dest_base_dir = build_dest_base_dir(json_dir)
+    dest_base_dir = build_dest_base_dir(relative_path)
 
     json_files = sorted(json_dir.rglob("*.json"))
     if not json_files:
