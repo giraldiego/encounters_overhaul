@@ -1,0 +1,182 @@
+Replaced text in 615 entries.
+Unchanged strings:
+ST_SM_FirstLancelier_LancelierWeakSpot: You shot at {name}'s Weak Point!
+ST_SM_Boss_Eveque_Summon: {name} summons minions.
+ST_SM_Boss_Eveque_EnterPhase2: {name} feels threatened.
+ST_SM_Boss_Eveque_EnterPhase3: {name} is Enraged. Be careful!
+ST_GO_Cruler_ShieldTeam: {name} Shields its allies.
+ST_GO_Goblu_FlowerSummon1: {name} grows flowers.
+ST_GO_Goblu_FlowerSummon2: {name} grows many flowers.
+ST_YF_Potier_BuffTeam: {Character} buffs its allies.
+ST_YF_Boss_Scavenger_FloatingHeads: {name} summons strange Masks.
+ST_YF_Boss_Scavenger_FacesBoost: The Masks increase the Scavenger's power.
+ST_AS_PotatoBag_Tank_EnterShieldMode: {name} raises its shield.
+ST_AS_PotatoBag_Boss_EnterShieldMode: {name} takes the fight seriously and raises its shield.
+ST_AS_PotatoBag_Boss_EnterPhase1: {name} takes the fight seriously.
+ST_AS_PotatoBag_Boss_EnterPhase1Shield: {name}'s shield is up again.
+ST_AS_PotatoBag_Boss_EnterPhase2: {name} unleashes its full power.
+ST_SC_CultistMage_Shield: {name} applies Shields to its allies.
+ST_SC_Hexga_ApplyShield: {name} Shields its allies.
+ST_SC_Lampmaster_PhaseSwitch: {name} flies off menacingly.
+ST_SC_Lampmaster_SkipTurn: {name} skips its turn after its lamp incantation fails.
+ST_SC_Lampmaster_LampNoEffect: …
+ST_SC_Lampmaster_LampNoEffect2: Shooting the Lamp has no effect.
+ST_SC_Lampmaster_PuzzleGood: The Lamp emits a green glow.
+ST_SC_Lampmaster_PuzzleComplete: You have completed the Lamp Trial.
+ST_SC_Lampmaster_PuzzleFailed1: You have failed the Lamp Trial.
+ST_CW_LampMasterAlpha_LightUp: The battlefield lights up again.
+ST_CW_LampMasterAlpha_TurnOnLamps: {name} turns its lamps on.
+ST_FB_Ramasseur_Alpha_MortalBlowFeedBack: Oh no! The attack seems to kill the target instantly. Careful, now.
+ST_FB_Ramasseur_Alpha_ParryToWeakenHim: Parrying seems to be the only way to weaken it.
+ST_FB_Ramasseur_Alpha_Turn1Tooltip: What? The {name} is attacking you again.
+ST_FB_Ramasseur_Alpha_Turn2Tooltip: The {name} attacks you without giving you time to attack.
+ST_FB_Ramasseur_Alpha_Turn3Tooltip: Looks like you're going to have to find a way to stop it.
+ST_FB_Benisseur_BubbleAttack: {name} summons protective bubbles.
+ST_FB_Benisseur_BubbleShields: {name}'s bubbles are Shielding enemies.
+ST_FB_Benisseur_SpearSummon: {name} grabs a spear from its hat.
+ST_MM_Pelerin_FreshAir: {name} heals his allies.
+ST_MM_Danseuse_SwitchStanceAndSummon: {name} summons a clone and switches stance.
+ST_MM_Danseuse_SummonClone: {name} summons a clone.
+ST_MM_Braseleur_Fire_SummonDrones: {name} summons 2 fire orbs.
+ST_MM_Braseleur_Ice_SummonDrones: {name} summons 2 ice orbs.
+ST_MM_Gargant_SnowStormSpawn: A Snow Storm arrives.
+ST_MM_Gargant_HeatWaveRemoveFrozen: The explosion of heat thaws the Frozen characters.
+ST_MM_Gargant_Summon: {name} summons other Nevrons.
+ST_MF_Axon_Visages_ShieldMaskCombo: {name} tries to build Shields with the Peace Mask.
+ST_MF_Axon_Visages_HealMaskCombo: {name} tries to heal with the Confidence Mask.
+ST_MF_Axon_Visages_HealMaskHeal: {name} tries to build Shields with the Peace Mask.
+ST_MF_Axon_Visages_ShieldMaskShield: {name} tries to heal with the Confidence Mask.
+ST_MF_Axon_Visages_TurnStart: {name} selects new active Masks.
+ST_MF_Axon_Visages_MaskVanish: The Mask vanishes in the Mirror.
+ST_MF_Axon_Visages_MaskDestroyed: Unable to re-enter the Mirror, the Mask explodes.
+ST_MF_Axon_Visages_NoMoreMask: There are no more Masks in the Mirror.
+ST_MF_Axon_Visages_MaskAppear: A Mask emerges from the Mirror.
+ST_MF_Axon_Visages_DeathNoMask: Having no masks left, Visages falls.
+ST_MF_MoissonneuseMaskJoy_MaskSkill: The Mask heals the Moissonneuse.
+ST_MF_Boucheclier_MaskAnger_MaskSkill: The Mask makes the Boucheclier take another turn.
+ST_MF_Chapelier_MaskSadness_MaskSkill: The Mask applies Exhaust to {target}.
+ST_MF_MaskKeeper_ShieldBuff: {name} is surrounded by a defensive aura.
+ST_MF_MaskKeeper_ShieldBuff2: {name} now gains Shield for each blow dealt to an expeditioner.
+ST_MF_MaskKeeper_JoyMaskSkill: The Joy Mask heals {name}.
+ST_MF_MaskKeeper_SadMaskSkill: The Sadness Mask applies Exhaust to the Expedition.
+ST_MF_MaskKeeper_SummonMasks: {Name} calls the Masks of emotions.
+ST_RE_Echassier_Skill3: {name} doubles the Blight and heals its allies.
+ST_RE_Veilleur_BlightWave: {name} summons a Blighted wave.
+ST_RE_Veilleur_CarrionDevourer2: {name} heals itself and becomes dangerously stronger.
+ST_RE_Veilleur_LampHit: The lamp removes Blight from {target}.
+ST_SI_Glissando_BalletsSummon: {name} summons Ballets to attack the Expedition.
+ST_SI_Axon_Sirene_Charm: A widow Ballet Charms {target} and flies away.
+ST_SI_Axon_Sirene_GrandBallet: The Grand Ballet begins.
+ST_SI_Axon_Sirene_BouquetFinal: The Final Act begins.
+ST_SI_Axon_Sirene_TisseurShield: The Tisseur sends fabric to {name}'s dress.
+ST_SI_Axon_Sirene_SirenePhase2: {name}'s dance becomes frantic.
+ST_SI_Axon_Sirene_SirenePhase3: {name} performs her last dance.
+ST_SI_Chorale_ChoraleShields: {name} applies Shields to its allies.
+ST_SI_Glissando_Alpha_Turn_End_Phase3Enraged: {name} is enraged.
+ST_ML_PaintressIntro_PaintressTurn: {name} doesn't seem to react.
+ST_ML_Clair_Buff_Shield: {name} protects its allies.
+ST_MO_Boss_Paintress_PaintressBuff: {name} summons her weapon from her palette.
+ST_MO_Boss_Paintress_P2_3HitsCombo: {name} summons a giant brush of light.
+ST_MO_Boss_Paintress_P3_HealAlly: {name} heals an Expeditioner.
+ST_MO_Boss_Paintress_P3_ApplyShieldOnHero: {name} protects an Expeditioner.
+ST_L_LumiereCitizen_Mage_Female_BuffShield: {name} Shields her allies.
+ST_L_Boss_Curator_SummonAxons: {name} summons the Axons.
+ST_L_Boss_Curator_Visages: Visages Shields {name}.
+ST_FinalBoss_Maelle_Transition1_Phase2: {name} enters Phase 2.
+ST_FinalBoss_Maelle_Transition2_Phase3: {name} enters Phase 3.
+ST_MM_MirrorRenoir_Skill3_SummonSirene: {name} summons the shadow of a Sirène.
+ST_MM_MirrorRenoir_Skill6_Masks: {name} summons strange masks.
+ST_MM_MirrorRenoir_Skill7_HealPreparation: Petals start to gather around {name}.
+ST_MM_MirrorRenoir_Skill7B_Heal: The Petals heal {name}.
+ST_MM_MirrorRenoir_EnterPhase2: {name} is furious.
+ST_MM_MirrorRenoir_EnterPhase3: {name} is furious.
+ST_MM_MirrorRenoir_SummonBernast: Something is coming...
+ST_MM_MirrorRenoir_Bernastclaw: The Dark Creature claws the Expedition.
+ST_MM_MirrorRenoir_BernastRoar: The Dark Creature roars.
+ST_L_Creation_SwitchPhase2: {name} rises into the air.
+ST_L_Creation_SwitchBackPhase1: {name} comes back down.
+ST_WM_Serpenphare_Absorption: {name} gains Shields and increases its Speed.
+ST_WM_Boss_Sprong_BattleStep1: Stage {stage} interrupted.
+ST_YF_Potier_AlternativeA_DeathPotFromSkyProc: ...?
+ST_YF_Potier_AlternativeE_CallForHelp: {Character} calls for help.
+ST_RC_Alicia_TransitionPhase2: {name} gets stronger.
+ST_RC_Alicia_TransitionPhase3: {name} gets faster.
+ST_SL_Sapling_CrushingWall_WallMove1: The walls are moving.
+ST_SL_Sapling_CrushingWall_WallMove2: The walls are closing.
+ST_SL_Sapling_CrushingWall_WallMove3: The walls are closing even more.
+ST_SL_Sapling_CrushingWall_WallMove4: The walls are about to crush you, hurry!
+ST_SL_Sapling_CrushingWall_WallMove5: Incoming!
+ST_SL_Sapling_CrushingWall_WallMoveFinal: The walls crush the Expedition.
+ST_SL_Sapling_CrushingWall_Shield: The Sapling Shields itself.
+ST_Quest_TroubadourCantPlay_Trial1: The trial begins.
+ST_Quest_TroubadourCantPlay_Trial2: The trial enters its second phase.
+ST_Quest_TroubadourCantPlay_Trial3: The trial enters its third phase.
+ST_Quest_TroubadourCantPlay_FailedTrial: Failure. The trial will restart.
+ST_Quest_TroubadourCantPlay_Trial1Win: Congratulations, the first trial is complete.
+ST_Quest_TroubadourCantPlay_Trial2Win: Congratulations, the second trial is complete.
+ST_Quest_TroubadourCantPlay_Trial3Win: All of the trials are complete.
+ST_Quest_GestralOnoPuncho_Taunt1: Come on! Hit me as hard as you can.
+ST_Quest_GestralOnoPuncho_Taunt2: Ok, ok, take your time…
+ST_Quest_GestralOnoPuncho_Taunt3: I'm waiting... I'm waiting…
+ST_Quest_GestralOnoPuncho_Taunt4: You can do it. At least... I think so.
+ST_Quest_GestralOnoPuncho_Taunt5: ATTACK ME! HIT ME HARD!
+ST_Quest_GestralOnoPuncho_TrialFailed: You failed, you weakling.
+ST_Quest_GestralOnoPuncho_TrialWin: Congratulations, nobody's ever hit me like that before.
+ST_Quest_HexgaQuest_ShieldMode: {name} protects itself.
+ST_Quest_HexgaQuest_ShieldModeTurnEnd: {Name} appears to be charging an attack with its Shields.
+ST_Quest_HexgaQuest_ShieldBreak: {Name}'s Shields are broken! It receives Break damage.
+ST_Quest_Bourgeon_Quest_RemainingTurnBeforeEating: {Count} turn(s) remaining before an Expeditioner is eaten.
+ST_Quest_Bourgeon_Quest_EatNextTurn: An Expeditioner will be eaten on the {name}'s next turn.
+ST_Petank_Blue_ShieldTurn1: {Name} gains {Shieldcount} Shields.
+ST_Petank_Blue_Buff: {Name} gains Shields.
+ST_Petank_Yellow_Buff: {Name} heals its Break bar.
+ST_Petank_Orange_Buff: {Name} summons another Nevron to protect it.
+ST_Petank_FleeInXTurns: {Name} will flee in {X} turn(s).
+ST_Petank_FleeNextTurn: {Name} will flee next turn.
+ST_Petank_AlphaSummon: {name} calls for help.
+ST_Boss_Simon_SwordOfLumiere: The Sword of Lumière is attacking.
+ST_Boss_Simon_ShieldSteal: {name} steals all Shields.
+ST_Boss_Simon_ExpeditionRemoved: The Expedition is removed from the Canvas.
+ST_Boss_Simon_DeadRemoved: The dead are removed from the Canvas.
+ST_Mime_Skill1_Shield: {name} protects itself.
+ST_Noire_BerserkRemoved: Enemies calm down.
+ST_Noire_Skill_4_DarkSpear: {name} summons a Dark spear.
+ST_Noire_TurnEnd_ApplyInverted: {name} applies Inverted to the Expedition.
+ST_LU_Act1_PunchingBall_Hint1: Destroy the Punching Ball in one hit to impress the girl.
+ST_LU_Act1_PunchingBall_Hint2: Destroy the Punching Ball in one hit.
+ST_LU_Act1_PunchingBall_Hint3: Come on, don't lose face in front of Sophie.
+ST_LU_Act1_PunchingBall_Hint4: Use Overcharge at maximum output to impress the girl (and Sophie).
+ST_LU_Act1_Sophie_Dodge2: The Painter starts to be inspired. Dodge again!
+ST_LU_Act1_Sophie_Dodge3: The Painter is almost inspired! One last time!
+ST_LU_Act1_Sophie_Fail: You got hit, the Painter is not inspired. Try again!
+ST_LU_Act1_Sophie_Counter: Come on, don't counter Sophie, this is not a duel to the death!
+ST_SC_MirrorRenoir_Turn_1: The White-haired Man ignores Gustave.
+ST_SC_MirrorRenoir_Turn_2: The White-haired Man stares at Maelle.
+ST_SC_MirrorRenoir_Turn_3: The White-haired Man turns his attention to Gustave. He is about to attack.
+ST_SC_MirrorRenoir_Turn_4: Gustave overcharges his arm.
+ST_CFH_Boss_Clea_PowerfulNevrons: {name} summons powerful Nevrons.
+ST_CFH_Boss_Clea_AgileNevrons: {name} summons agile Nevrons.
+ST_CFH_Boss_Clea_CreepyNevrons: {name} summons creepy Nevrons.
+ST_CFH_Boss_Clea_MusicalNevrons: {name} summons musical Nevrons.
+ST_CFH_Boss_Clea_ViolentNevrons: {name} summons violent Nevrons.
+ST_CFH_Boss_Clea_WaterNevrons: {name} summons Nevrons from the deep.
+ST_CFH_Boss_Clea_TrickyNevrons: {name} summons tricky Nevrons.
+ST_CFH_Boss_Clea_ChromaDisturbed: The Chroma has been disturbed.
+ST_CFH_Boss_Clea_Heal: The Chroma heals {name}.
+ST_CFH_Boss_Clea_GiganticNevrons: {name} summons gigantic Nevrons.
+ST_CFH_Boss_Clea_EarthShatteringNevrons: {name} summons earth-shattering Nevrons.
+ST_CFH_Boss_Clea_NimbleNevrons: {name} summons nimble Nevrons.
+ST_CFH_Boss_Clea_SpellSlingingNevrons: {name} summons spell-slinging Nevrons.
+ST_Barbasucette_Skill2_SummonCandy: {name} summons flying candy.
+ST_Barbasucette_CandyShield: {name}'s candy apply Shields.
+ST_FranctaleAlpha_Lasers: The Franctales shoot lasers with style.
+ST_Quest_FeintFight_CounterFail1: Is that the extent of your strength?
+ST_Quest_FeintFight_CounterFail2: Surely you can do better.
+ST_Quest_FeintFight_CounterFail3: I'm really feeling it.
+ST_Quest_FeintFight_CounterFail4: Isn't this fun?
+ST_Quest_FeintFight_CounterFail5: I'm having a great time.
+ST_Quest_FeintFight_CounterSuccessful1: Great. GREAT!
+ST_Quest_FeintFight_CounterSuccessful2: How brushtastic. Show it to me once more!
+ST_Quest_FeintFight_CounterSuccessful3: What strength!!
+ST_Osquio_Skill2: {name} summons his little friends.
+ST_Osquio_Skill3: Time for a spin spin.
