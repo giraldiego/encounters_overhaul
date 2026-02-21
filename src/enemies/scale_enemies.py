@@ -17,7 +17,7 @@ NAMES = {
 # Multipliers by enemy type
 MULTIPLIERS = {
     "normal": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
-    # "alpha":  {"HP": 2.0, "ATK": 1.2, "Speed": 1.4, "Chroma": 1.5, "XP": 1.25},
+    "alpha":  {"HP": 1.5, "ATK": 1.2, "Speed": 1.25, "Chroma": 1.5, "XP": 0.75},
     "boss":   {"HP": 1.5, "ATK": 1.0, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
 }
 
@@ -128,6 +128,7 @@ stats = {
     "skipped_non_numeric": {kind: {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0} for kind in MULTIPLIERS},
     "missing_scaling": 0,
     "overrides_applied": 0,
+    "alpha_boss_conflicts": [],
 }
 
 # Handle full uasset.json structure
@@ -158,13 +159,16 @@ for entry in enemy_data:
     matches_boss_pat = matches_boss_pattern(enemy_name)
     matches_alpha_pat = matches_alpha_pattern(enemy_name)
 
-    # Determine category: boss takes priority, then alpha (if configured), then normal
-    if is_boss or matches_boss_pat:
-        kind = "boss"
-        reason = "boss" if is_boss else "pattern->boss"
-    elif matches_alpha_pat and "alpha" in MULTIPLIERS:
+    if matches_alpha_pat and (is_boss or matches_boss_pat):
+        stats["alpha_boss_conflicts"].append(enemy_name)
+
+    # Determine category: alpha takes priority (if configured), then boss, then normal
+    if matches_alpha_pat and "alpha" in MULTIPLIERS:
         kind = "alpha"
         reason = "alpha"
+    elif is_boss or matches_boss_pat:
+        kind = "boss"
+        reason = "boss" if is_boss else "pattern->boss"
     else:
         kind = "normal"
         reason = "normal"
@@ -210,6 +214,10 @@ print("\nSUMMARY")
 print("-------")
 print("Missing scaling struct:", stats["missing_scaling"])
 print("Overrides applied:", stats["overrides_applied"])
+if stats["alpha_boss_conflicts"]:
+    print("\nALPHA+BOSS CONFLICTS (alpha multipliers applied)")
+    for name in sorted(set(stats["alpha_boss_conflicts"])):
+        print(f"  {name}")
 for kind in MULTIPLIERS.keys():
     print(f"\n{kind.upper()}")
     for label in ("HP", "ATK", "Speed", "Chroma", "XP"):
