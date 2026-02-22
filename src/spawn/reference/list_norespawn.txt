@@ -6,7 +6,7 @@ nospawn\JSONs\Enemies\Goblu_Ennemies\bruler\BP_EnemyWorld_Bruler_ALPHA.json
 nospawn\JSONs\Enemies\Goblu_Ennemies\Cruler\BP_EnemyWorld_Cruler_ALPHA.json
 nospawn\JSONs\Enemies\Goblu_Ennemies\Demineur\BP_EnemyWorld_Demineur_ALPHA.json
 nospawn\JSONs\Enemies\Goblu_Ennemies\Goblu\BP_EnemyWorld_Goblu_ALPHA.json
-nospawn\JSONs\Enemies\Goblu_Ennemies\Luster\BP_EnemyWorld_UniqueLusterAlpha.json
++ nospawn\JSONs\Enemies\Goblu_Ennemies\Luster\BP_EnemyWorld_UniqueLusterAlpha.json
 nospawn\JSONs\Enemies\Lumiere\ACTE_3\Aberration\BP_EnemyWorld_Aberration_ALPHA.json
 nospawn\JSONs\Enemies\ManyFaces\Boucheclier\BP_EnemyWorld_Boucheclier_ALPHA.json
 nospawn\JSONs\Enemies\ManyFaces\Chapelier\BP_EnemyWorld_Chapelier_Alpha.json
