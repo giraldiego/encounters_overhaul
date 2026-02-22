@@ -4,6 +4,9 @@ import json
 from pathlib import Path
 
 
+HARDCODED_OUTPUT_DIR = Path(r"C:\Users\giraldiego\Desktop\code\encounters_overhaul\output\xp_scaling")
+
+
 def parse_ranges_file(ranges_path: Path) -> list[tuple[int, int | None, float]]:
     with ranges_path.open("r", encoding="utf-8") as handle:
         payload = json.load(handle)
@@ -185,10 +188,13 @@ def main() -> None:
     args = parser.parse_args()
 
     input_path = args.input
-    base_dir = input_path.parent
-    if base_dir.name == "input":
-        base_dir = base_dir.parent
-    output_path = args.output or (base_dir / "output" / "Modded-DT_jRPG_Levels.uasset.json")
+
+    if args.output is not None:
+        output_path = args.output
+    else:
+        default_filename = "Modded-DT_jRPG_Levels.uasset.json"
+        output_path = HARDCODED_OUTPUT_DIR / default_filename
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     generated_ranges = False
