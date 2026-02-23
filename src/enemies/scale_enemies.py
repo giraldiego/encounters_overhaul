@@ -2,9 +2,11 @@ import json
 from pathlib import Path
 
 INFILE = Path("input/DT_jRPG_Enemies.uasset.json")
-OUTFILE = Path("output/Modded-DT_jRPG_Enemies.uasset.json")
+OUTFILE = Path("../../output/enemies/Modded-DT_jRPG_Enemies.uasset.json")
 
 # ---- Config ----
+
+ROUND_DECIMALS = 2
 
 NAMES = {
     "HP": "HP_2_9B8F0EF14EBC6DBDE30E86A7FFE48646",
@@ -16,9 +18,9 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
-    "normal": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
-    "alpha":  {"HP": 1.5, "ATK": 1.2, "Speed": 1.25, "Chroma": 1.5, "XP": 0.75},
-    "boss":   {"HP": 1.5, "ATK": 1.0, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
+    "normal": {"HP": 3.0, "ATK": 0.1, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
+    "alpha":  {"HP": 1.5, "ATK": 0.1, "Speed": 1.25, "Chroma": 1.5, "XP": 0.75},
+    "boss":   {"HP": 1.5, "ATK": 0.1, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
 }
 
 # Optional per-enemy overrides by EnemyHardcodedName (values replace multipliers)
@@ -100,8 +102,8 @@ def find_scaling_struct(enemy_struct: dict):
             return item
     return None
 
-def round1(x: float) -> float:
-    return round(x, 1)
+def apply_rounding(x: float) -> float:
+    return round(x, ROUND_DECIMALS)
 
 def matches_boss_pattern(enemy_name: str) -> bool:
     if not enemy_name:
@@ -195,12 +197,12 @@ for entry in enemy_data:
         if isinstance(val, (int, float)):
             old = float(val)
             if label in overrides:
-                new = round1(float(overrides[label]))
+                new = apply_rounding(float(overrides[label]))
                 stats["overrides_applied"] += 1
                 print(f"OVERRIDE [{enemy_name}] {label}: {old} -> {new}")
             else:
                 mult = mults[label]
-                new = round1(old * mult)
+                new = apply_rounding(old * mult)
                 print(f"CHANGED [{enemy_name}] ({reason}) {label}: {old} -> {new} (x{mult})")
             prop["Value"] = new
             if label not in overrides:
