@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 INFILE = Path("input/ST_Enemies_Skills.uasset.json")
-OUTFILE = Path("output/Modded-ST_Enemies_Skills.uasset.json")
+OUTFILE = Path("../../output/strings/Modded-ST_Enemies_Skills.uasset.json")
 
 REPLACEMENT_TEXT = "."
 
@@ -32,6 +32,7 @@ ALWAYS_REPLACE_TEXT_SUBSTRINGS = [
     "slams its shield",
     "slams his shield",
     "counterattacks",
+    "jump"
 ]
 
 # Replace when at least one trigger matches (key OR text)
@@ -66,8 +67,9 @@ EXEMPT_TEXT_SUBSTRINGS = [
     "shields",
     "heals",
     "weak point",
-    "is about",
-    "re-enter"
+    # "is about",
+    "re-enter",
+    "heating up"
 ]
 
 

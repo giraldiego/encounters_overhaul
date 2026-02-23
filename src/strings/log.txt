@@ -1,4 +1,4 @@
-Replaced text in 615 entries.
+Replaced text in 611 entries.
 Unchanged strings:
 ST_SM_FirstLancelier_LancelierWeakSpot: You shot at {name}'s Weak Point!
 ST_SM_Boss_Eveque_Summon: {name} summons minions.
@@ -32,11 +32,13 @@ ST_FB_Ramasseur_Alpha_Turn1Tooltip: What? The {name} is attacking you again.
 ST_FB_Ramasseur_Alpha_Turn2Tooltip: The {name} attacks you without giving you time to attack.
 ST_FB_Ramasseur_Alpha_Turn3Tooltip: Looks like you're going to have to find a way to stop it.
 ST_FB_Benisseur_BubbleAttack: {name} summons protective bubbles.
+ST_FB_Benisseur_BubbleExplosion: Enemies are Marked.
 ST_FB_Benisseur_BubbleShields: {name}'s bubbles are Shielding enemies.
 ST_FB_Benisseur_SpearSummon: {name} grabs a spear from its hat.
 ST_MM_Pelerin_FreshAir: {name} heals his allies.
 ST_MM_Danseuse_SwitchStanceAndSummon: {name} summons a clone and switches stance.
 ST_MM_Danseuse_SummonClone: {name} summons a clone.
+ST_MM_Stalact_AnnounceExplosion: {name} is heating up.
 ST_MM_Braseleur_Fire_SummonDrones: {name} summons 2 fire orbs.
 ST_MM_Braseleur_Ice_SummonDrones: {name} summons 2 ice orbs.
 ST_MM_Gargant_SnowStormSpawn: A Snow Storm arrives.
@@ -85,6 +87,7 @@ ST_L_Boss_Curator_Visages: Visages Shields {name}.
 ST_FinalBoss_Maelle_Transition1_Phase2: {name} enters Phase 2.
 ST_FinalBoss_Maelle_Transition2_Phase3: {name} enters Phase 3.
 ST_MM_MirrorRenoir_Skill3_SummonSirene: {name} summons the shadow of a Sirène.
+ST_MM_MirrorRenoir_Skill4_MirrorExplosion: {name} summons a pool of Chroma.
 ST_MM_MirrorRenoir_Skill6_Masks: {name} summons strange masks.
 ST_MM_MirrorRenoir_Skill7_HealPreparation: Petals start to gather around {name}.
 ST_MM_MirrorRenoir_Skill7B_Heal: The Petals heal {name}.
@@ -95,6 +98,7 @@ ST_MM_MirrorRenoir_Bernastclaw: The Dark Creature claws the Expedition.
 ST_MM_MirrorRenoir_BernastRoar: The Dark Creature roars.
 ST_L_Creation_SwitchPhase2: {name} rises into the air.
 ST_L_Creation_SwitchBackPhase1: {name} comes back down.
+ST_L_Creation_BlackOrbAboutToExplode: The Void Orbs are about to explode.
 ST_WM_Serpenphare_Absorption: {name} gains Shields and increases its Speed.
 ST_WM_Boss_Sprong_BattleStep1: Stage {stage} interrupted.
 ST_YF_Potier_AlternativeA_DeathPotFromSkyProc: ...?
