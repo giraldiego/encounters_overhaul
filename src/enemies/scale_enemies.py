@@ -18,9 +18,9 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
-    "normal": {"HP": 3.0, "ATK": 0.1, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
-    "alpha":  {"HP": 1.5, "ATK": 0.1, "Speed": 1.25, "Chroma": 1.5, "XP": 0.75},
-    "boss":   {"HP": 1.5, "ATK": 0.1, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
+    "normal": {"HP": 0.1, "ATK": 0.1, "Speed": 1.5, "Chroma": 1.25, "XP": 1},
+    "alpha":  {"HP": 0.1, "ATK": 0.1, "Speed": 1.25, "Chroma": 1.5, "XP": 0.75},
+    "boss":   {"HP": 0.1, "ATK": 0.1, "Speed": 1.333, "Chroma": 1.5, "XP": 1.5},
 }
 
 # Optional per-enemy overrides by EnemyHardcodedName (values replace multipliers)
