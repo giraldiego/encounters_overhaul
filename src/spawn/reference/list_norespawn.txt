@@ -35,7 +35,7 @@ nospawn\JSONs\Enemies\SpringMeadows\Portier\BP_EnemyWorld_Portier_ALPHA.json
 nospawn\JSONs\Enemies\Verso_Draft\Barbasucette\BP_EnemyWorld_Barbasucette_Alpha.json
 nospawn\JSONs\Enemies\Verso_Draft\Franctale\BP_EnemyWorld_Franctale_Alpha.json
 nospawn\JSONs\Enemies\Verso_Draft\Machinapied\BP_EnemyWorld_Machinapied_Alpha.json
-nospawn\JSONs\Enemies\YellowForest\Gault\BP_jRPG_EnemyWorld_GaultB_Unique.json
++ nospawn\JSONs\Enemies\YellowForest\Gault\BP_jRPG_EnemyWorld_GaultB_Unique.json
 * nospawn\JSONs\Enemies\YellowForest\Glaise\BP_jRPG_EnemyWorld_Glaise_ALPHA.json
 nospawn\JSONs\Enemies\YellowForest\Jar\BP_jRPG_EnemyWorld_Jar_ALPHA.json
 nospawn\JSONs\Gestrals\Mime\BP_EnemyWorld_Mime.json
