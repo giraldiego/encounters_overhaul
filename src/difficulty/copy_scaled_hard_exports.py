@@ -1,6 +1,7 @@
 import argparse
 import copy
 import json
+import math
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -77,11 +78,9 @@ def identify_stat(property_name: str) -> str | None:
     return None
 
 
-def scaled_number(value: int | float, multiplier: float) -> int | float:
+def scaled_number(value: int | float, multiplier: float) -> int:
     new_value = value * multiplier
-    if isinstance(value, int):
-        return int(round(new_value))
-    return round(new_value, 6)
+    return int(math.ceil(new_value))
 
 
 def scale_exports(exports: list[dict], multipliers: dict[str, float]) -> tuple[list[dict], dict[str, int]]:

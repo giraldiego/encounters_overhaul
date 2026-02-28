@@ -1,5 +1,7 @@
 import json
 import argparse
+import copy
+import math
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -7,6 +9,14 @@ HARD_DIR = SCRIPT_DIR / "reference" / "Hard_Difficulty"
 EASY_DIR = SCRIPT_DIR / "reference" / "Easy_Difficulty"
 NORMAL_DIR = SCRIPT_DIR / "reference" / "Normal_Difficulty"
 OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty"
+
+TARGET_PREFIX_TO_STAT = {
+    "HP_": "HP",
+    "PhysicalAttack_": "ATK",
+    "Speed_": "Speed",
+    "Chroma_": "Chroma",
+    "Experience_": "EXP",
+}
 
 
 def hard_to_easy_name(hard_name: str) -> str:
@@ -31,6 +41,50 @@ def save_json(path: Path, data: dict) -> None:
     with path.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
         file.write("\n")
+
+
+def identify_target_stat(property_name: str) -> str | None:
+    for prefix, stat in TARGET_PREFIX_TO_STAT.items():
+        if property_name.startswith(prefix):
+            return stat
+    return None
+
+
+def normalize_exports_round_up(exports: list[dict]) -> list[dict]:
+    rounded_exports = copy.deepcopy(exports)
+
+    for export in rounded_exports:
+        table = export.get("Table")
+        if not isinstance(table, dict):
+            continue
+
+        rows = table.get("Data")
+        if not isinstance(rows, list):
+            continue
+
+        for row in rows:
+            values = row.get("Value") if isinstance(row, dict) else None
+            if not isinstance(values, list):
+                continue
+
+            for prop in values:
+                if not isinstance(prop, dict):
+                    continue
+
+                prop_name = prop.get("Name")
+                if not isinstance(prop_name, str):
+                    continue
+
+                if identify_target_stat(prop_name) is None:
+                    continue
+
+                value = prop.get("Value")
+                if not isinstance(value, (int, float)):
+                    continue
+
+                prop["Value"] = int(math.ceil(value))
+
+    return rounded_exports
 
 
 def parse_args() -> argparse.Namespace:
@@ -80,7 +134,7 @@ def process_target(target: str, hard_files: list[Path]) -> tuple[int, int]:
             skipped += 1
             continue
 
-        target_data["Exports"] = hard_data["Exports"]
+        target_data["Exports"] = normalize_exports_round_up(hard_data["Exports"])
 
         output_path = output_dir / target_name
         save_json(output_path, target_data)

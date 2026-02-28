@@ -1,6 +1,7 @@
 import argparse
 import copy
 import json
+import math
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -11,8 +12,8 @@ OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty" / "scaled_f
 # Easy-to-edit scaling multipliers applied to each target's own base values.
 # Keys must be: HP, ATK, Speed, Chroma, EXP
 MULTIPLIERS = {
-    "normal": {"HP": 1, "ATK": 1, "Speed": 1, "Chroma": 1, "EXP": 1},
-    "easy": {"HP": 1, "ATK": 1, "Speed": 1, "Chroma": 1, "EXP": 1},
+    "normal": {"HP": 1, "ATK": 1, "Speed": 1, "Chroma": 0.25, "EXP": 0.25},
+    "easy": {"HP": 1, "ATK": 1, "Speed": 1, "Chroma": 0.1, "EXP": 0.1},
 }
 
 REQUIRED_MULTIPLIER_KEYS = {"HP", "ATK", "Speed", "Chroma", "EXP"}
@@ -64,11 +65,9 @@ def identify_stat(property_name: str) -> str | None:
     return None
 
 
-def scaled_number(value: int | float, multiplier: float) -> int | float:
+def scaled_number(value: int | float, multiplier: float) -> int:
     new_value = value * multiplier
-    if isinstance(value, int):
-        return int(round(new_value))
-    return round(new_value, 6)
+    return int(math.ceil(new_value))
 
 
 def scale_exports(exports: list[dict], multipliers: dict[str, float]) -> tuple[list[dict], dict[str, int]]:
