@@ -17,7 +17,8 @@ ALWAYS_REPLACE_KEY_SUBSTRINGS = [
     "counterstrike",
     #"explosion",
     #"explode",
-    "aoe"
+    "aoe", 
+    "attack"
 ] + [
     "ST_GO_Demineur_LongRange",
     "ST_SC_Lampmaster_TurnOffLevelLamps",

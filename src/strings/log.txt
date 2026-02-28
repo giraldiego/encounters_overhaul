@@ -1,4 +1,4 @@
-Replaced text in 611 entries.
+Replaced text in 612 entries.
 Unchanged strings:
 ST_SM_FirstLancelier_LancelierWeakSpot: You shot at {name}'s Weak Point!
 ST_SM_Boss_Eveque_Summon: {name} summons minions.
@@ -31,7 +31,6 @@ ST_FB_Ramasseur_Alpha_ParryToWeakenHim: Parrying seems to be the only way to wea
 ST_FB_Ramasseur_Alpha_Turn1Tooltip: What? The {name} is attacking you again.
 ST_FB_Ramasseur_Alpha_Turn2Tooltip: The {name} attacks you without giving you time to attack.
 ST_FB_Ramasseur_Alpha_Turn3Tooltip: Looks like you're going to have to find a way to stop it.
-ST_FB_Benisseur_BubbleAttack: {name} summons protective bubbles.
 ST_FB_Benisseur_BubbleExplosion: Enemies are Marked.
 ST_FB_Benisseur_BubbleShields: {name}'s bubbles are Shielding enemies.
 ST_FB_Benisseur_SpearSummon: {name} grabs a spear from its hat.
