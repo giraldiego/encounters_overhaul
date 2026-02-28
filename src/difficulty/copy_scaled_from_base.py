@@ -4,12 +4,11 @@ import json
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-HARD_DIR = SCRIPT_DIR / "reference" / "Hard_Difficulty"
 EASY_DIR = SCRIPT_DIR / "reference" / "Easy_Difficulty"
 NORMAL_DIR = SCRIPT_DIR / "reference" / "Normal_Difficulty"
-OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty" / "scaled_from_hard"
+OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty" / "scaled_from_base"
 
-# Easy-to-edit scaling multipliers applied to Hard values before copying Exports.
+# Easy-to-edit scaling multipliers applied to each target's own base values.
 # Keys must be: HP, ATK, Speed, Chroma, EXP
 MULTIPLIERS = {
     "normal": {"HP": 1, "ATK": 1, "Speed": 1, "Chroma": 1, "EXP": 1},
@@ -17,18 +16,6 @@ MULTIPLIERS = {
 }
 
 REQUIRED_MULTIPLIER_KEYS = {"HP", "ATK", "Speed", "Chroma", "EXP"}
-
-
-def hard_to_easy_name(hard_name: str) -> str:
-    if hard_name.endswith("_Hard.json"):
-        return hard_name.replace("_Hard.json", "_Easy.json")
-    return hard_name.replace("Hard", "Easy")
-
-
-def hard_to_normal_name(hard_name: str) -> str:
-    if hard_name.endswith("_Hard.json"):
-        return hard_name.replace("_Hard.json", ".json")
-    return hard_name.replace("_Hard", "")
 
 
 def load_json(path: Path) -> dict:
@@ -45,13 +32,13 @@ def save_json(path: Path, data: dict) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Scale Hard Exports values, then copy into Easy/Normal base files while preserving target metadata."
+        description="Scale each difficulty file from its own base values and write to scaled_from_base output."
     )
     parser.add_argument(
         "--target",
         choices=["easy", "normal", "both"],
-        default="easy",
-        help="Which output target to generate. Default: easy",
+        default="both",
+        help="Which target difficulty to process. Default: both",
     )
     return parser.parse_args()
 
@@ -124,19 +111,21 @@ def scale_exports(exports: list[dict], multipliers: dict[str, float]) -> tuple[l
     return scaled_exports, scaled_counts
 
 
-def process_target(target: str, hard_files: list[Path]) -> tuple[int, int]:
+def process_target(target: str) -> tuple[int, int]:
     if target == "easy":
         source_dir = EASY_DIR
         output_dir = OUTPUT_ROOT_DIR / "Easy_Difficulty"
-        name_mapper = hard_to_easy_name
     elif target == "normal":
         source_dir = NORMAL_DIR
         output_dir = OUTPUT_ROOT_DIR / "Normal_Difficulty"
-        name_mapper = hard_to_normal_name
     else:
         raise ValueError(f"Unsupported target: {target}")
 
     multipliers = MULTIPLIERS[target]
+    target_files = sorted(source_dir.glob("*.json"))
+
+    if not target_files:
+        raise FileNotFoundError(f"No JSON files found for target '{target}' in: {source_dir}")
 
     processed = 0
     skipped = 0
@@ -144,32 +133,24 @@ def process_target(target: str, hard_files: list[Path]) -> tuple[int, int]:
     print(f"\n=== Processing target: {target} ===")
     print(f"Multipliers: {multipliers}")
 
-    for hard_path in hard_files:
-        target_name = name_mapper(hard_path.name)
-        target_base_path = source_dir / target_name
+    for source_path in target_files:
+        source_data = load_json(source_path)
+        source_exports = source_data.get("Exports")
 
-        if not target_base_path.exists():
-            print(f"SKIP: {target} counterpart not found for {hard_path.name} -> {target_name}")
+        if not isinstance(source_exports, list):
+            print(f"SKIP: Missing or invalid 'Exports' in base file: {source_path.name}")
             skipped += 1
             continue
 
-        hard_data = load_json(hard_path)
-        target_data = load_json(target_base_path)
+        scaled_exports, counts = scale_exports(source_exports, multipliers)
+        output_data = copy.deepcopy(source_data)
+        output_data["Exports"] = scaled_exports
 
-        hard_exports = hard_data.get("Exports")
-        if not isinstance(hard_exports, list):
-            print(f"SKIP: Missing or invalid 'Exports' in hard file: {hard_path.name}")
-            skipped += 1
-            continue
-
-        scaled_exports, counts = scale_exports(hard_exports, multipliers)
-        target_data["Exports"] = scaled_exports
-
-        output_path = output_dir / target_name
-        save_json(output_path, target_data)
+        output_path = output_dir / source_path.name
+        save_json(output_path, output_data)
 
         print(
-            f"OK: {hard_path.name} -> {output_path.name} | "
+            f"OK: {source_path.name} -> {output_path.name} | "
             f"scaled HP={counts['HP']} ATK={counts['ATK']} Speed={counts['Speed']} "
             f"Chroma={counts['Chroma']} EXP={counts['EXP']}"
         )
@@ -184,17 +165,13 @@ def main() -> None:
     validate_multipliers()
     args = parse_args()
 
-    hard_files = sorted(HARD_DIR.glob("*.json"))
-    if not hard_files:
-        raise FileNotFoundError(f"No JSON files found in: {HARD_DIR}")
-
     targets = ["easy", "normal"] if args.target == "both" else [args.target]
 
     processed = 0
     skipped = 0
 
     for target in targets:
-        p, s = process_target(target, hard_files)
+        p, s = process_target(target)
         processed += p
         skipped += s
 
