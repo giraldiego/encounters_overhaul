@@ -8,7 +8,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 HARD_DIR = SCRIPT_DIR / "reference" / "Hard_Difficulty"
 EASY_DIR = SCRIPT_DIR / "reference" / "Easy_Difficulty"
 NORMAL_DIR = SCRIPT_DIR / "reference" / "Normal_Difficulty"
-OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty"
+OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty" /"cloned_from_hard"
 
 TARGET_PREFIX_TO_STAT = {
     "HP_": "HP",
