@@ -5,8 +5,8 @@ import math
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-EASY_DIR = SCRIPT_DIR / "reference" / "Easy_Difficulty"
-NORMAL_DIR = SCRIPT_DIR / "reference" / "Normal_Difficulty"
+EASY_DIR = SCRIPT_DIR / "input" / "Easy_Difficulty"
+NORMAL_DIR = SCRIPT_DIR / "input" / "Normal_Difficulty"
 OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty" / "scaled_from_base"
 
 # Easy-to-edit scaling multipliers applied to each target's own base values.

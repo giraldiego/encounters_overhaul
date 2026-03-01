@@ -5,9 +5,9 @@ import math
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-HARD_DIR = SCRIPT_DIR / "reference" / "Hard_Difficulty"
-EASY_DIR = SCRIPT_DIR / "reference" / "Easy_Difficulty"
-NORMAL_DIR = SCRIPT_DIR / "reference" / "Normal_Difficulty"
+HARD_DIR = SCRIPT_DIR / "input" / "Hard_Difficulty"
+EASY_DIR = SCRIPT_DIR / "input" / "Easy_Difficulty"
+NORMAL_DIR = SCRIPT_DIR / "input" / "Normal_Difficulty"
 OUTPUT_ROOT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty" / "scaled_from_hard"
 
 # Easy-to-edit scaling multipliers applied to Hard values before copying Exports.
