@@ -18,9 +18,13 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
-    "normal": {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    # "weak":   {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    # "regular": {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    # "strong": {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    # "elite":  {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
     "alpha":  {"HP": 1.5, "ATK": 1.0, "Speed": 1.25, "Chroma": 1.5, "XP": 0.75},
     "boss":   {"HP": 1.5, "ATK": 1.0, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
+    "default": {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
 }
 
 # Optional per-enemy overrides by EnemyHardcodedName (values replace multipliers)
@@ -48,6 +52,7 @@ DOUBLE_TYPE = "UAssetAPI.PropertyTypes.Objects.DoublePropertyData, UAssetAPI"
 SOFTOBJ_TYPE = "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI"
 BOOL_TYPE = "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI"
 STRUCT_TYPE = "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI"
+OBJECT_TYPE = "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI"
 
 ENEMY_STRUCT = "S_jRPG_Enemy"
 SCALING_STRUCT = "S_EnemyScalingMultipliers"
@@ -102,6 +107,41 @@ def find_scaling_struct(enemy_struct: dict):
             return item
     return None
 
+def build_enemy_archetype_value_map(data: dict) -> dict[int, str]:
+    value_to_kind: dict[int, str] = {}
+
+    for idx, imp in enumerate(data.get("Imports", []), start=1):
+        if not isinstance(imp, dict):
+            continue
+
+        obj_name = imp.get("ObjectName")
+        if not (isinstance(obj_name, str) and obj_name.startswith("BP_DataAsset_Archetype_")):
+            continue
+
+        raw_kind = obj_name.removeprefix("BP_DataAsset_Archetype_").lower()
+        kind = {
+            "boss_noachievement": "boss",
+            "hardonly_boss": "boss",
+            "hardonly_opboss": "boss",
+        }.get(raw_kind, raw_kind)
+
+        value_to_kind[-idx] = kind
+
+    return value_to_kind
+
+def extract_enemy_archetype_kind(enemy_struct: dict, value_to_kind: dict[int, str]) -> str | None:
+    for item in enemy_struct.get("Value", []):
+        if (
+            isinstance(item, dict)
+            and item.get("$type") == OBJECT_TYPE
+            and item.get("Name", "").startswith("EnemyArchetype_")
+        ):
+            val = item.get("Value")
+            if isinstance(val, int):
+                return value_to_kind.get(val)
+            return None
+    return None
+
 def apply_rounding(x: float) -> float:
     return round(x, ROUND_DECIMALS)
 
@@ -124,6 +164,8 @@ NAME_TO_LABEL = {v: k for k, v in NAMES.items()}
 
 with INFILE.open("r", encoding="utf-8") as f:
     data = json.load(f)
+
+enemy_archetype_value_map = build_enemy_archetype_value_map(data)
 
 stats = {
     "changed": {kind: {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0} for kind in MULTIPLIERS},
@@ -157,6 +199,7 @@ for entry in enemy_data:
     # asset_name = extract_enemy_asset_name(entry)
     enemy_name = extract_enemy_hardcoded_name(entry)
     is_boss = extract_is_boss(entry)
+    archetype_kind = extract_enemy_archetype_kind(entry, enemy_archetype_value_map)
 
     matches_boss_pat = matches_boss_pattern(enemy_name)
     matches_alpha_pat = matches_alpha_pattern(enemy_name)
@@ -164,16 +207,23 @@ for entry in enemy_data:
     if matches_alpha_pat and (is_boss or matches_boss_pat):
         stats["alpha_boss_conflicts"].append(enemy_name)
 
-    # Determine category: alpha takes priority (if configured), then boss, then normal
-    if matches_alpha_pat and "alpha" in MULTIPLIERS:
+    # Determine category:
+    # 1) explicit archetype in data if configured in MULTIPLIERS
+    # 2) alpha pattern
+    # 3) boss flag/pattern
+    # 4) default fallback
+    if archetype_kind in MULTIPLIERS:
+        kind = archetype_kind
+        reason = f"archetype:{archetype_kind}"
+    elif matches_alpha_pat and "alpha" in MULTIPLIERS:
         kind = "alpha"
         reason = "alpha"
     elif is_boss or matches_boss_pat:
         kind = "boss"
         reason = "boss" if is_boss else "pattern->boss"
     else:
-        kind = "normal"
-        reason = "normal"
+        kind = "default"
+        reason = "default"
 
     scaling = find_scaling_struct(entry)
     if scaling is None:
