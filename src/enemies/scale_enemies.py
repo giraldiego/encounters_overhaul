@@ -18,6 +18,7 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
+    "mime":   {"HP": 1.0, "ATK": 1.5, "Speed": 1.333, "Chroma": 1, "XP": 1},
     "default": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
     "alpha":  {"HP": 1.5, "ATK": 1.1, "Speed": 1.20, "Chroma": 1.5, "XP": 0.75},
     "boss":   {"HP": 2, "ATK": 1.0, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
@@ -45,6 +46,14 @@ ALPHA_NAME_PATTERNS = [
     "ALPHA",
     "_Alpha",
 ]
+
+# Custom per-name categories; if a name matches one of these patterns and the
+# category exists in MULTIPLIERS, it takes priority over archetype/boss/alpha.
+CUSTOM_NAME_PATTERNS = {
+    "mime": [
+        "MIME",
+    ],
+}
 
 # ---- Constants ----
 
@@ -157,6 +166,16 @@ def matches_alpha_pattern(enemy_name: str) -> bool:
     name_upper = enemy_name.upper()
     return any(pattern.upper() in name_upper for pattern in ALPHA_NAME_PATTERNS if pattern)
 
+def detect_custom_kind(enemy_name: str) -> str | None:
+    if not enemy_name:
+        return None
+
+    name_upper = enemy_name.upper()
+    for kind, patterns in CUSTOM_NAME_PATTERNS.items():
+        if any(pattern.upper() in name_upper for pattern in patterns if pattern):
+            return kind
+    return None
+
 # Build a reverse map: property Name -> label ("HP"/"Speed"/"XP")
 NAME_TO_LABEL = {v: k for k, v in NAMES.items()}
 
@@ -200,6 +219,7 @@ for entry in enemy_data:
     enemy_name = extract_enemy_hardcoded_name(entry)
     is_boss = extract_is_boss(entry)
     archetype_kind = extract_enemy_archetype_kind(entry, enemy_archetype_value_map)
+    custom_kind = detect_custom_kind(enemy_name)
 
     matches_boss_pat = matches_boss_pattern(enemy_name)
     matches_alpha_pat = matches_alpha_pattern(enemy_name)
@@ -208,11 +228,15 @@ for entry in enemy_data:
         stats["alpha_boss_conflicts"].append(enemy_name)
 
     # Determine category:
-    # 1) explicit archetype in data if configured in MULTIPLIERS
-    # 2) alpha pattern
-    # 3) boss flag/pattern
-    # 4) default fallback
-    if archetype_kind in MULTIPLIERS:
+    # 1) custom name pattern if configured in MULTIPLIERS
+    # 2) explicit archetype in data if configured in MULTIPLIERS
+    # 3) alpha pattern
+    # 4) boss flag/pattern
+    # 5) default fallback
+    if custom_kind in MULTIPLIERS:
+        kind = custom_kind
+        reason = f"pattern->{custom_kind}"
+    elif archetype_kind in MULTIPLIERS:
         kind = archetype_kind
         reason = f"archetype:{archetype_kind}"
     elif matches_alpha_pat and "alpha" in MULTIPLIERS:
