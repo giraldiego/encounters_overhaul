@@ -33,7 +33,9 @@ ALWAYS_REPLACE_TEXT_SUBSTRINGS = [
     "slams its shield",
     "slams his shield",
     "counterattacks",
-    "jump"
+    "jump",
+    "pool",
+    "brush of light"
 ]
 
 # Replace when at least one trigger matches (key OR text)
@@ -49,7 +51,8 @@ TRIGGER_TEXT_SUBSTRINGS = [
     "at the expedition",
     "attacks",
     "strikes",
-    "explodes"
+    "explodes",
+    "Dark Creature",
 ]
 
 # Do NOT replace when any exempt matches (key OR text)

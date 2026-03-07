@@ -1,4 +1,4 @@
-Replaced text in 612 entries.
+Replaced text in 616 entries.
 Unchanged strings:
 ST_SM_FirstLancelier_LancelierWeakSpot: You shot at {name}'s Weak Point!
 ST_SM_Boss_Eveque_Summon: {name} summons minions.
@@ -77,7 +77,6 @@ ST_SI_Glissando_Alpha_Turn_End_Phase3Enraged: {name} is enraged.
 ST_ML_PaintressIntro_PaintressTurn: {name} doesn't seem to react.
 ST_ML_Clair_Buff_Shield: {name} protects its allies.
 ST_MO_Boss_Paintress_PaintressBuff: {name} summons her weapon from her palette.
-ST_MO_Boss_Paintress_P2_3HitsCombo: {name} summons a giant brush of light.
 ST_MO_Boss_Paintress_P3_HealAlly: {name} heals an Expeditioner.
 ST_MO_Boss_Paintress_P3_ApplyShieldOnHero: {name} protects an Expeditioner.
 ST_L_LumiereCitizen_Mage_Female_BuffShield: {name} Shields her allies.
@@ -86,15 +85,12 @@ ST_L_Boss_Curator_Visages: Visages Shields {name}.
 ST_FinalBoss_Maelle_Transition1_Phase2: {name} enters Phase 2.
 ST_FinalBoss_Maelle_Transition2_Phase3: {name} enters Phase 3.
 ST_MM_MirrorRenoir_Skill3_SummonSirene: {name} summons the shadow of a Sirène.
-ST_MM_MirrorRenoir_Skill4_MirrorExplosion: {name} summons a pool of Chroma.
 ST_MM_MirrorRenoir_Skill6_Masks: {name} summons strange masks.
 ST_MM_MirrorRenoir_Skill7_HealPreparation: Petals start to gather around {name}.
 ST_MM_MirrorRenoir_Skill7B_Heal: The Petals heal {name}.
 ST_MM_MirrorRenoir_EnterPhase2: {name} is furious.
 ST_MM_MirrorRenoir_EnterPhase3: {name} is furious.
 ST_MM_MirrorRenoir_SummonBernast: Something is coming...
-ST_MM_MirrorRenoir_Bernastclaw: The Dark Creature claws the Expedition.
-ST_MM_MirrorRenoir_BernastRoar: The Dark Creature roars.
 ST_L_Creation_SwitchPhase2: {name} rises into the air.
 ST_L_Creation_SwitchBackPhase1: {name} comes back down.
 ST_L_Creation_BlackOrbAboutToExplode: The Void Orbs are about to explode.
