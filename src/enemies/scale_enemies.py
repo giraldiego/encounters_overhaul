@@ -18,10 +18,16 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
+    "volester": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    "cultistflying": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    "ballet": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+
     "mime":   {"HP": 1.0, "ATK": 1.5, "Speed": 1.333, "Chroma": 1, "XP": 1},
+
     "default": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
-    "alpha":  {"HP": 1.5, "ATK": 1.3, "Speed": 1.20, "Chroma": 1.5, "XP": 0.7},
+    "alpha":  {"HP": 1.3, "ATK": 1.2, "Speed": 1.0, "Chroma": 1.5, "XP": 0.7},
     "boss":   {"HP": 1.5, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
+
     # "weak":   {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
     # "regular": {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
     # "strong": {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
@@ -40,7 +46,7 @@ ENEMY_OVERRIDES = {
 
 # EnemyHardcodedName patterns that should be treated as bosses (case-insensitive substring match)
 BOSS_NAME_PATTERNS = [
-    "MIME",
+    # "MIME",
 ]
 
 # EnemyHardcodedName patterns for alpha/elite enemies (case-insensitive substring match)
@@ -55,6 +61,15 @@ CUSTOM_NAME_PATTERNS = {
     "mime": [
         "MIME",
     ],
+    "volester":[
+        "Volester",
+    ],
+    "cultistflying":[
+        "CultistFlying",
+    ],
+    "ballet":[
+        "Ballet",
+    ]
 }
 
 # ---- Constants ----
@@ -230,20 +245,20 @@ for entry in enemy_data:
         stats["alpha_boss_conflicts"].append(enemy_name)
 
     # Determine category:
-    # 1) custom name pattern if configured in MULTIPLIERS
-    # 2) explicit archetype in data if configured in MULTIPLIERS
-    # 3) alpha pattern
+    # 1) explicit archetype in data if configured in MULTIPLIERS
+    # 2) alpha pattern
+    # 3) custom name pattern if configured in MULTIPLIERS
     # 4) boss flag/pattern
     # 5) default fallback
-    if custom_kind in MULTIPLIERS:
-        kind = custom_kind
-        reason = f"pattern->{custom_kind}"
-    elif archetype_kind in MULTIPLIERS:
+    if archetype_kind in MULTIPLIERS:
         kind = archetype_kind
         reason = f"archetype:{archetype_kind}"
     elif matches_alpha_pat and "alpha" in MULTIPLIERS:
         kind = "alpha"
         reason = "alpha"
+    elif custom_kind in MULTIPLIERS:
+        kind = custom_kind
+        reason = f"pattern->{custom_kind}"
     elif is_boss or matches_boss_pat:
         kind = "boss"
         reason = "boss" if is_boss else "pattern->boss"
