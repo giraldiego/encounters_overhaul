@@ -8,6 +8,22 @@ OUTFILE = Path("../../output/enemies/Modded-DT_jRPG_Enemies.uasset.json")
 
 ROUND_DECIMALS = 2
 
+# When enabled, values below LOW_VALUE_THRESHOLD are replaced before scaling,
+# but only for stats listed in LOW_VALUE_BASE_ENABLED_STATS.
+USE_LOW_VALUE_BASE = True
+LOW_VALUE_THRESHOLD = 0.75
+LOW_VALUE_BASE_ENABLED_STATS = {
+    "HP",
+    "XP",
+}
+LOW_VALUE_BASE_BY_STAT = {
+    "HP": 0.75,
+    # "Speed": 1.0,
+    # "ATK": 1.0,
+    # "Chroma": 1.0,
+    "XP": 0.75,
+}
+
 NAMES = {
     "HP": "HP_2_9B8F0EF14EBC6DBDE30E86A7FFE48646",
     "ATK": "PhysicalAttack_4_82A69E334B7A1E723084829AFCCEAA25",
@@ -18,9 +34,9 @@ NAMES = {
 
 # Multipliers by enemy type
 MULTIPLIERS = {
-    "volester": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
-    "cultistflying": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
-    "ballet": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    # "volester": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    # "cultistflying": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
+    # "ballet": {"HP": 6.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
 
     "mime":   {"HP": 1.0, "ATK": 1.5, "Speed": 1.333, "Chroma": 1, "XP": 1},
 
@@ -40,6 +56,7 @@ ENEMY_OVERRIDES = {
     "MO_Boss_Paintress": {"HP": 1.2, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
     "SM_Lancelier_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
     "SM_Abbest_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
+    "GO_Demineur": {"HP": 3.0, "ATK": 1.2, "Speed": 1.333, "Chroma": 1.5, "XP": 1.0},
 }
 
 # EnemyHardcodedName patterns that should be treated as bosses (case-insensitive substring match)
@@ -59,15 +76,15 @@ CUSTOM_NAME_PATTERNS = {
     "mime": [
         "MIME",
     ],
-    "volester":[
-        "Volester",
-    ],
-    "cultistflying":[
-        "CultistFlying",
-    ],
-    "ballet":[
-        "Ballet",
-    ]
+    # "volester":[
+    #     "Volester",
+    # ],
+    # "cultistflying":[
+    #     "CultistFlying",
+    # ],
+    # "ballet":[
+    #     "Ballet",
+    # ]
 }
 
 # ---- Constants ----
@@ -169,6 +186,20 @@ def extract_enemy_archetype_kind(enemy_struct: dict, value_to_kind: dict[int, st
 def apply_rounding(x: float) -> float:
     return round(x, ROUND_DECIMALS)
 
+def get_value_to_scale(label: str, value: float) -> tuple[float, bool]:
+    if (
+        not USE_LOW_VALUE_BASE
+        or label not in LOW_VALUE_BASE_ENABLED_STATS
+        or value >= LOW_VALUE_THRESHOLD
+    ):
+        return value, False
+
+    replacement = LOW_VALUE_BASE_BY_STAT.get(label)
+    if replacement is None:
+        return value, False
+
+    return float(replacement), True
+
 def matches_boss_pattern(enemy_name: str) -> bool:
     if not enemy_name:
         return False
@@ -204,6 +235,7 @@ enemy_archetype_value_map = build_enemy_archetype_value_map(data)
 stats = {
     "changed": {kind: {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0} for kind in MULTIPLIERS},
     "skipped_non_numeric": {kind: {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0} for kind in MULTIPLIERS},
+    "low_value_base_applied": {kind: {"HP": 0, "ATK": 0, "Speed": 0, "Chroma": 0, "XP": 0} for kind in MULTIPLIERS},
     "missing_scaling": 0,
     "overrides_applied": 0,
     "alpha_boss_conflicts": [],
@@ -285,15 +317,32 @@ for entry in enemy_data:
 
         if isinstance(val, (int, float)):
             old = float(val)
+            value_to_scale, used_low_value_base = get_value_to_scale(label, old)
+
+            if used_low_value_base:
+                stats["low_value_base_applied"][kind][label] += 1
+
             if label in overrides:
                 override_mult = float(overrides[label])
-                new = apply_rounding(old * override_mult)
+                new = apply_rounding(value_to_scale * override_mult)
                 stats["overrides_applied"] += 1
-                print(f"OVERRIDE [{enemy_name}] {label}: {old} -> {new} (x{override_mult})")
+                if used_low_value_base:
+                    print(
+                        f"OVERRIDE [{enemy_name}] {label}: {old} -> {value_to_scale} -> {new} "
+                        f"(base<{LOW_VALUE_THRESHOLD}, x{override_mult})"
+                    )
+                else:
+                    print(f"OVERRIDE [{enemy_name}] {label}: {old} -> {new} (x{override_mult})")
             else:
                 mult = mults[label]
-                new = apply_rounding(old * mult)
-                print(f"CHANGED [{enemy_name}] ({reason}) {label}: {old} -> {new} (x{mult})")
+                new = apply_rounding(value_to_scale * mult)
+                if used_low_value_base:
+                    print(
+                        f"CHANGED [{enemy_name}] ({reason}) {label}: {old} -> {value_to_scale} -> {new} "
+                        f"(base<{LOW_VALUE_THRESHOLD}, x{mult})"
+                    )
+                else:
+                    print(f"CHANGED [{enemy_name}] ({reason}) {label}: {old} -> {new} (x{mult})")
             prop["Value"] = new
             if label not in overrides:
                 stats["changed"][kind][label] += 1
@@ -314,6 +363,7 @@ for kind in MULTIPLIERS.keys():
     print(f"\n{kind.upper()}")
     for label in ("HP", "ATK", "Speed", "Chroma", "XP"):
         print(f"  {label} changed: {stats['changed'][kind][label]}")
+        print(f"  {label} low-value base applied: {stats['low_value_base_applied'][kind][label]}")
         print(f"  {label} skipped (non-numeric): {stats['skipped_non_numeric'][kind][label]}")
 
 OUTFILE.parent.mkdir(parents=True, exist_ok=True)
