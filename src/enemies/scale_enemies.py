@@ -25,7 +25,7 @@ MULTIPLIERS = {
     "mime":   {"HP": 1.0, "ATK": 1.5, "Speed": 1.333, "Chroma": 1, "XP": 1},
 
     "default": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
-    "alpha":  {"HP": 1.3, "ATK": 1.2, "Speed": 1.0, "Chroma": 1.5, "XP": 0.7},
+    "alpha":  {"HP": 1.5, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
     "boss":   {"HP": 1.5, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
 
     # "weak":   {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
@@ -34,14 +34,12 @@ MULTIPLIERS = {
     # "elite":  {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
 }
 
-# Optional per-enemy overrides by EnemyHardcodedName (values replace multipliers)
-# Example:
-# ENEMY_OVERRIDES = {
-#     "Test_PlaceHolderBattleDude": {"HP": 1.5, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
-#     "SM_FirstLancelier": {"HP": 4.0},
-# }
+# Optional per-enemy overrides by EnemyHardcodedName (values replace category multipliers)
+
 ENEMY_OVERRIDES = {
-    "MO_Boss_Paintress": {"HP": 1.5, "ATK": 1.3, "Speed": 1.6, "Chroma": 2, "XP": 1.5},
+    "MO_Boss_Paintress": {"HP": 1.2, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
+    "SM_Lancelier_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
+    "SM_Abbest_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
 }
 
 # EnemyHardcodedName patterns that should be treated as bosses (case-insensitive substring match)
@@ -288,9 +286,10 @@ for entry in enemy_data:
         if isinstance(val, (int, float)):
             old = float(val)
             if label in overrides:
-                new = apply_rounding(float(overrides[label]))
+                override_mult = float(overrides[label])
+                new = apply_rounding(old * override_mult)
                 stats["overrides_applied"] += 1
-                print(f"OVERRIDE [{enemy_name}] {label}: {old} -> {new}")
+                print(f"OVERRIDE [{enemy_name}] {label}: {old} -> {new} (x{override_mult})")
             else:
                 mult = mults[label]
                 new = apply_rounding(old * mult)
