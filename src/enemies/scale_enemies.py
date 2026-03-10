@@ -25,7 +25,7 @@ MULTIPLIERS = {
     "mime":   {"HP": 1.0, "ATK": 1.5, "Speed": 1.333, "Chroma": 1, "XP": 1},
 
     "default": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
-    "alpha":  {"HP": 1.5, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
+    "alpha":  {"HP": 2.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
     "boss":   {"HP": 1.5, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
 
     # "weak":   {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
