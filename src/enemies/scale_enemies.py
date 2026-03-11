@@ -41,7 +41,7 @@ MULTIPLIERS = {
     "mime":   {"HP": 1.0, "ATK": 1.5, "Speed": 1.333, "Chroma": 1, "XP": 1},
 
     "default": {"HP": 3.0, "ATK": 1.2, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
-    "alpha":  {"HP": 2.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
+    "alpha":  {"HP": 2.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.5},
     "boss":   {"HP": 1.5, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
 
     # "weak":   {"HP": 3.0, "ATK": 1.333, "Speed": 1.5, "Chroma": 1.5, "XP": 1},
@@ -54,9 +54,10 @@ MULTIPLIERS = {
 
 ENEMY_OVERRIDES = {
     "MO_Boss_Paintress": {"HP": 1.2, "ATK": 1.1, "Speed": 1.333, "Chroma": 2, "XP": 1.5},
-    "SM_Lancelier_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
-    "SM_Abbest_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.4},
-    "GO_Demineur": {"HP": 3.0, "ATK": 1.2, "Speed": 1.333, "Chroma": 1.5, "XP": 1.0},
+    "SM_Lancelier_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.5},
+    "SM_Abbest_Alpha": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.5},
+    "GL_Bruler_ALPHA": {"HP": 3.0, "ATK": 1.0, "Speed": 1.1, "Chroma": 1.5, "XP": 0.5},
+    # "GO_Demineur": {"HP": 3.0, "ATK": 1.2, "Speed": 1.333, "Chroma": 1.5, "XP": 1.0},
 }
 
 # EnemyHardcodedName patterns that should be treated as bosses (case-insensitive substring match)
