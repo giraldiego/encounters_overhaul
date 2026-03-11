@@ -1,4 +1,3 @@
-import argparse
 import copy
 import json
 import math
@@ -11,8 +10,18 @@ OUTPUT_DIR = SCRIPT_DIR.parent.parent / "output" / "difficulty" / "scaled_hard_f
 # Easy-to-edit settings.
 # Only listed stats are scaled, and only for rows whose level is >= MIN_LEVEL.
 MIN_LEVEL = 55
-STAT_MULTIPLIERS = {
-    "HP": 1.0,
+# Configure multipliers by enemy type taken from the filename.
+# Example: DT_EnemyArchetype_Weak_Hard.json -> "Weak"
+# Files whose type is missing here, or mapped to an empty dict, are skipped.
+TYPE_STAT_MULTIPLIERS = {
+    "Weak": {"HP": 2.5}, # 1 -> 2.5
+    "Regular": {"HP": 2.5}, # 1.4 -> 3.5
+    "Strong": {"HP": 2.0}, # 2.8 -> 5.6
+    "Alpha": {}, # 25.0
+    "Elite": {"HP": 1.2}, # 12.6 -> 15.1
+    "Boss": {},
+    "OPBoss": {},
+    "Elusive": {},
 }
 
 SUPPORTED_STATS = {"HP", "ATK", "Speed", "Chroma", "EXP"}
@@ -30,26 +39,26 @@ def save_json(path: Path, data: dict) -> None:
         file.write("\n")
 
 
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Scale selected stats in Hard difficulty files from a minimum level onward."
-    )
-    parser.add_argument(
-        "--min-level",
-        type=int,
-        default=MIN_LEVEL,
-        help=f"Minimum row level to scale. Default: {MIN_LEVEL}",
-    )
-    return parser.parse_args()
+def validate_type_stat_multipliers() -> None:
+    if not TYPE_STAT_MULTIPLIERS:
+        raise ValueError("TYPE_STAT_MULTIPLIERS must contain at least one enemy-type entry")
+
+    for enemy_type, stat_multipliers in TYPE_STAT_MULTIPLIERS.items():
+        unknown_stats = set(stat_multipliers) - SUPPORTED_STATS
+        if unknown_stats:
+            raise ValueError(
+                f"Unsupported stats in TYPE_STAT_MULTIPLIERS['{enemy_type}']: {sorted(unknown_stats)}"
+            )
 
 
-def validate_stat_multipliers() -> None:
-    unknown_stats = set(STAT_MULTIPLIERS) - SUPPORTED_STATS
-    if unknown_stats:
-        raise ValueError(f"Unsupported stats in STAT_MULTIPLIERS: {sorted(unknown_stats)}")
+def extract_enemy_type(file_name: str) -> str | None:
+    prefix = "DT_EnemyArchetype_"
+    suffix = "_Hard.json"
 
-    if not STAT_MULTIPLIERS:
-        raise ValueError("STAT_MULTIPLIERS must contain at least one stat to scale")
+    if not file_name.startswith(prefix) or not file_name.endswith(suffix):
+        return None
+
+    return file_name[len(prefix):-len(suffix)]
 
 
 def identify_stat(property_name: str) -> str | None:
@@ -151,28 +160,47 @@ def process_files(min_level: int) -> tuple[int, int]:
 
     print("=== Processing Hard difficulty files ===")
     print(f"Minimum level: {min_level}")
-    print(f"Stat multipliers: {STAT_MULTIPLIERS}")
+    print(f"Type multipliers: {TYPE_STAT_MULTIPLIERS}")
 
     for source_path in hard_files:
+        output_path = OUTPUT_DIR / source_path.name
+
+        enemy_type = extract_enemy_type(source_path.name)
+        if enemy_type is None:
+            if output_path.exists():
+                output_path.unlink()
+            print(f"SKIP: Could not determine enemy type from filename: {source_path.name}")
+            skipped += 1
+            continue
+
+        stat_multipliers = TYPE_STAT_MULTIPLIERS.get(enemy_type)
+        if not stat_multipliers:
+            if output_path.exists():
+                output_path.unlink()
+            print(f"SKIP: No multipliers configured for enemy type '{enemy_type}' in {source_path.name}")
+            skipped += 1
+            continue
+
         source_data = load_json(source_path)
         source_exports = source_data.get("Exports")
 
         if not isinstance(source_exports, list):
+            if output_path.exists():
+                output_path.unlink()
             print(f"SKIP: Missing or invalid 'Exports' in base file: {source_path.name}")
             skipped += 1
             continue
 
-        scaled_exports, counts, eligible_rows = scale_exports(source_exports, STAT_MULTIPLIERS, min_level)
+        scaled_exports, counts, eligible_rows = scale_exports(source_exports, stat_multipliers, min_level)
         output_data = copy.deepcopy(source_data)
         output_data["Exports"] = scaled_exports
 
-        output_path = OUTPUT_DIR / source_path.name
         save_json(output_path, output_data)
 
         scaled_stats_summary = " ".join(f"{stat}={count}" for stat, count in counts.items())
         print(
             f"OK: {source_path.name} -> {output_path.name} | "
-            f"eligible rows={eligible_rows} scaled {scaled_stats_summary}"
+            f"type={enemy_type} eligible rows={eligible_rows} scaled {scaled_stats_summary}"
         )
         processed += 1
 
@@ -180,10 +208,8 @@ def process_files(min_level: int) -> tuple[int, int]:
 
 
 def main() -> None:
-    validate_stat_multipliers()
-    args = parse_args()
-
-    processed, skipped = process_files(args.min_level)
+    validate_type_stat_multipliers()
+    processed, skipped = process_files(MIN_LEVEL)
 
     print("\nDone")
     print(f"Processed:   {processed}")
